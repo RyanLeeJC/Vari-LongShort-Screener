@@ -36,15 +36,16 @@ Open http://localhost:8000
 
 ## Deploy (Render)
 
-Uses **Docker** (`python:3.12.12-slim-bookworm`, same pattern as GridBot) — avoids Render native Python source builds.
+Blueprint-managed **Python 3** service (runtime cannot be changed in the dashboard — create a new Docker service if you want `Dockerfile` instead).
 
-1. Connect this repo in [Render](https://render.com) → **New Web Service**.
-2. Render reads `render.yaml` automatically (`runtime: docker`, `Dockerfile`).
+1. Connect this repo in [Render](https://render.com) → **New Web Service** (or use existing Blueprint).
+2. `render.yaml` sets **build:** `./scripts/render_build.sh` · **start:** `uvicorn server:app --host 0.0.0.0 --port $PORT`
 3. In Render → **Environment**, add **`HTTPS_PROXY`** (secret) — **same URL as GridBot / HighOI**:
    - `HTTPS_PROXY=https://user:pass@host:port`
-   - Cloud hosts get Cloudflare 403 without it; see `env.example`
-4. **Do not set `PYTHON_VERSION`** — Python comes from the Docker image.
+4. **Do not set `PYTHON_VERSION`** and do not add `.python-version` — use Render's default prebuilt Python for your service.
 5. Deploy. Pushes to `main` trigger redeploys.
+
+Optional Docker deploy: `Dockerfile` is in the repo; use **New Web Service → Docker** if native Python keeps failing.
 
 Optional: add a Render **Cron Job** to `POST https://<your-service>.onrender.com/api/refresh` every 15 minutes.
 
