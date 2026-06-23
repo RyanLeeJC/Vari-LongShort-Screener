@@ -4,6 +4,7 @@ import {
   copyText,
   formatChg,
   formatMetric,
+  formatUpdatedAt,
   loadScreenerData,
   rankModeLabel,
   type BucketId,
@@ -154,16 +155,8 @@ export default function App() {
           <h1>Vari Long/Short Screener</h1>
           {data ? (
             <div className="meta">
-              Updated {data.fetched_at}
-              {data.meta ? (
-                <>
-                  {' '}
-                  · {data.listings.length} listings · {data.meta.listings_with_chg24 ?? withChg} with 24h chg
-                  {data.meta.cg_key_type ? ` · CG ${data.meta.cg_key_type}` : ''}
-                </>
-              ) : (
-                <> · {data.listings.length} listings · {withChg} with 24h chg</>
-              )}
+              {formatUpdatedAt(data.fetched_at)} · {data.listings.length} listings ·{' '}
+              {data.meta?.listings_with_chg24 ?? withChg} with 24H Chg% Blacklisted {data.blacklist.length}
             </div>
           ) : null}
         </div>

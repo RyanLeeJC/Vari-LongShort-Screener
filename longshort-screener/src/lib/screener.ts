@@ -78,6 +78,16 @@ export function bucketPicks(
   return { top10, bottom10 }
 }
 
+export function formatUpdatedAt(fetchedAt: string): string {
+  const m = fetchedAt.match(/^(\d{4})-(\d{2})-(\d{2})\s+(\d{1,2}):(\d{2}):\d{2}\s+SGT$/)
+  if (!m) return `Updated ${fetchedAt}`
+  const [, year, month, day, hour24, minute] = m
+  const h = Number(hour24)
+  const ampm = h >= 12 ? 'pm' : 'am'
+  const h12 = h % 12 || 12
+  return `Updated ${day}-${month}-${year} ${h12}:${minute}${ampm} SGT`
+}
+
 export function formatChg(pct: number): string {
   const sign = pct > 0 ? '+' : ''
   return `${sign}${pct.toFixed(2)}%`
