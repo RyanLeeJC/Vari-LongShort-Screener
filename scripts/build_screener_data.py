@@ -21,25 +21,28 @@ VARI_BASE_URL = os.getenv("VARI_BASE_URL", "https://omni.variational.io").rstrip
 EXCLUDE = {"BTC", "ETH"}
 UNIVERSE_TOP_N = 200
 
+# Same proxy + curl_cffi pattern as Varibot/variationalbot/vari/client.py (GridBot, HighOI).
+CHROME_IMPERSONATE = "chrome136"
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/142.0.0.0 Safari/537.36"
+)
+
+
+def vari_http_proxies() -> dict[str, str] | None:
+    """
+    If HTTPS_PROXY or HTTP_PROXY is set (e.g. on Render behind Cloudflare), use it for
+    all Omni requests. Example: https://user:pass@host:port
+    """
+    u = (os.getenv("HTTPS_PROXY") or os.getenv("HTTP_PROXY") or "").strip()
+    if not u:
+        return None
+    return {"http": u, "https": u}
+
 
 def load_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
-
-
-def _http_proxies() -> dict[str, str] | None:
-    proxy = (
-        os.getenv("HTTPS_PROXY")
-        or os.getenv("HTTP_PROXY")
-        or os.getenv("ALL_PROXY")
-        or ""
-    ).strip()
-    if not proxy:
-        return None
-    return {"http": proxy, "https": proxy}
-
-
-def _proxy_configured() -> bool:
-    return _http_proxies() is not None
 
 
 def _parse_float(val: Any) -> float | None:
@@ -52,30 +55,48 @@ def _parse_float(val: Any) -> float | None:
 
 
 def fetch_supported_assets() -> dict[str, list[dict[str, Any]]]:
-    proxies = _http_proxies()
-    session = Session(impersonate="chrome124")
+    proxies = vari_http_proxies()
+    session = Session(impersonate=CHROME_IMPERSONATE)
     url = f"{VARI_BASE_URL}/api/metadata/supported_assets"
-    resp = session.get(
-        url,
-        headers={
+    get_kw: dict[str, Any] = {
+        "headers": {
             "accept": "*/*",
+            "content-type": "application/json",
             "origin": VARI_BASE_URL,
             "referer": f"{VARI_BASE_URL}/perpetual/BTC",
+            "user-agent": USER_AGENT,
         },
-        proxies=proxies,
-        timeout=60,
-    )
+        "timeout": 60,
+    }
+    if proxies:
+        get_kw["proxies"] = proxies
+    resp = session.get(url, **get_kw)
+
+    ctype = (resp.headers.get("content-type") or "").lower()
+    if ctype.startswith("text/html"):
+        if proxies:
+            raise RuntimeError(
+                "Cloudflare returned an HTML challenge page even with HTTPS_PROXY set. "
+                "Check proxy URL/credentials (same tunnel as GridBot / HighOI)."
+            )
+        raise RuntimeError(
+            "Cloudflare returned an HTML challenge page. "
+            "Set HTTPS_PROXY on Render (same residential/ISP proxy as GridBot / HighOI): "
+            "https://user:pass@host:port"
+        )
+
     if resp.status_code == 403:
         if proxies:
             raise RuntimeError(
-                "Cloudflare blocked GET supported_assets (403) even with HTTPS_PROXY set. "
-                "Check proxy URL, credentials, and that the tunnel allows omni.variational.io."
+                "Cloudflare blocked GET supported_assets (403) with HTTPS_PROXY set. "
+                "Use the same proxy URL that works for GridBot / HighOI on Render."
             )
         raise RuntimeError(
             "Cloudflare blocked GET supported_assets (403). "
-            "Set HTTPS_PROXY on Render to your residential/ISP proxy "
-            "(e.g. https://user:pass@host:port)."
+            "Set HTTPS_PROXY on Render — same env var as GridBot / HighOI "
+            "(https://user:pass@host:port)."
         )
+
     resp.raise_for_status()
     data = resp.json()
     if not isinstance(data, dict):
@@ -134,7 +155,7 @@ def main() -> None:
         "meta": {
             "data_source": "vari_supported_assets",
             "vari_base_url": VARI_BASE_URL,
-            "proxy_configured": _proxy_configured(),
+            "proxy_configured": vari_http_proxies() is not None,
             "listings_with_chg24": with_chg,
             "listings_with_fdv": with_fdv,
         },

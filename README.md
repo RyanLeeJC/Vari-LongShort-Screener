@@ -14,6 +14,8 @@ Dashboard for Vari 4-bucket long/short selection — mirrors the backtest logic 
 
 ## Local development
 
+Copy `env.example` → `.env` if you need `HTTPS_PROXY` locally (usually not required from home).
+
 ```bash
 pip install -r requirements.txt
 python scripts/build_screener_data.py
@@ -38,15 +40,15 @@ Open http://localhost:8000
 2. Render reads `render.yaml` automatically, or set manually:
    - **Build command:** `./scripts/render_build.sh`
    - **Start command:** `uvicorn server:app --host 0.0.0.0 --port $PORT`
-3. In Render → **Environment**, add **`HTTPS_PROXY`** (secret):
-   - Value: your residential/ISP proxy URL, e.g. `https://user:pass@host:port`
-   - Required on Render — datacenter IPs get Cloudflare 403 without it
+3. In Render → **Environment**, add **`HTTPS_PROXY`** (secret) — **same URL as GridBot / HighOI**:
+   - `HTTPS_PROXY=https://user:pass@host:port`
+   - Cloud hosts get Cloudflare 403 without it; see `env.example`
 4. Deploy. Pushes to `main` trigger redeploys.
 
 Optional: add a Render **Cron Job** to `POST https://<your-service>.onrender.com/api/refresh` every 15 minutes.
 
 ## Data
 
-- Vari `GET /api/metadata/supported_assets` (public; browser TLS via `curl_cffi`) for FDV, 24h chg%, volume, and OI
-- **`HTTPS_PROXY`** routes requests through your ISP/residential tunnel when Cloudflare blocks the host (Render, CI)
+- Vari `GET /api/metadata/supported_assets` (public; `curl_cffi` + Chrome impersonation) for FDV, 24h chg%, volume, and OI
+- **`HTTPS_PROXY`** / **`HTTP_PROXY`** — same proxy env as GridBot / HighOI (`Varibot/env.example`)
 - Excludes BTC, ETH, and the vari-blacklist (27 tickers)
