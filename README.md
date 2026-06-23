@@ -1,14 +1,15 @@
 # Vari Long/Short Screener
 
-GitHub Pages dashboard for Vari 4-bucket long/short selection — mirrors the backtest logic in `ck-cg-backtesting` (`backtest_4buckets.py`).
+Dashboard for Vari 4-bucket long/short selection — mirrors the backtest logic in `ck-cg-backtesting` (`backtest_4buckets.py`).
 
-**Live site:** https://ryanleejc.github.io/Vari-LongShort-Screener/
+**Live site:** https://vari-longshort-screener.onrender.com *(set your Render URL after first deploy)*
 
 ## Features
 
 - Toggle **B1–B4** buckets (volume/mcap/OI rank bands 1–50, 51–100, 101–150, 151–200)
 - Toggle universe rank: **MCap**, **Volume**, **OI**
-- **Top 10** and **Bottom 10** panels sorted by 24h chg% (descending)
+- **Top 10** and **Bottom 10** panels sorted by 24h chg%
+- **Refresh Data** — fetches fresh Vari + CoinGecko data server-side
 - Copy button on each panel
 
 ## Local development
@@ -22,9 +23,25 @@ npm install
 npm run dev
 ```
 
-## Deploy
+Run the full stack (static build + API) locally:
 
-Pushes to `main` trigger the GitHub Actions workflow (`.github/workflows/github-pages.yml`), which refreshes screener data and deploys the Vite build to GitHub Pages.
+```bash
+./scripts/render_build.sh
+uvicorn server:app --reload --port 8000
+```
+
+Open http://localhost:8000
+
+## Deploy (Render)
+
+1. Connect this repo in [Render](https://render.com) → **New Web Service**.
+2. Render reads `render.yaml` automatically, or set manually:
+   - **Build command:** `./scripts/render_build.sh`
+   - **Start command:** `uvicorn server:app --host 0.0.0.0 --port $PORT`
+3. Add environment variable **`COINGECKO_API_KEY`** (recommended — reduces rate limits).
+4. Deploy. Pushes to `main` trigger redeploys.
+
+Optional: add a Render **Cron Job** to `POST https://<your-service>.onrender.com/api/refresh` every 15 minutes.
 
 ## Data
 

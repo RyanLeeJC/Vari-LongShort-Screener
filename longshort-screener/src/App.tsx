@@ -148,7 +148,7 @@ export default function App() {
   const withChg = data?.listings.filter((r) => r.chg24_pct != null).length ?? 0
   const dataWarning =
     data && withChg === 0
-      ? 'Data loaded but no 24h change values — CoinGecko enrichment may have failed in CI.'
+      ? 'Data loaded but no 24h change values — CoinGecko enrichment may have failed on the server.'
       : null
 
   async function handleCopy(key: string, text: string) {

@@ -113,8 +113,15 @@ export function copyText(rows: PickRow[]): string {
 }
 
 export async function loadScreenerData(bustCache = false): Promise<ScreenerData> {
-  const cacheBust = bustCache ? `?t=${Date.now()}` : ''
-  const res = await fetch(`${import.meta.env.BASE_URL}screener.data.json${cacheBust}`, { cache: 'no-store' })
+  if (bustCache) {
+    const refresh = await fetch('/api/refresh', { method: 'POST' })
+    if (!refresh.ok) {
+      const detail = await refresh.text().catch(() => '')
+      throw new Error(`Failed to refresh screener data (${refresh.status})${detail ? `: ${detail}` : ''}`)
+    }
+    return refresh.json() as Promise<ScreenerData>
+  }
+  const res = await fetch('/screener.data.json', { cache: 'no-store' })
   if (!res.ok) throw new Error(`Failed to load screener data (${res.status})`)
   return res.json() as Promise<ScreenerData>
 }
