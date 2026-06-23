@@ -1,0 +1,4 @@
+.git
+**/__pycache__
+longshort-screener/node_modules
+longshort-screener/dist

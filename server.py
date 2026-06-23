@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import subprocess
+import sys
 import threading
 from contextlib import asynccontextmanager
 from pathlib import Path
@@ -20,7 +21,7 @@ _rebuild_lock = threading.Lock()
 
 
 def rebuild() -> None:
-    subprocess.run(["python", "scripts/build_screener_data.py"], check=True, cwd=ROOT)
+    subprocess.run([sys.executable, "scripts/build_screener_data.py"], check=True, cwd=ROOT)
     if not DATA.is_file():
         raise RuntimeError("build_screener_data.py did not write screener.data.json")
 
@@ -28,7 +29,13 @@ def rebuild() -> None:
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
     with _rebuild_lock:
-        rebuild()
+        try:
+            rebuild()
+        except Exception as exc:
+            if DATA.is_file():
+                print(f"Startup refresh failed, using committed screener.data.json: {exc}", flush=True)
+            else:
+                raise
     yield
 
 

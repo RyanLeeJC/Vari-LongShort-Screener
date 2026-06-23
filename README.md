@@ -36,14 +36,14 @@ Open http://localhost:8000
 
 ## Deploy (Render)
 
+Uses **Docker** (`python:3.12.12-slim-bookworm`, same pattern as GridBot) — avoids Render native Python source builds.
+
 1. Connect this repo in [Render](https://render.com) → **New Web Service**.
-2. Render reads `render.yaml` automatically, or set manually:
-   - **Build command:** `./scripts/render_build.sh`
-   - **Start command:** `uvicorn server:app --host 0.0.0.0 --port $PORT`
+2. Render reads `render.yaml` automatically (`runtime: docker`, `Dockerfile`).
 3. In Render → **Environment**, add **`HTTPS_PROXY`** (secret) — **same URL as GridBot / HighOI**:
    - `HTTPS_PROXY=https://user:pass@host:port`
    - Cloud hosts get Cloudflare 403 without it; see `env.example`
-4. **Remove `PYTHON_VERSION` from Render Environment** if set — Python version is controlled by `.python-version` (`3.12`). Pinned patch versions (e.g. `3.12.0`, `3.12.11`) force a source build and fail on Render.
+4. **Do not set `PYTHON_VERSION`** — Python comes from the Docker image.
 5. Deploy. Pushes to `main` trigger redeploys.
 
 Optional: add a Render **Cron Job** to `POST https://<your-service>.onrender.com/api/refresh` every 15 minutes.
