@@ -31,6 +31,8 @@ jobs:
       - name: Build screener data
         env:
           COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+          COINGECKO_API_KEY_TYPE: pro
+          CG_API_BASE: https://pro-api.coingecko.com/api/v3
         run: |
           pip install requests
           python scripts/build_screener_data.py || echo "Screener refresh failed; using committed screener.data.json"

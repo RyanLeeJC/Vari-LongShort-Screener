@@ -131,6 +131,11 @@ export default function App() {
     bucket === 'B1' ? '1–50' : bucket === 'B2' ? '51–100' : bucket === 'B3' ? '101–150' : '151–200'
 
   const rankLabel = RANK_MODES.find((m) => m.id === rankMode)?.label ?? rankMode
+  const withChg = data?.listings.filter((r) => r.chg24_pct != null).length ?? 0
+  const dataWarning =
+    data && withChg === 0
+      ? 'Data loaded but no 24h change values — CoinGecko enrichment may have failed in CI.'
+      : null
 
   async function handleCopy(key: string, text: string) {
     try {
@@ -147,7 +152,20 @@ export default function App() {
       <header>
         <div>
           <h1>Vari Long/Short Screener</h1>
-          {data ? <div className="meta">Updated {data.fetched_at}</div> : null}
+          {data ? (
+            <div className="meta">
+              Updated {data.fetched_at}
+              {data.meta ? (
+                <>
+                  {' '}
+                  · {data.listings.length} listings · {data.meta.listings_with_chg24 ?? withChg} with 24h chg
+                  {data.meta.cg_key_type ? ` · CG ${data.meta.cg_key_type}` : ''}
+                </>
+              ) : (
+                <> · {data.listings.length} listings · {withChg} with 24h chg</>
+              )}
+            </div>
+          ) : null}
         </div>
         <div className="controls">
           <ToggleGroup label="Bucket" value={bucket} options={BUCKETS.map((b) => ({ id: b, label: b }))} onChange={setBucket} />
@@ -155,6 +173,7 @@ export default function App() {
         </div>
       </header>
 
+      {dataWarning ? <div className="error">{dataWarning}</div> : null}
       {error ? <div className="error">{error}</div> : null}
       {!data && !error ? <div className="loading">Loading screener data…</div> : null}
 

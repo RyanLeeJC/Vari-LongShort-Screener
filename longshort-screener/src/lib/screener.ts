@@ -13,6 +13,12 @@ export type ScreenerData = {
   fetched_at: string
   universe_top_n: number
   blacklist: string[]
+  meta?: {
+    cg_key_type?: string
+    cg_coins_fetched?: number
+    cg_failed_batches?: number
+    listings_with_chg24?: number
+  }
   listings: ListingRow[]
 }
 
