@@ -15,6 +15,7 @@ from fastapi.staticfiles import StaticFiles
 
 ROOT = Path(__file__).resolve().parent
 DIST = ROOT / "longshort-screener" / "dist"
+ASSETS = DIST / "assets"
 DATA = ROOT / "longshort-screener" / "public" / "screener.data.json"
 
 _rebuild_lock = threading.Lock()
@@ -61,10 +62,27 @@ def screener_data():
     return FileResponse(DATA, media_type="application/json")
 
 
-if DIST.is_dir():
-    app.mount("/", StaticFiles(directory=DIST, html=True), name="static")
-else:
+def _register_frontend() -> None:
+    if not DIST.is_dir():
+        @app.get("/")
+        def not_built():
+            raise HTTPException(status_code=503, detail="Dashboard not built — run ./scripts/render_build.sh")
+
+        return
+
+    if ASSETS.is_dir():
+        app.mount("/assets", StaticFiles(directory=ASSETS), name="assets")
+
+    favicon = DIST / "favicon.svg"
+    if favicon.is_file():
+
+        @app.get("/favicon.svg")
+        def favicon_file():
+            return FileResponse(favicon)
 
     @app.get("/")
-    def not_built():
-        raise HTTPException(status_code=503, detail="Dashboard not built — run ./scripts/render_build.sh")
+    def index():
+        return FileResponse(DIST / "index.html")
+
+
+_register_frontend()
