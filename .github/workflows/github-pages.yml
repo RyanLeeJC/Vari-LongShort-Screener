@@ -29,6 +29,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Build screener data
+        env:
+          COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
         run: |
           pip install requests
           python scripts/build_screener_data.py
