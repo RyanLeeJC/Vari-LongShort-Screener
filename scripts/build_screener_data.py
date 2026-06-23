@@ -36,7 +36,7 @@ def fetch_vari_listings() -> list[dict[str, Any]]:
     return resp.json().get("listings", [])
 
 
-def fetch_cg_markets(*, symbols: list[str], ids: list[str]) -> list[dict[str, Any]]:
+def fetch_cg_markets(*, ids: list[str]) -> list[dict[str, Any]]:
     coins: list[dict[str, Any]] = []
     headers: dict[str, str] = {}
     api_key = __import__("os").environ.get("COINGECKO_API_KEY", "").strip()
@@ -44,35 +44,28 @@ def fetch_cg_markets(*, symbols: list[str], ids: list[str]) -> list[dict[str, An
         headers["x-cg-pro-api-key"] = api_key
 
     def _get(params: dict[str, Any]) -> list[dict[str, Any]]:
-        for attempt in range(6):
+        last_resp: requests.Response | None = None
+        for attempt in range(8):
             resp = requests.get(CG_URL, params=params, headers=headers, timeout=60)
+            last_resp = resp
             if resp.status_code == 429:
-                time.sleep(5 + attempt * 2)
+                retry_after = resp.headers.get("Retry-After")
+                try:
+                    wait_s = float(retry_after) if retry_after else 5 + attempt * 3
+                except (TypeError, ValueError):
+                    wait_s = 5 + attempt * 3
+                time.sleep(max(wait_s, CG_SLEEP_S))
                 continue
+            if resp.status_code == 400:
+                print(f"CoinGecko 400, skipping batch: {params.get('ids') or params.get('symbols')}")
+                return []
             resp.raise_for_status()
             return resp.json() or []
-        resp.raise_for_status()
+        if last_resp is not None:
+            last_resp.raise_for_status()
         return []
 
-    sym_batches = [symbols[i : i + CG_BATCH] for i in range(0, len(symbols), CG_BATCH)]
     id_batches = [ids[i : i + 100] for i in range(0, len(ids), 100)]
-
-    for i, batch in enumerate(sym_batches):
-        coins.extend(
-            _get(
-                {
-                    "vs_currency": "usd",
-                    "symbols": ",".join(batch),
-                    "include_tokens": "top",
-                    "order": "market_cap_desc",
-                    "per_page": 100,
-                    "page": 1,
-                    "price_change_percentage": "24h",
-                }
-            )
-        )
-        if i < len(sym_batches) - 1:
-            time.sleep(CG_SLEEP_S)
 
     for i, batch in enumerate(id_batches):
         coins.extend(
@@ -126,7 +119,6 @@ def main() -> None:
     id_map: dict[str, str] = load_json(ID_MAP_PATH)
 
     listings = fetch_vari_listings()
-    symbols: list[str] = []
     ids: list[str] = []
     for it in listings:
         ticker = str(it.get("ticker", "")).upper()
@@ -135,10 +127,8 @@ def main() -> None:
         cg_id = id_map.get(ticker)
         if cg_id:
             ids.append(cg_id.lower())
-        else:
-            symbols.append(ticker.lower())
 
-    coins = fetch_cg_markets(symbols=sorted(set(symbols)), ids=sorted(set(ids)))
+    coins = fetch_cg_markets(ids=sorted(set(ids)))
     sym_index = build_symbol_index(coins)
     id_index = build_id_index(coins)
 
