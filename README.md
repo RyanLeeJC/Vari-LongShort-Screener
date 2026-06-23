@@ -6,10 +6,10 @@ Dashboard for Vari 4-bucket long/short selection — mirrors the backtest logic 
 
 ## Features
 
-- Toggle **B1–B4** buckets (volume/mcap/OI rank bands 1–50, 51–100, 101–150, 151–200)
-- Toggle universe rank: **MCap**, **Volume**, **OI**
+- Toggle **B1–B4** buckets (FDV/volume/OI rank bands 1–50, 51–100, 101–150, 151–200)
+- Toggle universe rank: **FDV**, **Volume**, **OI**
 - **Top 10** and **Bottom 10** panels sorted by 24h chg%
-- **Refresh Data** — fetches fresh Vari + CoinGecko data server-side
+- **Refresh Data** — fetches fresh Vari `supported_assets` server-side (~sub-second)
 - Copy button on each panel
 
 ## Local development
@@ -38,13 +38,13 @@ Open http://localhost:8000
 2. Render reads `render.yaml` automatically, or set manually:
    - **Build command:** `./scripts/render_build.sh`
    - **Start command:** `uvicorn server:app --host 0.0.0.0 --port $PORT`
-3. Add environment variable **`COINGECKO_API_KEY`** (recommended — reduces rate limits).
-4. Deploy. Pushes to `main` trigger redeploys.
+3. Deploy. Pushes to `main` trigger redeploys.
+
+Optional: set **`HTTPS_PROXY`** if Cloudflare blocks Render’s IP (residential/ISP tunnel).
 
 Optional: add a Render **Cron Job** to `POST https://<your-service>.onrender.com/api/refresh` every 15 minutes.
 
 ## Data
 
-- Vari listings: `GET https://omni-client-api.prod.ap-northeast-1.variational.io/metadata/stats`
-- CoinGecko markets API for market cap and 24h % change
+- Vari `GET /api/metadata/supported_assets` (public; browser TLS via `curl_cffi`) for FDV, 24h chg%, volume, and OI
 - Excludes BTC, ETH, and the vari-blacklist (27 tickers)

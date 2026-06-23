@@ -1,9 +1,9 @@
-export type RankMode = 'mcap' | 'volume' | 'oi'
+export type RankMode = 'fdv' | 'volume' | 'oi'
 export type BucketId = 'B1' | 'B2' | 'B3' | 'B4'
 
 export type ListingRow = {
   ticker: string
-  market_cap: number | null
+  fdv: number | null
   vol_24h: number
   oi: number | null
   chg24_pct: number | null
@@ -14,10 +14,9 @@ export type ScreenerData = {
   universe_top_n: number
   blacklist: string[]
   meta?: {
-    cg_key_type?: string
-    cg_coins_fetched?: number
-    cg_failed_batches?: number
+    data_source?: string
     listings_with_chg24?: number
+    listings_with_fdv?: number
   }
   listings: ListingRow[]
 }
@@ -37,7 +36,7 @@ const BUCKETS: Record<BucketId, [number, number]> = {
 }
 
 function rankValue(row: ListingRow, mode: RankMode): number {
-  if (mode === 'mcap') return row.market_cap ?? -1
+  if (mode === 'fdv') return row.fdv ?? -1
   if (mode === 'volume') return row.vol_24h
   return row.oi ?? -1
 }
@@ -47,7 +46,7 @@ function sortDesc(rows: ListingRow[], mode: RankMode): ListingRow[] {
 }
 
 function metricValue(row: ListingRow, mode: RankMode): number | null {
-  if (mode === 'mcap') return row.market_cap
+  if (mode === 'fdv') return row.fdv
   if (mode === 'volume') return row.vol_24h
   return row.oi
 }
@@ -94,7 +93,7 @@ export function formatChg(pct: number): string {
 }
 
 export function rankModeLabel(mode: RankMode): string {
-  if (mode === 'mcap') return 'MCap'
+  if (mode === 'fdv') return 'FDV'
   if (mode === 'volume') return 'Volume'
   return 'OI'
 }
