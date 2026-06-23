@@ -27,10 +27,19 @@ def load_json(path: Path) -> Any:
 
 
 def _http_proxies() -> dict[str, str] | None:
-    proxy = (os.getenv("HTTPS_PROXY") or os.getenv("HTTP_PROXY") or "").strip()
+    proxy = (
+        os.getenv("HTTPS_PROXY")
+        or os.getenv("HTTP_PROXY")
+        or os.getenv("ALL_PROXY")
+        or ""
+    ).strip()
     if not proxy:
         return None
     return {"http": proxy, "https": proxy}
+
+
+def _proxy_configured() -> bool:
+    return _http_proxies() is not None
 
 
 def _parse_float(val: Any) -> float | None:
@@ -43,6 +52,7 @@ def _parse_float(val: Any) -> float | None:
 
 
 def fetch_supported_assets() -> dict[str, list[dict[str, Any]]]:
+    proxies = _http_proxies()
     session = Session(impersonate="chrome124")
     url = f"{VARI_BASE_URL}/api/metadata/supported_assets"
     resp = session.get(
@@ -52,9 +62,20 @@ def fetch_supported_assets() -> dict[str, list[dict[str, Any]]]:
             "origin": VARI_BASE_URL,
             "referer": f"{VARI_BASE_URL}/perpetual/BTC",
         },
-        proxies=_http_proxies(),
+        proxies=proxies,
         timeout=60,
     )
+    if resp.status_code == 403:
+        if proxies:
+            raise RuntimeError(
+                "Cloudflare blocked GET supported_assets (403) even with HTTPS_PROXY set. "
+                "Check proxy URL, credentials, and that the tunnel allows omni.variational.io."
+            )
+        raise RuntimeError(
+            "Cloudflare blocked GET supported_assets (403). "
+            "Set HTTPS_PROXY on Render to your residential/ISP proxy "
+            "(e.g. https://user:pass@host:port)."
+        )
     resp.raise_for_status()
     data = resp.json()
     if not isinstance(data, dict):
@@ -113,6 +134,7 @@ def main() -> None:
         "meta": {
             "data_source": "vari_supported_assets",
             "vari_base_url": VARI_BASE_URL,
+            "proxy_configured": _proxy_configured(),
             "listings_with_chg24": with_chg,
             "listings_with_fdv": with_fdv,
         },

@@ -38,13 +38,15 @@ Open http://localhost:8000
 2. Render reads `render.yaml` automatically, or set manually:
    - **Build command:** `./scripts/render_build.sh`
    - **Start command:** `uvicorn server:app --host 0.0.0.0 --port $PORT`
-3. Deploy. Pushes to `main` trigger redeploys.
-
-Optional: set **`HTTPS_PROXY`** if Cloudflare blocks Render’s IP (residential/ISP tunnel).
+3. In Render → **Environment**, add **`HTTPS_PROXY`** (secret):
+   - Value: your residential/ISP proxy URL, e.g. `https://user:pass@host:port`
+   - Required on Render — datacenter IPs get Cloudflare 403 without it
+4. Deploy. Pushes to `main` trigger redeploys.
 
 Optional: add a Render **Cron Job** to `POST https://<your-service>.onrender.com/api/refresh` every 15 minutes.
 
 ## Data
 
 - Vari `GET /api/metadata/supported_assets` (public; browser TLS via `curl_cffi`) for FDV, 24h chg%, volume, and OI
+- **`HTTPS_PROXY`** routes requests through your ISP/residential tunnel when Cloudflare blocks the host (Render, CI)
 - Excludes BTC, ETH, and the vari-blacklist (27 tickers)
