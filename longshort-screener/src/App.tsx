@@ -140,7 +140,7 @@ export default function App() {
   }
 
   useEffect(() => {
-    void refreshData()
+    void refreshData(true)
   }, [])
 
   const picks = useMemo(() => {
@@ -189,21 +189,23 @@ export default function App() {
             <span className="toggle-label" aria-hidden="true">
               &nbsp;
             </span>
-            <button
-              type="button"
-              className="refresh-btn"
-              disabled={refreshing}
-              onClick={() => void refreshData(true)}
-            >
-              {refreshing ? 'Refreshing…' : 'Refresh Data'}
-            </button>
+            <div className="toggle-row">
+              <button
+                type="button"
+                className="refresh-btn"
+                disabled={refreshing}
+                onClick={() => void refreshData(true)}
+              >
+                {refreshing ? 'Refreshing…' : 'Refresh Data'}
+              </button>
+            </div>
           </div>
         </div>
       </header>
 
       {dataWarning ? <div className="error">{dataWarning}</div> : null}
       {error ? <div className="error">{error}</div> : null}
-      {!data && !error ? <div className="loading">Loading screener data…</div> : null}
+      {!data && !error ? <div className="loading">{refreshing ? 'Refreshing screener data…' : 'Loading screener data…'}</div> : null}
 
       {data ? (
         <main>
