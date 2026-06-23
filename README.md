@@ -43,7 +43,8 @@ Open http://localhost:8000
 3. In Render → **Environment**, add **`HTTPS_PROXY`** (secret) — **same URL as GridBot / HighOI**:
    - `HTTPS_PROXY=https://user:pass@host:port`
    - Cloud hosts get Cloudflare 403 without it; see `env.example`
-4. Deploy. Pushes to `main` trigger redeploys.
+4. **Remove `PYTHON_VERSION` from Render Environment** if set — Python version is controlled by `.python-version` (`3.12`). Pinned patch versions (e.g. `3.12.0`, `3.12.11`) force a source build and fail on Render.
+5. Deploy. Pushes to `main` trigger redeploys.
 
 Optional: add a Render **Cron Job** to `POST https://<your-service>.onrender.com/api/refresh` every 15 minutes.
 
