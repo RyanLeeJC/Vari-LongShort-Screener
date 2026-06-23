@@ -117,6 +117,7 @@ def parse_asset_row(row: dict[str, Any]) -> dict[str, Any]:
     oi_short = _parse_float(oi.get("short_open_interest")) or 0.0
 
     return {
+        "instrument_type": str(row.get("instrument_type") or ""),
         "fdv": _parse_float(row.get("fdv")),
         "vol_24h": _parse_float(row.get("volume_24h")) or 0.0,
         "oi": oi_long + oi_short,
@@ -133,6 +134,7 @@ def main() -> None:
     rows: list[dict[str, Any]] = []
     with_chg = 0
     with_fdv = 0
+    rwa_count = 0
     for ticker, asset_rows in bulk.items():
         sym = str(ticker).upper()
         if not sym or sym in blacklist:
@@ -145,6 +147,8 @@ def main() -> None:
             with_chg += 1
         if parsed["fdv"] is not None:
             with_fdv += 1
+        if parsed["instrument_type"] == "perpetual_rwa_future":
+            rwa_count += 1
         rows.append({"ticker": sym, **parsed})
 
     now = datetime.now(ZoneInfo("Asia/Singapore"))
@@ -158,6 +162,7 @@ def main() -> None:
             "proxy_configured": vari_http_proxies() is not None,
             "listings_with_chg24": with_chg,
             "listings_with_fdv": with_fdv,
+            "listings_rwa": rwa_count,
         },
         "listings": rows,
     }

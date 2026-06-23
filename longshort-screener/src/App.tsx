@@ -7,6 +7,8 @@ import {
   formatUpdatedAt,
   loadScreenerData,
   rankModeLabel,
+  type UniverseScope,
+  filterUniverse,
   type BucketId,
   type PickRow,
   type RankMode,
@@ -18,6 +20,10 @@ const RANK_MODES: { id: RankMode; label: string }[] = [
   { id: 'fdv', label: 'FDV' },
   { id: 'volume', label: 'Volume' },
   { id: 'oi', label: 'OI' },
+]
+const UNIVERSE_SCOPES: { id: UniverseScope; label: string }[] = [
+  { id: 'crypto', label: 'Crypto' },
+  { id: 'all', label: 'All' },
 ]
 
 function CopyIcon() {
@@ -115,6 +121,7 @@ export default function App() {
   const [error, setError] = useState<string | null>(null)
   const [bucket, setBucket] = useState<BucketId>('B1')
   const [rankMode, setRankMode] = useState<RankMode>('volume')
+  const [universeScope, setUniverseScope] = useState<UniverseScope>('crypto')
   const [copiedKey, setCopiedKey] = useState<string | null>(null)
   const [refreshing, setRefreshing] = useState(false)
 
@@ -138,14 +145,15 @@ export default function App() {
 
   const picks = useMemo(() => {
     if (!data) return { top10: [], bottom10: [] }
-    return bucketPicks(data, rankMode, bucket)
-  }, [data, rankMode, bucket])
+    return bucketPicks(data, rankMode, bucket, universeScope)
+  }, [data, rankMode, bucket, universeScope])
 
   const bucketRange =
     bucket === 'B1' ? '1–50' : bucket === 'B2' ? '51–100' : bucket === 'B3' ? '101–150' : '151–200'
 
   const rankLabel = RANK_MODES.find((m) => m.id === rankMode)?.label ?? rankMode
-  const withChg = data?.listings.filter((r) => r.chg24_pct != null).length ?? 0
+  const universeCount = data ? filterUniverse(data.listings, universeScope).length : 0
+  const withChg = data ? filterUniverse(data.listings, universeScope).filter((r) => r.chg24_pct != null).length : 0
   const dataWarning =
     data && withChg === 0
       ? 'Data loaded but no 24h change values — Vari supported_assets fetch may have failed on the server.'
@@ -168,13 +176,14 @@ export default function App() {
           <h1>Vari Long/Short Screener</h1>
           {data ? (
             <div className="meta">
-              {formatUpdatedAt(data.fetched_at)} · {data.listings.length} listings ·{' '}
-              {data.meta?.listings_with_chg24 ?? withChg} with 24H Chg% Blacklisted {data.blacklist.length}
+              {formatUpdatedAt(data.fetched_at)} · {universeCount} listings ·{' '}
+              {withChg} with 24H Chg% · Blacklisted {data.blacklist.length}
             </div>
           ) : null}
         </div>
         <div className="controls">
           <ToggleGroup label="Bucket" value={bucket} options={BUCKETS.map((b) => ({ id: b, label: b }))} onChange={setBucket} />
+          <ToggleGroup label="Universe" value={universeScope} options={UNIVERSE_SCOPES} onChange={setUniverseScope} />
           <ToggleGroup label="Universe rank" value={rankMode} options={RANK_MODES} onChange={setRankMode} />
           <div className="refresh-group">
             <span className="toggle-label" aria-hidden="true">

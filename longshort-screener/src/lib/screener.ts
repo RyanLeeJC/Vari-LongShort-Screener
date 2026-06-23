@@ -1,8 +1,12 @@
 export type RankMode = 'fdv' | 'volume' | 'oi'
 export type BucketId = 'B1' | 'B2' | 'B3' | 'B4'
+export type UniverseScope = 'crypto' | 'all'
+
+export const RWA_INSTRUMENT_TYPE = 'perpetual_rwa_future'
 
 export type ListingRow = {
   ticker: string
+  instrument_type: string
   fdv: number | null
   vol_24h: number
   oi: number | null
@@ -17,6 +21,7 @@ export type ScreenerData = {
     data_source?: string
     listings_with_chg24?: number
     listings_with_fdv?: number
+    listings_rwa?: number
   }
   listings: ListingRow[]
 }
@@ -51,12 +56,19 @@ function metricValue(row: ListingRow, mode: RankMode): number | null {
   return row.oi
 }
 
+export function filterUniverse(listings: ListingRow[], scope: UniverseScope): ListingRow[] {
+  if (scope === 'all') return listings
+  return listings.filter((r) => r.instrument_type !== RWA_INSTRUMENT_TYPE)
+}
+
 export function bucketPicks(
   data: ScreenerData,
   rankMode: RankMode,
   bucket: BucketId,
+  universeScope: UniverseScope = 'crypto',
 ): { top10: PickRow[]; bottom10: PickRow[] } {
-  const ranked = sortDesc(data.listings, rankMode).slice(0, data.universe_top_n)
+  const universe = filterUniverse(data.listings, universeScope)
+  const ranked = sortDesc(universe, rankMode).slice(0, data.universe_top_n)
   const rankByTicker = new Map(ranked.map((r, i) => [r.ticker, i + 1]))
   const [lo, hi] = BUCKETS[bucket]
   const bucketRows = ranked.slice(lo - 1, hi)
