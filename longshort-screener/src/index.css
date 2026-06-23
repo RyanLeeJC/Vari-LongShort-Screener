@@ -205,6 +205,13 @@ td.chg.neg {
   color: var(--red);
 }
 
+th.metric,
+td.metric {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 .empty,
 .error,
 .loading {

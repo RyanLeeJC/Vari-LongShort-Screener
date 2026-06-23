@@ -3,7 +3,9 @@ import {
   bucketPicks,
   copyText,
   formatChg,
+  formatMetric,
   loadScreenerData,
+  rankModeLabel,
   type BucketId,
   type PickRow,
   type RankMode,
@@ -55,10 +57,12 @@ function PickPanel(props: {
   title: string
   subtitle: string
   rows: PickRow[]
+  rankMode: RankMode
   copyKey: string
   copiedKey: string | null
   onCopy: (key: string, text: string) => void
 }) {
+  const metricLabel = rankModeLabel(props.rankMode)
   return (
     <section className="panel">
       <div className="panel-header">
@@ -71,7 +75,7 @@ function PickPanel(props: {
           className={`copy-btn${props.copiedKey === props.copyKey ? ' copied' : ''}`}
           title="Copy list"
           aria-label={`Copy ${props.title}`}
-          onClick={() => props.onCopy(props.copyKey, copyText(props.rows))}
+          onClick={() => props.onCopy(props.copyKey, copyText(props.rows, props.rankMode))}
         >
           <CopyIcon />
         </button>
@@ -83,6 +87,7 @@ function PickPanel(props: {
               <th>#</th>
               <th>Ticker</th>
               <th>24h chg%</th>
+              <th className="metric">{metricLabel}</th>
               <th>Rank</th>
             </tr>
           </thead>
@@ -92,6 +97,7 @@ function PickPanel(props: {
                 <td>{idx + 1}</td>
                 <td className="ticker">{row.ticker}</td>
                 <td className={`chg ${row.chg24_pct >= 0 ? 'pos' : 'neg'}`}>{formatChg(row.chg24_pct)}</td>
+                <td className="metric">{formatMetric(row.rank_metric)}</td>
                 <td>{row.universe_rank}</td>
               </tr>
             ))}
@@ -158,6 +164,7 @@ export default function App() {
             title="Top 10"
             subtitle={`${bucket} (${bucketRange}) · ${rankLabel} · long candidates`}
             rows={picks.top10}
+            rankMode={rankMode}
             copyKey="top10"
             copiedKey={copiedKey}
             onCopy={handleCopy}
@@ -166,6 +173,7 @@ export default function App() {
             title="Bottom 10"
             subtitle={`${bucket} (${bucketRange}) · ${rankLabel} · short candidates`}
             rows={picks.bottom10}
+            rankMode={rankMode}
             copyKey="bottom10"
             copiedKey={copiedKey}
             onCopy={handleCopy}
