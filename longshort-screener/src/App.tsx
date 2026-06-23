@@ -76,7 +76,7 @@ function PickPanel(props: {
           className={`copy-btn${props.copiedKey === props.copyKey ? ' copied' : ''}`}
           title="Copy list"
           aria-label={`Copy ${props.title}`}
-          onClick={() => props.onCopy(props.copyKey, copyText(props.rows, props.rankMode))}
+          onClick={() => props.onCopy(props.copyKey, copyText(props.rows))}
         >
           <CopyIcon />
         </button>

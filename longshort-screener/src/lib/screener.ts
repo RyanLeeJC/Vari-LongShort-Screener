@@ -108,14 +108,8 @@ export function formatMetric(value: number | null): string {
   return `$${value.toFixed(2)}`
 }
 
-export function copyText(rows: PickRow[], rankMode: RankMode): string {
-  const metricLabel = rankModeLabel(rankMode)
-  return rows
-    .map(
-      (r) =>
-        `${r.ticker}\t${formatChg(r.chg24_pct)}\t${metricLabel}\t${formatMetric(r.rank_metric)}\t${r.universe_rank}`,
-    )
-    .join('\n')
+export function copyText(rows: PickRow[]): string {
+  return rows.map((r) => `${r.ticker} ${formatChg(r.chg24_pct)}`).join('\n')
 }
 
 export async function loadScreenerData(): Promise<ScreenerData> {
