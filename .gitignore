@@ -1,0 +1,5 @@
+longshort-screener/node_modules/
+longshort-screener/dist/
+.DS_Store
+*.pyc
+__pycache__/
