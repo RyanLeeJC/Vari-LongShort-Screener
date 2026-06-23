@@ -112,8 +112,9 @@ export function copyText(rows: PickRow[]): string {
   return rows.map((r) => `${r.ticker} ${formatChg(r.chg24_pct)}`).join('\n')
 }
 
-export async function loadScreenerData(): Promise<ScreenerData> {
-  const res = await fetch(`${import.meta.env.BASE_URL}screener.data.json`, { cache: 'no-store' })
+export async function loadScreenerData(bustCache = false): Promise<ScreenerData> {
+  const cacheBust = bustCache ? `?t=${Date.now()}` : ''
+  const res = await fetch(`${import.meta.env.BASE_URL}screener.data.json${cacheBust}`, { cache: 'no-store' })
   if (!res.ok) throw new Error(`Failed to load screener data (${res.status})`)
   return res.json() as Promise<ScreenerData>
 }

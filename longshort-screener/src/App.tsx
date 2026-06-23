@@ -116,11 +116,24 @@ export default function App() {
   const [bucket, setBucket] = useState<BucketId>('B1')
   const [rankMode, setRankMode] = useState<RankMode>('volume')
   const [copiedKey, setCopiedKey] = useState<string | null>(null)
+  const [refreshing, setRefreshing] = useState(false)
+
+  async function refreshData(bustCache = false) {
+    setRefreshing(true)
+    if (bustCache) setError(null)
+    try {
+      const next = await loadScreenerData(bustCache)
+      setData(next)
+      setError(null)
+    } catch (e: unknown) {
+      setError(e instanceof Error ? e.message : 'Failed to load data')
+    } finally {
+      setRefreshing(false)
+    }
+  }
 
   useEffect(() => {
-    loadScreenerData()
-      .then(setData)
-      .catch((e: unknown) => setError(e instanceof Error ? e.message : 'Failed to load data'))
+    void refreshData()
   }, [])
 
   const picks = useMemo(() => {
@@ -163,6 +176,19 @@ export default function App() {
         <div className="controls">
           <ToggleGroup label="Bucket" value={bucket} options={BUCKETS.map((b) => ({ id: b, label: b }))} onChange={setBucket} />
           <ToggleGroup label="Universe rank" value={rankMode} options={RANK_MODES} onChange={setRankMode} />
+          <div className="refresh-group">
+            <span className="toggle-label" aria-hidden="true">
+              &nbsp;
+            </span>
+            <button
+              type="button"
+              className="refresh-btn"
+              disabled={refreshing}
+              onClick={() => void refreshData(true)}
+            >
+              {refreshing ? 'Refreshing…' : 'Refresh Data'}
+            </button>
+          </div>
         </div>
       </header>
 
