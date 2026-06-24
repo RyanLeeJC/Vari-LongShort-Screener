@@ -70,16 +70,11 @@ Universe: ~420 crypto perps after blacklist scrub, category `all`, Pro CoinGecko
 
 ---
 
-## Contrast with this screener (today)
+## This screener
 
-`scripts/build_screener_data.py` on this branch currently:
+`scripts/build_screener_data.py` uses the same **`GET /api/metadata/supported_assets`** bulk fetch (public, via `curl_cffi` + optional `HTTPS_PROXY` on Render). It writes `longshort-screener/public/screener.data.json` for the dashboard; `server.py` refreshes on startup and via `POST /api/refresh`.
 
-1. Fetches listings from **`GET …/metadata/stats`** (public client API).
-2. Enriches **24h %** via **CoinGecko** `/api/v3/coins/markets` (`price_change_percentage=24h`).
-
-That CG path is slower (~seconds per batch, rate limits) and duplicates data Vari already exposes on `supported_assets`.
-
-**Possible screener improvement:** switch 24h chg% (and volume/OI/funding if needed) to `GET /api/metadata/supported_assets` when auth is available; keep CoinGecko only for fields Vari does not provide (e.g. 7d %, or market cap when missing).
+No CoinGecko calls — FDV, 24h chg%, volume, and OI all come from Vari.
 
 ---
 
