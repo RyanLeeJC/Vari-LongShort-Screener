@@ -1,9 +1,11 @@
-# Python from Docker Hub (same approach as GridBot) — avoids Render native Python source builds.
-FROM node:22-bookworm-slim AS frontend
+# Vite 8 requires Node 20.19+ or 22.12+; Render sets npm engine-strict in CI.
+FROM node:22.12-bookworm-slim AS frontend
+
+ENV NODE_ENV=development
 
 WORKDIR /app/longshort-screener
 COPY longshort-screener/package.json longshort-screener/package-lock.json ./
-RUN npm ci
+RUN node -v && npm -v && npm ci
 COPY longshort-screener .
 RUN npm run build
 
