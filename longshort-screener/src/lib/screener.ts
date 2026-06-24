@@ -1,8 +1,18 @@
 export type RankMode = 'fdv' | 'volume' | 'oi'
 export type BucketId = 'B1' | 'B2' | 'B3' | 'B4'
 export type UniverseScope = 'crypto' | 'all'
+export type TrimMode = '10' | 'm3'
+
+export const PICK_DEPTH = 13
+export const TRIM_WINDOW = 10
 
 export const RWA_INSTRUMENT_TYPE = 'perpetual_rwa_future'
+export const MAJOR_TICKERS = ['BTC', 'ETH', 'SOL', 'HYPE'] as const
+
+export type MajorChg = {
+  ticker: string
+  chg24_pct: number | null
+}
 
 export type ListingRow = {
   ticker: string
@@ -23,6 +33,7 @@ export type ScreenerData = {
     listings_with_fdv?: number
     listings_rwa?: number
   }
+  majors?: MajorChg[]
   listings: ListingRow[]
 }
 
@@ -61,12 +72,21 @@ export function filterUniverse(listings: ListingRow[], scope: UniverseScope): Li
   return listings.filter((r) => r.instrument_type !== RWA_INSTRUMENT_TYPE)
 }
 
+export function applyTrim(rows: PickRow[], trim: TrimMode): PickRow[] {
+  if (trim === 'm3') return rows.slice(3, PICK_DEPTH)
+  return rows.slice(0, TRIM_WINDOW)
+}
+
+export function trimRankOffset(trim: TrimMode): number {
+  return trim === 'm3' ? 4 : 1
+}
+
 export function bucketPicks(
   data: ScreenerData,
   rankMode: RankMode,
   bucket: BucketId,
   universeScope: UniverseScope = 'crypto',
-): { top10: PickRow[]; bottom10: PickRow[] } {
+): { top13: PickRow[]; bottom13: PickRow[] } {
   const universe = filterUniverse(data.listings, universeScope)
   const ranked = sortDesc(universe, rankMode).slice(0, data.universe_top_n)
   const rankByTicker = new Map(ranked.map((r, i) => [r.ticker, i + 1]))
@@ -83,10 +103,10 @@ export function bucketPicks(
     }))
 
   const byChgDesc = [...withChg].sort((a, b) => b.chg24_pct - a.chg24_pct)
-  const top10 = byChgDesc.slice(0, 10)
-  const bottom10 = byChgDesc.slice(-10).sort((a, b) => b.chg24_pct - a.chg24_pct)
+  const top13 = byChgDesc.slice(0, PICK_DEPTH)
+  const bottom13 = byChgDesc.slice(-PICK_DEPTH).sort((a, b) => a.chg24_pct - b.chg24_pct)
 
-  return { top10, bottom10 }
+  return { top13, bottom13 }
 }
 
 export function formatUpdatedAt(fetchedAt: string): string {
@@ -102,6 +122,12 @@ export function formatUpdatedAt(fetchedAt: string): string {
 export function formatChg(pct: number): string {
   const sign = pct > 0 ? '+' : ''
   return `${sign}${pct.toFixed(2)}%`
+}
+
+export function getMajorsChg(data: ScreenerData): MajorChg[] {
+  if (data.majors?.length) return data.majors
+  const byTicker = new Map(data.listings.map((r) => [r.ticker, r.chg24_pct]))
+  return MAJOR_TICKERS.map((ticker) => ({ ticker, chg24_pct: byTicker.get(ticker) ?? null }))
 }
 
 export function rankModeLabel(mode: RankMode): string {

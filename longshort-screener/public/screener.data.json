@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-23 20:03:05 SGT",
+  "fetched_at": "2026-06-24 23:16:47 SGT",
   "universe_top_n": 200,
   "blacklist": [
     "BEAT",
@@ -32,3750 +32,3792 @@
     "XPL",
     "ZEC"
   ],
+  "majors": [
+    {
+      "ticker": "BTC",
+      "chg24_pct": -2.2417
+    },
+    {
+      "ticker": "ETH",
+      "chg24_pct": -0.94285
+    },
+    {
+      "ticker": "SOL",
+      "chg24_pct": -0.42368
+    },
+    {
+      "ticker": "HYPE",
+      "chg24_pct": -2.91552
+    }
+  ],
   "meta": {
     "data_source": "vari_supported_assets",
     "vari_base_url": "https://omni.variational.io",
     "proxy_configured": false,
-    "listings_with_chg24": 467,
-    "listings_with_fdv": 456,
-    "listings_rwa": 42
+    "listings_with_chg24": 470,
+    "listings_with_fdv": 459,
+    "listings_rwa": 46
   },
   "listings": [
     {
-      "ticker": "HIMS",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 7482103200.0,
-      "vol_24h": 0.0,
-      "oi": 0.0,
-      "chg24_pct": -5.44122
-    },
-    {
-      "ticker": "A",
-      "instrument_type": "perpetual_future",
-      "fdv": 133297640.0,
-      "vol_24h": 0.0,
-      "oi": 179.24128869816317,
-      "chg24_pct": -4.37243
-    },
-    {
-      "ticker": "B2",
-      "instrument_type": "perpetual_future",
-      "fdv": 112941296.0,
-      "vol_24h": 982.97472,
-      "oi": 3624.2522643140114,
-      "chg24_pct": -1.1702
-    },
-    {
-      "ticker": "DOOD",
-      "instrument_type": "perpetual_future",
-      "fdv": 14296496.0,
-      "vol_24h": 114.956163,
-      "oi": 124.15421614519587,
-      "chg24_pct": -8.03593
-    },
-    {
-      "ticker": "SOPHON",
-      "instrument_type": "perpetual_future",
-      "fdv": 50529456.0,
-      "vol_24h": 1354.195676,
-      "oi": 42548.87373295829,
-      "chg24_pct": -6.7659
-    },
-    {
-      "ticker": "SNX",
-      "instrument_type": "perpetual_future",
-      "fdv": 81485209.0,
-      "vol_24h": 18317.61402,
-      "oi": 36656.53258464014,
-      "chg24_pct": -3.6562
-    },
-    {
-      "ticker": "ME",
-      "instrument_type": "perpetual_future",
-      "fdv": 60761378.0,
-      "vol_24h": 14123.67383,
-      "oi": 11634.814535572092,
-      "chg24_pct": -9.07787
-    },
-    {
-      "ticker": "FARTCOIN",
-      "instrument_type": "perpetual_future",
-      "fdv": 122098745.0,
-      "vol_24h": 458388.975829,
-      "oi": 229215.0743397395,
-      "chg24_pct": -6.45958
-    },
-    {
-      "ticker": "CRCL",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 21369891465.0,
-      "vol_24h": 702101.414332,
-      "oi": 1375497.3588804125,
-      "chg24_pct": -0.349
-    },
-    {
-      "ticker": "F",
-      "instrument_type": "perpetual_future",
-      "fdv": 35598677.0,
-      "vol_24h": 370.445518,
-      "oi": 3048.602119188094,
-      "chg24_pct": -5.87181
-    },
-    {
-      "ticker": "CORE",
-      "instrument_type": "perpetual_future",
-      "fdv": 55151077.0,
-      "vol_24h": 11188.3,
-      "oi": 11949.060428333773,
-      "chg24_pct": -6.38243
-    },
-    {
-      "ticker": "AIOZ",
-      "instrument_type": "perpetual_future",
-      "fdv": 69667826.0,
-      "vol_24h": 1129.8,
-      "oi": 0.4977244455990129,
-      "chg24_pct": -4.90696
-    },
-    {
-      "ticker": "OPN_OPINION",
-      "instrument_type": "perpetual_future",
-      "fdv": 74154601.0,
-      "vol_24h": 2894.496115,
-      "oi": 15144.039596145294,
-      "chg24_pct": -0.17561
-    },
-    {
-      "ticker": "IRYS",
-      "instrument_type": "perpetual_future",
-      "fdv": 150828077.0,
-      "vol_24h": 2299.23107,
-      "oi": 5298.563518191946,
-      "chg24_pct": -12.04002
-    },
-    {
-      "ticker": "HOME",
-      "instrument_type": "perpetual_future",
-      "fdv": 204852378.0,
-      "vol_24h": 37287.17288,
-      "oi": 31746.77168620829,
-      "chg24_pct": -0.58654
-    },
-    {
-      "ticker": "IOTX",
-      "instrument_type": "perpetual_future",
-      "fdv": 27972035.0,
-      "vol_24h": 250.01391,
-      "oi": 363.52942234389593,
-      "chg24_pct": -6.16253
-    },
-    {
-      "ticker": "ZAMA",
-      "instrument_type": "perpetual_future",
-      "fdv": 375660086.0,
-      "vol_24h": 25658.17514,
-      "oi": 40544.04405233525,
-      "chg24_pct": 2.26997
-    },
-    {
-      "ticker": "ACH",
-      "instrument_type": "perpetual_future",
-      "fdv": 73089950.0,
-      "vol_24h": 15428.937117,
-      "oi": 6809.33336797039,
-      "chg24_pct": -7.32542
-    },
-    {
-      "ticker": "COPPER",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": null,
-      "vol_24h": 294528.161311,
-      "oi": 677413.7828213294,
-      "chg24_pct": -0.218
-    },
-    {
-      "ticker": "ICNT",
-      "instrument_type": "perpetual_future",
-      "fdv": 130725260.0,
-      "vol_24h": 8071.550843,
-      "oi": 8345.679404109485,
-      "chg24_pct": 4.5653
-    },
-    {
-      "ticker": "XAG",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": null,
-      "vol_24h": 3006431.438901,
-      "oi": 3705629.5626523066,
-      "chg24_pct": 1.979
-    },
-    {
-      "ticker": "ATOM",
-      "instrument_type": "perpetual_future",
-      "fdv": 911179650.0,
-      "vol_24h": 86622.054115,
-      "oi": 817589.8421589542,
-      "chg24_pct": -3.17112
-    },
-    {
-      "ticker": "PYTH",
-      "instrument_type": "perpetual_future",
-      "fdv": 347571965.0,
-      "vol_24h": 30973.5262,
-      "oi": 236722.60363988785,
-      "chg24_pct": -8.20528
-    },
-    {
-      "ticker": "C98",
-      "instrument_type": "perpetual_future",
-      "fdv": 13340935.0,
-      "vol_24h": 0.0,
-      "oi": 3669.780635556598,
-      "chg24_pct": -6.97476
-    },
-    {
-      "ticker": "HBAR",
-      "instrument_type": "perpetual_future",
-      "fdv": 3878262162.0,
-      "vol_24h": 45595.55586,
-      "oi": 257805.7646222478,
-      "chg24_pct": -3.27408
-    },
-    {
-      "ticker": "TA",
-      "instrument_type": "perpetual_future",
-      "fdv": 70813250.0,
-      "vol_24h": 4742.4218,
-      "oi": 22074.195882520446,
-      "chg24_pct": -4.78843
-    },
-    {
-      "ticker": "ALLORA",
-      "instrument_type": "perpetual_future",
-      "fdv": 309428698.0,
-      "vol_24h": 40326.923628,
-      "oi": 40621.24176029494,
-      "chg24_pct": -7.88736
-    },
-    {
-      "ticker": "BBIT",
-      "instrument_type": "perpetual_future",
-      "fdv": 43927520.0,
-      "vol_24h": 0.0,
-      "oi": 1238.1793966158934,
-      "chg24_pct": -7.38327
-    },
-    {
-      "ticker": "ELSA",
-      "instrument_type": "perpetual_future",
-      "fdv": 39507772.0,
-      "vol_24h": 0.0,
-      "oi": 1690.5613830175198,
-      "chg24_pct": -7.45873
-    },
-    {
-      "ticker": "MU",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 1366109567400.0,
-      "vol_24h": 10851339.495798,
-      "oi": 4027044.1377999606,
-      "chg24_pct": 6.82458
-    },
-    {
-      "ticker": "RARE",
-      "instrument_type": "perpetual_future",
-      "fdv": 12542981.0,
-      "vol_24h": 645.23512,
-      "oi": 18913.831875746233,
-      "chg24_pct": -4.17736
-    },
-    {
-      "ticker": "ES",
-      "instrument_type": "perpetual_future",
-      "fdv": 15660365.0,
-      "vol_24h": 3646.92144,
-      "oi": 140.90678869566523,
-      "chg24_pct": -1.35492
-    },
-    {
-      "ticker": "EIGEN",
-      "instrument_type": "perpetual_future",
-      "fdv": 468206688.0,
-      "vol_24h": 994013.639592,
-      "oi": 176076.24834766274,
-      "chg24_pct": -14.77938
-    },
-    {
-      "ticker": "KAS",
-      "instrument_type": "perpetual_future",
-      "fdv": 805352092.0,
-      "vol_24h": 10353.31983,
-      "oi": 22455.753131072932,
-      "chg24_pct": -2.48053
-    },
-    {
-      "ticker": "COIN",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 43428662826.0,
-      "vol_24h": 217293.747664,
-      "oi": 287645.3317852302,
-      "chg24_pct": 0.96778
-    },
-    {
-      "ticker": "CKB",
-      "instrument_type": "perpetual_future",
-      "fdv": 49995807.0,
-      "vol_24h": 0.0,
-      "oi": 11004.700437925578,
-      "chg24_pct": -5.05219
-    },
-    {
-      "ticker": "GUA",
-      "instrument_type": "perpetual_future",
-      "fdv": 473193362.0,
-      "vol_24h": 0.0,
-      "oi": 14002.8464142688,
-      "chg24_pct": -27.72441
-    },
-    {
-      "ticker": "NBIS",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 68066400000.0,
-      "vol_24h": 603643.662035,
-      "oi": 304092.4535791561,
-      "chg24_pct": -1.07433
-    },
-    {
-      "ticker": "AAVE",
-      "instrument_type": "perpetual_future",
-      "fdv": 1165430738.0,
-      "vol_24h": 323892.97721,
-      "oi": 1330511.9556279378,
-      "chg24_pct": -5.16717
-    },
-    {
-      "ticker": "ORDER",
-      "instrument_type": "perpetual_future",
-      "fdv": 35736938.0,
-      "vol_24h": 1917.5,
-      "oi": 18441.577651108302,
-      "chg24_pct": -8.13466
-    },
-    {
-      "ticker": "KNC",
-      "instrument_type": "perpetual_future",
-      "fdv": 26858189.0,
-      "vol_24h": 0.0,
-      "oi": 1950.7987230917574,
-      "chg24_pct": -5.42838
-    },
-    {
-      "ticker": "EWJ",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 23273259153.0,
-      "vol_24h": 81276.405394,
-      "oi": 194669.62034623208,
-      "chg24_pct": 0.73759
-    },
-    {
-      "ticker": "SAPIEN",
-      "instrument_type": "perpetual_future",
-      "fdv": 86646260.0,
-      "vol_24h": 171.80584,
-      "oi": 19933.72561459953,
-      "chg24_pct": 1.51083
-    },
-    {
-      "ticker": "HNT",
-      "instrument_type": "perpetual_future",
-      "fdv": 47991416.0,
-      "vol_24h": 460.02455,
-      "oi": 4053.2293638938713,
-      "chg24_pct": -9.75285
-    },
-    {
-      "ticker": "COOKIE",
-      "instrument_type": "perpetual_future",
-      "fdv": 8535750.0,
-      "vol_24h": 1542.673664,
-      "oi": 528.0620789225214,
-      "chg24_pct": -10.25804
-    },
-    {
-      "ticker": "EWY",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 16557910905.0,
-      "vol_24h": 636590.003742,
-      "oi": 747700.8244075562,
-      "chg24_pct": -0.08211679
-    },
-    {
-      "ticker": "CHR",
-      "instrument_type": "perpetual_future",
-      "fdv": 14272437.0,
-      "vol_24h": 0.0,
-      "oi": 6442.79557977929,
-      "chg24_pct": -7.81586
-    },
-    {
-      "ticker": "RVN",
-      "instrument_type": "perpetual_future",
-      "fdv": 64013202.0,
-      "vol_24h": 0.0,
-      "oi": 275.2986036938417,
-      "chg24_pct": -4.41754
-    },
-    {
-      "ticker": "ESPRESSO",
-      "instrument_type": "perpetual_future",
-      "fdv": 212073210.0,
-      "vol_24h": 104.50294,
-      "oi": 321.7672569952692,
-      "chg24_pct": -4.67938
-    },
-    {
-      "ticker": "MASK",
-      "instrument_type": "perpetual_future",
-      "fdv": 38665941.0,
-      "vol_24h": 27822.21205,
-      "oi": 51169.18922321415,
-      "chg24_pct": -3.98985
-    },
-    {
-      "ticker": "RSR",
-      "instrument_type": "perpetual_future",
-      "fdv": 124251863.0,
-      "vol_24h": 1979.072059,
-      "oi": 576.6708436286974,
-      "chg24_pct": -5.19015
-    },
-    {
       "ticker": "MAVIA",
       "instrument_type": "perpetual_future",
-      "fdv": 6098924.0,
+      "fdv": 6369749.0,
       "vol_24h": 0.0,
-      "oi": 3285.493972653381,
-      "chg24_pct": -7.65993
+      "oi": 3425.3440872566007,
+      "chg24_pct": 4.21114
     },
     {
-      "ticker": "CLANKER",
+      "ticker": "SAGA",
       "instrument_type": "perpetual_future",
-      "fdv": 16258664.0,
-      "vol_24h": 9909.523779,
-      "oi": 34260.36527069355,
-      "chg24_pct": -6.35211
+      "fdv": 15386222.0,
+      "vol_24h": 1048.13437,
+      "oi": 7813.327606785956,
+      "chg24_pct": -4.55049
     },
     {
-      "ticker": "XVG",
+      "ticker": "ENJ",
       "instrument_type": "perpetual_future",
-      "fdv": 40212720.0,
-      "vol_24h": 2307.051103,
-      "oi": 825.665548655899,
-      "chg24_pct": -5.2102
-    },
-    {
-      "ticker": "QNT",
-      "instrument_type": "perpetual_future",
-      "fdv": 996717115.0,
-      "vol_24h": 93252.742723,
-      "oi": 53629.9163615109,
-      "chg24_pct": -3.06577
-    },
-    {
-      "ticker": "ALT",
-      "instrument_type": "perpetual_future",
-      "fdv": 60287107.0,
+      "fdv": 62311253.0,
       "vol_24h": 0.0,
-      "oi": 3405.3373325806424,
-      "chg24_pct": -6.8524
-    },
-    {
-      "ticker": "PROVE",
-      "instrument_type": "perpetual_future",
-      "fdv": 196037473.0,
-      "vol_24h": 695.571573,
-      "oi": 3800.311953279946,
-      "chg24_pct": -7.14524
-    },
-    {
-      "ticker": "ADA",
-      "instrument_type": "perpetual_future",
-      "fdv": 6899642338.0,
-      "vol_24h": 1205538.011501,
-      "oi": 2084383.3640237595,
-      "chg24_pct": -5.05789
-    },
-    {
-      "ticker": "IOTA",
-      "instrument_type": "perpetual_future",
-      "fdv": 203790808.0,
-      "vol_24h": 1847.09264,
-      "oi": 492.1598633168641,
-      "chg24_pct": -8.246
-    },
-    {
-      "ticker": "2Z",
-      "instrument_type": "perpetual_future",
-      "fdv": 705102981.0,
-      "vol_24h": 8669.42599,
-      "oi": 37166.85166282828,
-      "chg24_pct": -5.19763
-    },
-    {
-      "ticker": "OG",
-      "instrument_type": "perpetual_future",
-      "fdv": 12680661.0,
-      "vol_24h": 0.0,
-      "oi": 893.5598367395876,
-      "chg24_pct": -2.85048
-    },
-    {
-      "ticker": "ID",
-      "instrument_type": "perpetual_future",
-      "fdv": 67900969.0,
-      "vol_24h": 235901.18324,
-      "oi": 12675.696499492937,
-      "chg24_pct": -6.98833
-    },
-    {
-      "ticker": "BICO",
-      "instrument_type": "perpetual_future",
-      "fdv": 27070143.0,
-      "vol_24h": 49519.256954,
-      "oi": 27541.87849388773,
-      "chg24_pct": -32.73601
-    },
-    {
-      "ticker": "DEEP",
-      "instrument_type": "perpetual_future",
-      "fdv": 157860980.0,
-      "vol_24h": 9385.7952,
-      "oi": 4646.487932817441,
-      "chg24_pct": -6.9798
-    },
-    {
-      "ticker": "SUN",
-      "instrument_type": "perpetual_future",
-      "fdv": 342618173.0,
-      "vol_24h": 1422.59985,
-      "oi": 636.0776336232522,
-      "chg24_pct": -1.21114
-    },
-    {
-      "ticker": "ARPA",
-      "instrument_type": "perpetual_future",
-      "fdv": 16883934.0,
-      "vol_24h": 1459.860636,
-      "oi": 0.48123854104740454,
-      "chg24_pct": -2.53249
-    },
-    {
-      "ticker": "SYN",
-      "instrument_type": "perpetual_future",
-      "fdv": 65020155.0,
-      "vol_24h": 1181004.811938,
-      "oi": 617673.6621975083,
-      "chg24_pct": -9.26129
-    },
-    {
-      "ticker": "XCN",
-      "instrument_type": "perpetual_future",
-      "fdv": 204584789.0,
-      "vol_24h": 12973.440355,
-      "oi": 3025.67922066633,
-      "chg24_pct": -4.57749
-    },
-    {
-      "ticker": "LTC",
-      "instrument_type": "perpetual_future",
-      "fdv": 3357578992.0,
-      "vol_24h": 110155.610172,
-      "oi": 779350.2980821397,
-      "chg24_pct": -3.95396
-    },
-    {
-      "ticker": "TAC",
-      "instrument_type": "perpetual_future",
-      "fdv": 199218877.0,
-      "vol_24h": 0.0,
-      "oi": 3098.298479799771,
-      "chg24_pct": 2.7205
-    },
-    {
-      "ticker": "HEMI",
-      "instrument_type": "perpetual_future",
-      "fdv": 52321529.0,
-      "vol_24h": 0.0,
-      "oi": 4729.417360157065,
-      "chg24_pct": -7.07325
-    },
-    {
-      "ticker": "KOMA",
-      "instrument_type": "perpetual_future",
-      "fdv": 4579922.0,
-      "vol_24h": 0.0,
-      "oi": 16135.54632932843,
-      "chg24_pct": -10.82159
-    },
-    {
-      "ticker": "AVNT",
-      "instrument_type": "perpetual_future",
-      "fdv": 100578225.0,
-      "vol_24h": 72380.873384,
-      "oi": 19599.905978388484,
-      "chg24_pct": -7.02059
-    },
-    {
-      "ticker": "ASPECTA",
-      "instrument_type": "perpetual_future",
-      "fdv": 25422799.0,
-      "vol_24h": 1099.47792,
-      "oi": 394.60842979252743,
-      "chg24_pct": -5.75832
-    },
-    {
-      "ticker": "ASTER",
-      "instrument_type": "perpetual_future",
-      "fdv": 4853051462.0,
-      "vol_24h": 105633.778495,
-      "oi": 1539041.4008362857,
-      "chg24_pct": -3.37085
-    },
-    {
-      "ticker": "MANA",
-      "instrument_type": "perpetual_future",
-      "fdv": 155777212.0,
-      "vol_24h": 1700.32488,
-      "oi": 404.38823006329585,
-      "chg24_pct": -3.76712
-    },
-    {
-      "ticker": "NIL",
-      "instrument_type": "perpetual_future",
-      "fdv": 37035286.0,
-      "vol_24h": 12679.535244,
-      "oi": 30004.98049767449,
-      "chg24_pct": -10.34028
-    },
-    {
-      "ticker": "ACX",
-      "instrument_type": "perpetual_future",
-      "fdv": 39531797.0,
-      "vol_24h": 18973.54429,
-      "oi": 18663.68395022256,
-      "chg24_pct": -3.65669
-    },
-    {
-      "ticker": "SAND",
-      "instrument_type": "perpetual_future",
-      "fdv": 156742829.0,
-      "vol_24h": 6162.84953,
-      "oi": 2068.0048338670426,
-      "chg24_pct": -7.66697
-    },
-    {
-      "ticker": "CHIP",
-      "instrument_type": "perpetual_future",
-      "fdv": 327442734.0,
-      "vol_24h": 38038.022116,
-      "oi": 236380.79954139207,
-      "chg24_pct": -9.06923
-    },
-    {
-      "ticker": "MBOX",
-      "instrument_type": "perpetual_future",
-      "fdv": 1001521.0,
-      "vol_24h": 2724.192144,
-      "oi": 3325.8060658137288,
-      "chg24_pct": 3.33233
-    },
-    {
-      "ticker": "SEI",
-      "instrument_type": "perpetual_future",
-      "fdv": 531178480.0,
-      "vol_24h": 38449.75916,
-      "oi": 228352.8434028905,
-      "chg24_pct": -4.61723
-    },
-    {
-      "ticker": "MLN",
-      "instrument_type": "perpetual_future",
-      "fdv": 4521421.0,
-      "vol_24h": 8.943637,
-      "oi": 3212.2125083053993,
-      "chg24_pct": -3.90414
-    },
-    {
-      "ticker": "USTC",
-      "instrument_type": "perpetual_future",
-      "fdv": 34224052.0,
-      "vol_24h": 8625.569007,
-      "oi": 7255.284677600652,
-      "chg24_pct": -4.01743
-    },
-    {
-      "ticker": "CL",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": null,
-      "vol_24h": 6615974.215406,
-      "oi": 7897234.728351546,
-      "chg24_pct": -3.326
-    },
-    {
-      "ticker": "OVERTAKE",
-      "instrument_type": "perpetual_future",
-      "fdv": 15841400.0,
-      "vol_24h": 1939.210245,
-      "oi": 3335.1028643030204,
-      "chg24_pct": -7.48478
-    },
-    {
-      "ticker": "PUNDIX",
-      "instrument_type": "perpetual_future",
-      "fdv": 23537459.0,
-      "vol_24h": 212.20498,
-      "oi": 229.4093150356445,
-      "chg24_pct": -6.59196
-    },
-    {
-      "ticker": "AKT",
-      "instrument_type": "perpetual_future",
-      "fdv": 216166355.0,
-      "vol_24h": 18698.420386,
-      "oi": 160792.34130818147,
-      "chg24_pct": -5.6756
-    },
-    {
-      "ticker": "AR",
-      "instrument_type": "perpetual_future",
-      "fdv": 127334234.0,
-      "vol_24h": 23078.109054,
-      "oi": 68779.09507371197,
-      "chg24_pct": -3.68329
-    },
-    {
-      "ticker": "GRASS",
-      "instrument_type": "perpetual_future",
-      "fdv": 419128977.0,
-      "vol_24h": 209765.69014,
-      "oi": 488117.3040020782,
-      "chg24_pct": -5.87895
-    },
-    {
-      "ticker": "IN",
-      "instrument_type": "perpetual_future",
-      "fdv": 80016138.0,
-      "vol_24h": 4722.31253,
-      "oi": 2681.141429078139,
-      "chg24_pct": -2.28013
-    },
-    {
-      "ticker": "ALPINE",
-      "instrument_type": "perpetual_future",
-      "fdv": 12732016.0,
-      "vol_24h": 26250.66292,
-      "oi": 2993.4654370513217,
-      "chg24_pct": -5.40868
-    },
-    {
-      "ticker": "NEO",
-      "instrument_type": "perpetual_future",
-      "fdv": 206623750.0,
-      "vol_24h": 660.933089,
-      "oi": 17745.341353143056,
-      "chg24_pct": -5.19343
-    },
-    {
-      "ticker": "SENTIENT",
-      "instrument_type": "perpetual_future",
-      "fdv": 479995440.0,
-      "vol_24h": 1156.09908,
-      "oi": 6207.956764965954,
-      "chg24_pct": -7.07463
-    },
-    {
-      "ticker": "H",
-      "instrument_type": "perpetual_future",
-      "fdv": 1202440735.0,
-      "vol_24h": 232764.347492,
-      "oi": 226270.61353602674,
-      "chg24_pct": -14.99838
-    },
-    {
-      "ticker": "NATGAS",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": null,
-      "vol_24h": 165700.092512,
-      "oi": 461564.6168223669,
-      "chg24_pct": 2.276
-    },
-    {
-      "ticker": "ZEN",
-      "instrument_type": "perpetual_future",
-      "fdv": 90979046.0,
-      "vol_24h": 260.1871,
-      "oi": 3847.162771830085,
-      "chg24_pct": -6.9048
-    },
-    {
-      "ticker": "AERGO",
-      "instrument_type": "perpetual_future",
-      "fdv": 14282043.0,
-      "vol_24h": 9261.32626,
-      "oi": 974.1444864640732,
-      "chg24_pct": -5.11279
-    },
-    {
-      "ticker": "SOL",
-      "instrument_type": "perpetual_future",
-      "fdv": 43501099839.0,
-      "vol_24h": 44585724.008255,
-      "oi": 17463775.799700458,
-      "chg24_pct": -6.65117
-    },
-    {
-      "ticker": "JASMY",
-      "instrument_type": "perpetual_future",
-      "fdv": 225574720.0,
-      "vol_24h": 13437.953414,
-      "oi": 343.5764181624709,
-      "chg24_pct": -5.27167
-    },
-    {
-      "ticker": "QQQ",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 492366212967.0,
-      "vol_24h": 8696182.069551,
-      "oi": 5631165.858296563,
-      "chg24_pct": -0.36051
-    },
-    {
-      "ticker": "RED",
-      "instrument_type": "perpetual_future",
-      "fdv": 102742941.0,
-      "vol_24h": 13550.834467,
-      "oi": 3579.0938827302643,
-      "chg24_pct": -10.4646
-    },
-    {
-      "ticker": "SPK",
-      "instrument_type": "perpetual_future",
-      "fdv": 169482892.0,
-      "vol_24h": 6691.642053,
-      "oi": 8926.505757577272,
-      "chg24_pct": -9.19339
-    },
-    {
-      "ticker": "ETHFI",
-      "instrument_type": "perpetual_future",
-      "fdv": 328709204.0,
-      "vol_24h": 49564.960843,
-      "oi": 74215.35649020088,
-      "chg24_pct": -6.4083
-    },
-    {
-      "ticker": "TRADOOR",
-      "instrument_type": "perpetual_future",
-      "fdv": 23804045.0,
-      "vol_24h": 500.52116,
-      "oi": 1185.8202655609455,
-      "chg24_pct": -7.89948
-    },
-    {
-      "ticker": "DYM",
-      "instrument_type": "perpetual_future",
-      "fdv": 19184583.0,
-      "vol_24h": 4393.96177,
-      "oi": 15842.197720948592,
-      "chg24_pct": -6.11927
-    },
-    {
-      "ticker": "STX",
-      "instrument_type": "perpetual_future",
-      "fdv": 325698013.0,
-      "vol_24h": 25394.758724,
-      "oi": 101597.197963741,
-      "chg24_pct": -3.52956
-    },
-    {
-      "ticker": "ARCSOL",
-      "instrument_type": "perpetual_future",
-      "fdv": 88050890.0,
-      "vol_24h": 433.8997,
-      "oi": 4150.663706530917,
-      "chg24_pct": 8.68824
-    },
-    {
-      "ticker": "AKE",
-      "instrument_type": "perpetual_future",
-      "fdv": 35906668.0,
-      "vol_24h": 797.824287,
-      "oi": 13266.258293159346,
-      "chg24_pct": -2.63868
-    },
-    {
-      "ticker": "SLP",
-      "instrument_type": "perpetual_future",
-      "fdv": 17383661.0,
-      "vol_24h": 0.0,
-      "oi": 2494.7993524536537,
-      "chg24_pct": -6.25143
-    },
-    {
-      "ticker": "FLOCK",
-      "instrument_type": "perpetual_future",
-      "fdv": 34149077.0,
-      "vol_24h": 679.7264,
-      "oi": 2038.792991991847,
-      "chg24_pct": -11.3468
-    },
-    {
-      "ticker": "METEORA",
-      "instrument_type": "perpetual_future",
-      "fdv": 161761400.0,
-      "vol_24h": 254380.44553,
-      "oi": 222529.92700041455,
-      "chg24_pct": -5.17856
-    },
-    {
-      "ticker": "BEL",
-      "instrument_type": "perpetual_future",
-      "fdv": 17018107.0,
-      "vol_24h": 90409.871546,
-      "oi": 16484.098556733996,
-      "chg24_pct": 2.09472
-    },
-    {
-      "ticker": "POPCAT",
-      "instrument_type": "perpetual_future",
-      "fdv": 51338355.0,
-      "vol_24h": 27394.850664,
-      "oi": 48714.61859310292,
-      "chg24_pct": 7.93586
-    },
-    {
-      "ticker": "BOBA",
-      "instrument_type": "perpetual_future",
-      "fdv": 10795609.0,
-      "vol_24h": 817.17472,
-      "oi": 11081.387893351186,
-      "chg24_pct": -5.15758
-    },
-    {
-      "ticker": "PNUT",
-      "instrument_type": "perpetual_future",
-      "fdv": 42934122.0,
-      "vol_24h": 600.38858,
-      "oi": 7838.948698862472,
-      "chg24_pct": -6.36141
-    },
-    {
-      "ticker": "DBR",
-      "instrument_type": "perpetual_future",
-      "fdv": 150144495.0,
-      "vol_24h": 1697.99945,
-      "oi": 29050.33136867977,
-      "chg24_pct": 0.08536
-    },
-    {
-      "ticker": "MERL",
-      "instrument_type": "perpetual_future",
-      "fdv": 42148985.0,
-      "vol_24h": 0.0,
-      "oi": 34204.2923060783,
-      "chg24_pct": -8.67805
-    },
-    {
-      "ticker": "NVDA",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 5053711650000.0,
-      "vol_24h": 1839834.579309,
-      "oi": 779828.435648538,
-      "chg24_pct": -0.96825
-    },
-    {
-      "ticker": "US",
-      "instrument_type": "perpetual_future",
-      "fdv": 156055230.0,
-      "vol_24h": 313.13192,
-      "oi": 12472.780318827401,
-      "chg24_pct": 7.49629
-    },
-    {
-      "ticker": "QCOM",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 233882600000.0,
-      "vol_24h": 434163.280877,
-      "oi": 146871.5323146254,
-      "chg24_pct": -1.86193
-    },
-    {
-      "ticker": "TSM",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 2425561101600.0,
-      "vol_24h": 152018.373777,
-      "oi": 293920.1653843201,
-      "chg24_pct": 1.20098
-    },
-    {
-      "ticker": "BREV",
-      "instrument_type": "perpetual_future",
-      "fdv": 88902611.0,
-      "vol_24h": 202.38797,
-      "oi": 657.1806615343879,
-      "chg24_pct": 5.94454
-    },
-    {
-      "ticker": "ZK",
-      "instrument_type": "perpetual_future",
-      "fdv": 228632913.0,
-      "vol_24h": 3333.66634,
-      "oi": 15660.907101428274,
-      "chg24_pct": -9.60614
-    },
-    {
-      "ticker": "ENS",
-      "instrument_type": "perpetual_future",
-      "fdv": 440740593.0,
-      "vol_24h": 31109.225841,
-      "oi": 25547.01244436007,
-      "chg24_pct": -6.51227
-    },
-    {
-      "ticker": "FLR",
-      "instrument_type": "perpetual_future",
-      "fdv": 751420503.0,
-      "vol_24h": 1829.895233,
-      "oi": 45474.13802998435,
-      "chg24_pct": -4.51264
-    },
-    {
-      "ticker": "GALA",
-      "instrument_type": "perpetual_future",
-      "fdv": 118074302.0,
-      "vol_24h": 264.83037,
-      "oi": 318.36088344465475,
-      "chg24_pct": -7.28597
-    },
-    {
-      "ticker": "NEAR",
-      "instrument_type": "perpetual_future",
-      "fdv": 2607579124.0,
-      "vol_24h": 709630.69532,
-      "oi": 1043296.1530531398,
-      "chg24_pct": -7.17191
-    },
-    {
-      "ticker": "IDOL",
-      "instrument_type": "perpetual_future",
-      "fdv": 88799671.0,
-      "vol_24h": 17348.986531,
-      "oi": 12929.437247953001,
-      "chg24_pct": -6.13148
-    },
-    {
-      "ticker": "MUBARAK",
-      "instrument_type": "perpetual_future",
-      "fdv": 10160007.0,
-      "vol_24h": 0.0,
-      "oi": 967.2811646042637,
-      "chg24_pct": -5.46133
-    },
-    {
-      "ticker": "BLESS",
-      "instrument_type": "perpetual_future",
-      "fdv": 103422418.0,
-      "vol_24h": 83468.012446,
-      "oi": 18054.338554535876,
-      "chg24_pct": 23.38653
-    },
-    {
-      "ticker": "TAIKO",
-      "instrument_type": "perpetual_future",
-      "fdv": 67562110.0,
-      "vol_24h": 43978.128834,
-      "oi": 13355.010644898608,
-      "chg24_pct": -7.66522
-    },
-    {
-      "ticker": "GIGA",
-      "instrument_type": "perpetual_future",
-      "fdv": 23575448.0,
-      "vol_24h": 3332.95545,
-      "oi": 5287.204346883414,
-      "chg24_pct": -10.92123
-    },
-    {
-      "ticker": "XTZ",
-      "instrument_type": "perpetual_future",
-      "fdv": 244188457.0,
-      "vol_24h": 3940.98917,
-      "oi": 599.3942579094874,
-      "chg24_pct": -6.66488
-    },
-    {
-      "ticker": "QTUM",
-      "instrument_type": "perpetual_future",
-      "fdv": 73879757.0,
-      "vol_24h": 0.0,
-      "oi": 1298.95154043293,
-      "chg24_pct": -5.54986
-    },
-    {
-      "ticker": "BAN",
-      "instrument_type": "perpetual_future",
-      "fdv": 72564593.0,
-      "vol_24h": 0.0,
-      "oi": 16.693327205239534,
-      "chg24_pct": -1.65025
-    },
-    {
-      "ticker": "JUP",
-      "instrument_type": "perpetual_future",
-      "fdv": 1398689354.0,
-      "vol_24h": 229760.199172,
-      "oi": 356740.89843184064,
-      "chg24_pct": -3.79028
-    },
-    {
-      "ticker": "XPD",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": null,
-      "vol_24h": 89726.74576,
-      "oi": 204966.4002590286,
-      "chg24_pct": 1.721
-    },
-    {
-      "ticker": "RPL",
-      "instrument_type": "perpetual_future",
-      "fdv": 28913787.0,
-      "vol_24h": 0.0,
-      "oi": 31926.984678100238,
-      "chg24_pct": -5.29433
-    },
-    {
-      "ticker": "SFP",
-      "instrument_type": "perpetual_future",
-      "fdv": 111927166.0,
-      "vol_24h": 305.33573,
-      "oi": 2141.4442764016767,
-      "chg24_pct": -5.15861
-    },
-    {
-      "ticker": "XLM",
-      "instrument_type": "perpetual_future",
-      "fdv": 9674339930.0,
-      "vol_24h": 63743.366611,
-      "oi": 590973.7595475868,
-      "chg24_pct": -9.57526
-    },
-    {
-      "ticker": "ILV",
-      "instrument_type": "perpetual_future",
-      "fdv": 30087098.0,
-      "vol_24h": 171.736539,
-      "oi": 26522.079801769483,
-      "chg24_pct": -6.9613
-    },
-    {
-      "ticker": "AMD",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 899487878000.0,
-      "vol_24h": 1115878.805133,
-      "oi": 274479.37107937614,
-      "chg24_pct": 2.65366
-    },
-    {
-      "ticker": "SUPER",
-      "instrument_type": "perpetual_future",
-      "fdv": 88344700.0,
-      "vol_24h": 50.00044,
-      "oi": 18960.142628053007,
-      "chg24_pct": -9.11927
-    },
-    {
-      "ticker": "EGLD",
-      "instrument_type": "perpetual_future",
-      "fdv": 81034160.0,
-      "vol_24h": 0.0,
-      "oi": 20345.575732748497,
-      "chg24_pct": -6.6746
-    },
-    {
-      "ticker": "DASH",
-      "instrument_type": "perpetual_future",
-      "fdv": 446162730.0,
-      "vol_24h": 53177.963298,
-      "oi": 42125.754899560874,
-      "chg24_pct": -0.71502
-    },
-    {
-      "ticker": "CBRS",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 49287151524.0,
-      "vol_24h": 319547.011152,
-      "oi": 194565.93663682108,
-      "chg24_pct": -4.37987
-    },
-    {
-      "ticker": "RE_ETH",
-      "instrument_type": "perpetual_future",
-      "fdv": 807072065.0,
-      "vol_24h": 487083.312276,
-      "oi": 216041.38599297605,
-      "chg24_pct": 1.47634
-    },
-    {
-      "ticker": "FET",
-      "instrument_type": "perpetual_future",
-      "fdv": 470708758.0,
-      "vol_24h": 27839.829474,
-      "oi": 181346.68449187442,
-      "chg24_pct": -6.7351
-    },
-    {
-      "ticker": "BASED",
-      "instrument_type": "perpetual_future",
-      "fdv": 89894895.0,
-      "vol_24h": 107430.650993,
-      "oi": 142140.29176254297,
-      "chg24_pct": -2.08318
-    },
-    {
-      "ticker": "RECALL",
-      "instrument_type": "perpetual_future",
-      "fdv": 31155404.0,
-      "vol_24h": 0.0,
-      "oi": 2058.281849019089,
-      "chg24_pct": -8.13815
-    },
-    {
-      "ticker": "ZETA",
-      "instrument_type": "perpetual_future",
-      "fdv": 80958860.0,
-      "vol_24h": 1529.926739,
-      "oi": 24629.017679883702,
-      "chg24_pct": 0.47616
-    },
-    {
-      "ticker": "VVV",
-      "instrument_type": "perpetual_future",
-      "fdv": 1084990560.0,
-      "vol_24h": 938050.01743,
-      "oi": 987949.972523792,
-      "chg24_pct": -14.48441
-    },
-    {
-      "ticker": "USUAL",
-      "instrument_type": "perpetual_future",
-      "fdv": 17592241.0,
-      "vol_24h": 0.0,
-      "oi": 1352.6742655029948,
-      "chg24_pct": -8.01068
-    },
-    {
-      "ticker": "ANTHROPIC",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": null,
-      "vol_24h": 813040.441415,
-      "oi": 938117.5202868057,
-      "chg24_pct": 0.332
-    },
-    {
-      "ticker": "ARKM",
-      "instrument_type": "perpetual_future",
-      "fdv": 121497564.0,
-      "vol_24h": 971.315036,
-      "oi": 2539.3649729481285,
-      "chg24_pct": -8.66581
-    },
-    {
-      "ticker": "0G",
-      "instrument_type": "perpetual_future",
-      "fdv": 247413941.0,
-      "vol_24h": 7671.727824,
-      "oi": 1256.7804047539355,
-      "chg24_pct": -9.98311
-    },
-    {
-      "ticker": "WHITEWHALE",
-      "instrument_type": "perpetual_future",
-      "fdv": 3138198.0,
-      "vol_24h": 11871.425914,
-      "oi": 6307.338448626424,
-      "chg24_pct": -1.14491
-    },
-    {
-      "ticker": "BSB",
-      "instrument_type": "perpetual_future",
-      "fdv": 336712193.0,
-      "vol_24h": 3307.07308,
-      "oi": 1913.7927681832034,
-      "chg24_pct": 0.79038
-    },
-    {
-      "ticker": "YB",
-      "instrument_type": "perpetual_future",
-      "fdv": 54162761.0,
-      "vol_24h": 0.0,
-      "oi": 625.0419491334912,
-      "chg24_pct": -9.43696
-    },
-    {
-      "ticker": "B3",
-      "instrument_type": "perpetual_future",
-      "fdv": 52267772.0,
-      "vol_24h": 184.446664,
-      "oi": 4625.005732898369,
-      "chg24_pct": -8.21186
-    },
-    {
-      "ticker": "SCR",
-      "instrument_type": "perpetual_future",
-      "fdv": 31480291.0,
-      "vol_24h": 383.76745,
-      "oi": 408.08370842929287,
-      "chg24_pct": 0.13865
-    },
-    {
-      "ticker": "URNM",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 1302777683.0,
-      "vol_24h": 69278.309195,
-      "oi": 16147.407809820272,
-      "chg24_pct": -2.24465
-    },
-    {
-      "ticker": "DIA",
-      "instrument_type": "perpetual_future",
-      "fdv": 18699191.0,
-      "vol_24h": 0.0,
-      "oi": 13978.200850273013,
-      "chg24_pct": -7.86519
-    },
-    {
-      "ticker": "KMNO",
-      "instrument_type": "perpetual_future",
-      "fdv": 206670023.0,
-      "vol_24h": 49906.938487,
-      "oi": 53904.900190337255,
-      "chg24_pct": 2.93921
-    },
-    {
-      "ticker": "ENSO",
-      "instrument_type": "perpetual_future",
-      "fdv": 65455021.0,
-      "vol_24h": 4183.58095,
-      "oi": 6004.811311328816,
-      "chg24_pct": 5.63581
-    },
-    {
-      "ticker": "BTR0",
-      "instrument_type": "perpetual_future",
-      "fdv": 19254120.0,
-      "vol_24h": 1598.581917,
-      "oi": 1396.4095118673538,
-      "chg24_pct": -6.06975
-    },
-    {
-      "ticker": "SKRS",
-      "instrument_type": "perpetual_future",
-      "fdv": 80404278.0,
-      "vol_24h": 958.974857,
-      "oi": 4138.163010625914,
-      "chg24_pct": -8.95046
-    },
-    {
-      "ticker": "BR",
-      "instrument_type": "perpetual_future",
-      "fdv": 166852076.0,
-      "vol_24h": 10641.68842,
-      "oi": 1467.4433059733924,
-      "chg24_pct": 22.84616
-    },
-    {
-      "ticker": "YGG",
-      "instrument_type": "perpetual_future",
-      "fdv": 23884513.0,
-      "vol_24h": 697.18643,
-      "oi": 299.7242957271533,
-      "chg24_pct": -9.84229
-    },
-    {
-      "ticker": "SUSHI",
-      "instrument_type": "perpetual_future",
-      "fdv": 48259259.0,
-      "vol_24h": 481.551057,
-      "oi": 5216.7155538014995,
-      "chg24_pct": -6.79452
-    },
-    {
-      "ticker": "LPT",
-      "instrument_type": "perpetual_future",
-      "fdv": 81828645.0,
-      "vol_24h": 214.586322,
-      "oi": 2666.855568488942,
-      "chg24_pct": -6.485
-    },
-    {
-      "ticker": "1000000MOG",
-      "instrument_type": "perpetual_future",
-      "fdv": 42050271.0,
-      "vol_24h": 310.57737,
-      "oi": 6099.427155781809,
-      "chg24_pct": -5.78936
-    },
-    {
-      "ticker": "ONT",
-      "instrument_type": "perpetual_future",
-      "fdv": 43826734.0,
-      "vol_24h": 222.71688,
-      "oi": 370.7449770446268,
-      "chg24_pct": -5.01127
-    },
-    {
-      "ticker": "1000FLOKI",
-      "instrument_type": "perpetual_future",
-      "fdv": 237204363.0,
-      "vol_24h": 117.37543,
-      "oi": 12485.762233290536,
-      "chg24_pct": -7.12969
-    },
-    {
-      "ticker": "WLD",
-      "instrument_type": "perpetual_future",
-      "fdv": 5677856659.0,
-      "vol_24h": 992616.135144,
-      "oi": 1994060.0055262744,
-      "chg24_pct": -9.0388
-    },
-    {
-      "ticker": "XPIN",
-      "instrument_type": "perpetual_future",
-      "fdv": 135174620.0,
-      "vol_24h": 1968.647499,
-      "oi": 3488.147842594581,
-      "chg24_pct": -3.86386
-    },
-    {
-      "ticker": "SONIC",
-      "instrument_type": "perpetual_future",
-      "fdv": 59684560.0,
-      "vol_24h": 7683.0,
-      "oi": 57458.258788735635,
-      "chg24_pct": -6.27934
-    },
-    {
-      "ticker": "MINA",
-      "instrument_type": "perpetual_future",
-      "fdv": 51846385.0,
-      "vol_24h": 726.0813,
-      "oi": 3550.2202416933524,
-      "chg24_pct": -6.47313
-    },
-    {
-      "ticker": "CYBER",
-      "instrument_type": "perpetual_future",
-      "fdv": 35101993.0,
-      "vol_24h": 0.0,
-      "oi": 465.2388208082089,
-      "chg24_pct": -5.74091
-    },
-    {
-      "ticker": "TREE",
-      "instrument_type": "perpetual_future",
-      "fdv": 42930667.0,
-      "vol_24h": 0.042158,
-      "oi": 471.9276318747471,
-      "chg24_pct": -7.47316
-    },
-    {
-      "ticker": "BITLIGHT",
-      "instrument_type": "perpetual_future",
-      "fdv": 53215704.0,
-      "vol_24h": 153.19782,
-      "oi": 3190.92491419836,
-      "chg24_pct": 9.3929
-    },
-    {
-      "ticker": "BARD",
-      "instrument_type": "perpetual_future",
-      "fdv": 151183130.0,
-      "vol_24h": 4716.90734,
-      "oi": 4818.952561559865,
-      "chg24_pct": -3.09678
-    },
-    {
-      "ticker": "RUNE",
-      "instrument_type": "perpetual_future",
-      "fdv": 149312188.0,
-      "vol_24h": 40017.666304,
-      "oi": 19078.517707360206,
-      "chg24_pct": -0.40391
-    },
-    {
-      "ticker": "GOAT",
-      "instrument_type": "perpetual_future",
-      "fdv": 12822509.0,
-      "vol_24h": 6597.7662,
-      "oi": 12867.839687067555,
-      "chg24_pct": -7.76263
-    },
-    {
-      "ticker": "W",
-      "instrument_type": "perpetual_future",
-      "fdv": 106010280.0,
-      "vol_24h": 344664.356984,
-      "oi": 22550.942979752323,
-      "chg24_pct": -16.15391
-    },
-    {
-      "ticker": "ICX",
-      "instrument_type": "perpetual_future",
-      "fdv": 29188852.0,
-      "vol_24h": 595.27311,
-      "oi": 279.0991901923855,
-      "chg24_pct": -5.65071
-    },
-    {
-      "ticker": "GLM",
-      "instrument_type": "perpetual_future",
-      "fdv": 102212728.0,
-      "vol_24h": 0.0,
-      "oi": 98158.6388717646,
-      "chg24_pct": -5.83262
-    },
-    {
-      "ticker": "1NEIRO",
-      "instrument_type": "perpetual_future",
-      "fdv": 26907037.0,
-      "vol_24h": 0.0,
-      "oi": 19714.477170918864,
-      "chg24_pct": -7.20831
-    },
-    {
-      "ticker": "CARV",
-      "instrument_type": "perpetual_future",
-      "fdv": 33394695.0,
-      "vol_24h": 230.042152,
-      "oi": 256.8170054603314,
-      "chg24_pct": -16.33742
-    },
-    {
-      "ticker": "VANATOKEN",
-      "instrument_type": "perpetual_future",
-      "fdv": 129786715.0,
-      "vol_24h": 0.0,
-      "oi": 311.25757377442284,
-      "chg24_pct": -5.61769
-    },
-    {
-      "ticker": "BIGTIME",
-      "instrument_type": "perpetual_future",
-      "fdv": 39652965.0,
-      "vol_24h": 0.0,
-      "oi": 318.7219727133303,
-      "chg24_pct": -7.54867
-    },
-    {
-      "ticker": "ASR",
-      "instrument_type": "perpetual_future",
-      "fdv": 8540888.0,
-      "vol_24h": 0.0,
-      "oi": 2620.4388427894155,
-      "chg24_pct": -4.19169
-    },
-    {
-      "ticker": "OPENAI",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": null,
-      "vol_24h": 329454.222087,
-      "oi": 558290.2316105842,
-      "chg24_pct": 0.073
-    },
-    {
-      "ticker": "IMX",
-      "instrument_type": "perpetual_future",
-      "fdv": 263560355.0,
-      "vol_24h": 2015.4945,
-      "oi": 2941.450260027677,
-      "chg24_pct": -6.6206
-    },
-    {
-      "ticker": "CATI",
-      "instrument_type": "perpetual_future",
-      "fdv": 62066360.0,
-      "vol_24h": 2565.946,
-      "oi": 2852.596230223158,
-      "chg24_pct": 1.24589
-    },
-    {
-      "ticker": "API3",
-      "instrument_type": "perpetual_future",
-      "fdv": 42628386.0,
-      "vol_24h": 6323.0,
-      "oi": 33158.73601071084,
-      "chg24_pct": -6.0332
-    },
-    {
-      "ticker": "MON",
-      "instrument_type": "perpetual_future",
-      "fdv": 2017582545.0,
-      "vol_24h": 46431.766283,
-      "oi": 473137.5449270875,
-      "chg24_pct": -5.22227
-    },
-    {
-      "ticker": "SSV",
-      "instrument_type": "perpetual_future",
-      "fdv": 32545026.0,
-      "vol_24h": 761.611009,
-      "oi": 156.91274959909276,
-      "chg24_pct": -5.9923
-    },
-    {
-      "ticker": "WAVES",
-      "instrument_type": "perpetual_future",
-      "fdv": 27801895.0,
-      "vol_24h": 2683.54846,
-      "oi": 1232.2739657592758,
-      "chg24_pct": -2.67764
-    },
-    {
-      "ticker": "FLUX",
-      "instrument_type": "perpetual_future",
-      "fdv": 19677300.0,
-      "vol_24h": 0.0,
-      "oi": 4032.817580968269,
-      "chg24_pct": -7.7946
-    },
-    {
-      "ticker": "HUMIDIFI",
-      "instrument_type": "perpetual_future",
-      "fdv": 63060100.0,
-      "vol_24h": 0.0,
-      "oi": 314.58495386444565,
-      "chg24_pct": -1.0016
-    },
-    {
-      "ticker": "T",
-      "instrument_type": "perpetual_future",
-      "fdv": 38734218.0,
-      "vol_24h": 5.172,
-      "oi": 200.180539638609,
-      "chg24_pct": -5.2506
-    },
-    {
-      "ticker": "IOST",
-      "instrument_type": "perpetual_future",
-      "fdv": 25643231.0,
-      "vol_24h": 0.0,
-      "oi": 434.85848679379137,
-      "chg24_pct": -2.76124
-    },
-    {
-      "ticker": "ZIL",
-      "instrument_type": "perpetual_future",
-      "fdv": 61756833.0,
-      "vol_24h": 219.6544,
-      "oi": 6973.518829400861,
-      "chg24_pct": -4.2174
-    },
-    {
-      "ticker": "WLFI",
-      "instrument_type": "perpetual_future",
-      "fdv": 5766318008.0,
-      "vol_24h": 64804.97988,
-      "oi": 471460.90581552783,
-      "chg24_pct": -2.64927
-    },
-    {
-      "ticker": "PUFFER",
-      "instrument_type": "perpetual_future",
-      "fdv": 15375842.0,
-      "vol_24h": 0.0,
-      "oi": 18764.102692198176,
-      "chg24_pct": -5.76258
-    },
-    {
-      "ticker": "TOWNS",
-      "instrument_type": "perpetual_future",
-      "fdv": 20655317.0,
-      "vol_24h": 1696.641184,
-      "oi": 997.6640412447357,
-      "chg24_pct": -6.12267
-    },
-    {
-      "ticker": "AZTEC",
-      "instrument_type": "perpetual_future",
-      "fdv": 147691554.0,
-      "vol_24h": 1454.468584,
-      "oi": 32299.34968601846,
-      "chg24_pct": -9.55647
-    },
-    {
-      "ticker": "STG",
-      "instrument_type": "perpetual_future",
-      "fdv": 26169604.0,
-      "vol_24h": 20920.87092,
-      "oi": 39069.829172057885,
-      "chg24_pct": -5.74355
-    },
-    {
-      "ticker": "LINK",
-      "instrument_type": "perpetual_future",
-      "fdv": 7604834449.0,
-      "vol_24h": 442521.955929,
-      "oi": 1745019.0524201798,
-      "chg24_pct": -5.82988
-    },
-    {
-      "ticker": "BCHSV",
-      "instrument_type": "perpetual_future",
-      "fdv": 228137088.0,
-      "vol_24h": 99.988898,
-      "oi": 746.5766169924715,
-      "chg24_pct": -4.68778
-    },
-    {
-      "ticker": "MOVE",
-      "instrument_type": "perpetual_future",
-      "fdv": 109040746.0,
-      "vol_24h": 4.97496,
-      "oi": 3094.406058819708,
-      "chg24_pct": -8.75241
-    },
-    {
-      "ticker": "ASTR",
-      "instrument_type": "perpetual_future",
-      "fdv": 45058934.0,
-      "vol_24h": 31.196827,
-      "oi": 6734.882505457828,
-      "chg24_pct": -6.52078
-    },
-    {
-      "ticker": "FLUID",
-      "instrument_type": "perpetual_future",
-      "fdv": 92341897.0,
-      "vol_24h": 0.0,
-      "oi": 771.2863062081921,
-      "chg24_pct": -7.83573
-    },
-    {
-      "ticker": "SCRT",
-      "instrument_type": "perpetual_future",
-      "fdv": 19253031.0,
-      "vol_24h": 0.0,
-      "oi": 37099.05191461297,
-      "chg24_pct": -7.09924
-    },
-    {
-      "ticker": "PTB",
-      "instrument_type": "perpetual_future",
-      "fdv": 2782409.0,
-      "vol_24h": 79.779864,
-      "oi": 6505.243104645534,
-      "chg24_pct": -2.66092
+      "oi": 256.7911065387516,
+      "chg24_pct": 0.36995
     },
     {
       "ticker": "BERA",
       "instrument_type": "perpetual_future",
-      "fdv": 119943878.0,
-      "vol_24h": 1221.48219,
-      "oi": 103341.62307227321,
-      "chg24_pct": -7.50443
+      "fdv": 114728918.0,
+      "vol_24h": 1748.6531,
+      "oi": 99767.66638733103,
+      "chg24_pct": -4.10517
     },
     {
-      "ticker": "CHILLGUY",
+      "ticker": "CORE",
       "instrument_type": "perpetual_future",
-      "fdv": 8546722.0,
-      "vol_24h": 2107.86674,
-      "oi": 11403.576811825891,
-      "chg24_pct": -4.45384
-    },
-    {
-      "ticker": "EUL",
-      "instrument_type": "perpetual_future",
-      "fdv": 27688643.0,
-      "vol_24h": 57.860591,
-      "oi": 1025.2799076789347,
-      "chg24_pct": -6.34086
-    },
-    {
-      "ticker": "BMT",
-      "instrument_type": "perpetual_future",
-      "fdv": 12126720.0,
-      "vol_24h": 580.1904,
-      "oi": 283.22684105090144,
-      "chg24_pct": -8.17072
-    },
-    {
-      "ticker": "NOT",
-      "instrument_type": "perpetual_future",
-      "fdv": 40485591.0,
-      "vol_24h": 2687.563852,
-      "oi": 8007.305195258054,
-      "chg24_pct": -4.43349
-    },
-    {
-      "ticker": "BIO",
-      "instrument_type": "perpetual_future",
-      "fdv": 95607308.0,
-      "vol_24h": 119057.084551,
-      "oi": 74948.03702834077,
-      "chg24_pct": -4.89925
-    },
-    {
-      "ticker": "1INCH",
-      "instrument_type": "perpetual_future",
-      "fdv": 105533623.0,
-      "vol_24h": 3551.25,
-      "oi": 38817.71778729188,
-      "chg24_pct": -4.76877
-    },
-    {
-      "ticker": "ESPORTS",
-      "instrument_type": "perpetual_future",
-      "fdv": 26055765.0,
-      "vol_24h": 42494.190277,
-      "oi": 66079.69641556469,
-      "chg24_pct": 0.31256
-    },
-    {
-      "ticker": "STO",
-      "instrument_type": "perpetual_future",
-      "fdv": 48506346.0,
-      "vol_24h": 1577.438711,
-      "oi": 588.4050726628731,
-      "chg24_pct": -2.63872
-    },
-    {
-      "ticker": "AXL",
-      "instrument_type": "perpetual_future",
-      "fdv": 51673136.0,
-      "vol_24h": 3086.85853,
-      "oi": 1879.15314805841,
-      "chg24_pct": -8.15412
-    },
-    {
-      "ticker": "GMT",
-      "instrument_type": "perpetual_future",
-      "fdv": 39692009.0,
-      "vol_24h": 821.480561,
-      "oi": 557.9355451089318,
-      "chg24_pct": -7.14182
-    },
-    {
-      "ticker": "CROSS",
-      "instrument_type": "perpetual_future",
-      "fdv": 87500620.0,
-      "vol_24h": 1074.1218,
-      "oi": 100.13022865450046,
-      "chg24_pct": -6.29003
-    },
-    {
-      "ticker": "TLM",
-      "instrument_type": "perpetual_future",
-      "fdv": 6787608.0,
-      "vol_24h": 274.202121,
-      "oi": 562.3558069850276,
-      "chg24_pct": -8.72801
-    },
-    {
-      "ticker": "TAO",
-      "instrument_type": "perpetual_future",
-      "fdv": 4641432167.0,
-      "vol_24h": 860037.267193,
-      "oi": 1199710.0728077493,
-      "chg24_pct": -5.5927
-    },
-    {
-      "ticker": "MELANIA",
-      "instrument_type": "perpetual_future",
-      "fdv": 80911101.0,
-      "vol_24h": 201.06324,
-      "oi": 54278.61917960145,
-      "chg24_pct": 1.12127
-    },
-    {
-      "ticker": "NMR",
-      "instrument_type": "perpetual_future",
-      "fdv": 97632978.0,
+      "fdv": 54692974.0,
       "vol_24h": 0.0,
-      "oi": 6477.256395781609,
-      "chg24_pct": 1.23175
+      "oi": 11849.5609302976,
+      "chg24_pct": -1.53031
     },
     {
-      "ticker": "BAT",
+      "ticker": "POWR",
       "instrument_type": "perpetual_future",
-      "fdv": 131072298.0,
-      "vol_24h": 4794.38079,
-      "oi": 112384.91048353665,
-      "chg24_pct": -5.21062
+      "fdv": 43076460.0,
+      "vol_24h": 0.0,
+      "oi": 4.166063215090118,
+      "chg24_pct": -0.34222
     },
     {
-      "ticker": "SYRUP",
+      "ticker": "ZK",
       "instrument_type": "perpetual_future",
-      "fdv": 165855268.0,
-      "vol_24h": 130.12674,
-      "oi": 141390.58468109762,
-      "chg24_pct": -3.49592
+      "fdv": 222759015.0,
+      "vol_24h": 5638.29108,
+      "oi": 16515.936758940657,
+      "chg24_pct": -2.83354
     },
     {
-      "ticker": "NXPC",
+      "ticker": "BREV",
       "instrument_type": "perpetual_future",
-      "fdv": 298929186.0,
-      "vol_24h": 1713.26347,
-      "oi": 69322.87160477793,
-      "chg24_pct": -0.26581
+      "fdv": 76418137.0,
+      "vol_24h": 2052.65718,
+      "oi": 562.1891478597862,
+      "chg24_pct": -8.1774
     },
     {
-      "ticker": "SPELL",
+      "ticker": "GWEI",
       "instrument_type": "perpetual_future",
-      "fdv": 21984276.0,
-      "vol_24h": 7130.776716,
-      "oi": 28209.61252155406,
-      "chg24_pct": -6.37966
+      "fdv": 1183329494.0,
+      "vol_24h": 711.21852,
+      "oi": 89566.71423563079,
+      "chg24_pct": -1.52758
+    },
+    {
+      "ticker": "BARD",
+      "instrument_type": "perpetual_future",
+      "fdv": 141807325.0,
+      "vol_24h": 374.282195,
+      "oi": 4177.928954189285,
+      "chg24_pct": -4.29855
+    },
+    {
+      "ticker": "DEEP",
+      "instrument_type": "perpetual_future",
+      "fdv": 147696389.0,
+      "vol_24h": 1760.4927,
+      "oi": 6049.491402687814,
+      "chg24_pct": -5.45864
     },
     {
       "ticker": "BCH",
       "instrument_type": "perpetual_future",
-      "fdv": 3828467773.0,
-      "vol_24h": 58543.299528,
-      "oi": 71740.6652512102,
-      "chg24_pct": -5.0142
+      "fdv": 3825598359.0,
+      "vol_24h": 118451.512967,
+      "oi": 184055.71567292756,
+      "chg24_pct": 0.50899
     },
     {
-      "ticker": "OPG",
-      "instrument_type": "perpetual_future",
-      "fdv": 174210907.0,
-      "vol_24h": 11438.32683,
-      "oi": 18619.160417842748,
-      "chg24_pct": 9.92623
-    },
-    {
-      "ticker": "CTC",
-      "instrument_type": "perpetual_future",
-      "fdv": 51142126.0,
-      "vol_24h": 0.0,
-      "oi": 854.0748699861621,
-      "chg24_pct": -4.9169
-    },
-    {
-      "ticker": "ACE",
-      "instrument_type": "perpetual_future",
-      "fdv": 11147557.0,
-      "vol_24h": 766.6,
-      "oi": 11151.51989049363,
-      "chg24_pct": -6.65188
-    },
-    {
-      "ticker": "BRETT",
-      "instrument_type": "perpetual_future",
-      "fdv": 52442032.0,
-      "vol_24h": 529.994778,
-      "oi": 6648.958799226656,
-      "chg24_pct": -7.79925
-    },
-    {
-      "ticker": "OP",
-      "instrument_type": "perpetual_future",
-      "fdv": 420372844.0,
-      "vol_24h": 73207.845048,
-      "oi": 319698.25842104986,
-      "chg24_pct": -5.17758
-    },
-    {
-      "ticker": "ALCH",
-      "instrument_type": "perpetual_future",
-      "fdv": 68104910.0,
-      "vol_24h": 0.0,
-      "oi": 2858.59391320421,
-      "chg24_pct": -6.39383
-    },
-    {
-      "ticker": "MEW",
-      "instrument_type": "perpetual_future",
-      "fdv": 31337522.0,
-      "vol_24h": 9.127024,
-      "oi": 49472.90164299524,
-      "chg24_pct": -7.55791
-    },
-    {
-      "ticker": "XNY",
-      "instrument_type": "perpetual_future",
-      "fdv": 49320606.0,
-      "vol_24h": 25.71102,
-      "oi": 7347.145310759304,
-      "chg24_pct": -7.07245
-    },
-    {
-      "ticker": "BLUR",
-      "instrument_type": "perpetual_future",
-      "fdv": 44222298.0,
-      "vol_24h": 8304.28146,
-      "oi": 52618.45528073499,
-      "chg24_pct": -6.29715
-    },
-    {
-      "ticker": "SWARMS",
-      "instrument_type": "perpetual_future",
-      "fdv": 7011077.0,
-      "vol_24h": 2419.655915,
-      "oi": 2695.3272891677625,
-      "chg24_pct": -8.72422
-    },
-    {
-      "ticker": "RKLB",
+      "ticker": "HIMS",
       "instrument_type": "perpetual_rwa_future",
-      "fdv": 58054571430.0,
-      "vol_24h": 258619.794304,
-      "oi": 267334.7922498721,
-      "chg24_pct": -6.48079
+      "fdv": 7473693084.0,
+      "vol_24h": 137099.791262,
+      "oi": 79768.29619215289,
+      "chg24_pct": 1.64532
     },
     {
-      "ticker": "LQTY",
+      "ticker": "CATI",
       "instrument_type": "perpetual_future",
-      "fdv": 18801452.0,
-      "vol_24h": 1333.46837,
-      "oi": 12898.96102832078,
-      "chg24_pct": -6.67152
+      "fdv": 60072052.0,
+      "vol_24h": 0.0,
+      "oi": 2761.6810080055157,
+      "chg24_pct": -3.55051
     },
     {
-      "ticker": "SQD",
+      "ticker": "TRADOOR",
       "instrument_type": "perpetual_future",
-      "fdv": 52179997.0,
-      "vol_24h": 20215.25173,
-      "oi": 76679.47862577497,
-      "chg24_pct": -5.44306
+      "fdv": 24540129.0,
+      "vol_24h": 0.0,
+      "oi": 1221.1555442924137,
+      "chg24_pct": 3.78527
     },
     {
-      "ticker": "PLUME",
+      "ticker": "YGG",
       "instrument_type": "perpetual_future",
-      "fdv": 104546432.0,
-      "vol_24h": 11176.189718,
-      "oi": 15737.542254372507,
-      "chg24_pct": -9.52766
+      "fdv": 23099851.0,
+      "vol_24h": 0.022547,
+      "oi": 289.815668432907,
+      "chg24_pct": -2.22286
     },
     {
-      "ticker": "AIOT",
+      "ticker": "SAFE",
       "instrument_type": "perpetual_future",
-      "fdv": 59425397.0,
-      "vol_24h": 100.21385,
-      "oi": 28687.563327504977,
-      "chg24_pct": -1.28734
+      "fdv": 78996634.0,
+      "vol_24h": 0.0,
+      "oi": 7578.164744777438,
+      "chg24_pct": -3.6156
     },
     {
-      "ticker": "S",
+      "ticker": "ARCSOL",
       "instrument_type": "perpetual_future",
-      "fdv": 95923425.0,
-      "vol_24h": 87880.343886,
-      "oi": 107075.66689480495,
-      "chg24_pct": -9.40785
+      "fdv": 82538712.0,
+      "vol_24h": 4957.10865,
+      "oi": 3551.8677816787113,
+      "chg24_pct": -3.48907
     },
     {
-      "ticker": "VIRTUAL",
+      "ticker": "ONDO",
       "instrument_type": "perpetual_future",
-      "fdv": 564252576.0,
-      "vol_24h": 31138.040716,
-      "oi": 188994.87114517094,
-      "chg24_pct": -6.35506
+      "fdv": 3009754070.0,
+      "vol_24h": 172032.559102,
+      "oi": 133266.1810154966,
+      "chg24_pct": -2.12239
+    },
+    {
+      "ticker": "EGLD",
+      "instrument_type": "perpetual_future",
+      "fdv": 79447260.0,
+      "vol_24h": 29.978773,
+      "oi": 19951.39443759145,
+      "chg24_pct": -1.76992
+    },
+    {
+      "ticker": "META",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 1437899516821.0,
+      "vol_24h": 172322.825074,
+      "oi": 7607.618742794504,
+      "chg24_pct": 0.75663
+    },
+    {
+      "ticker": "BBX",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 5347810339.0,
+      "vol_24h": 217894.290916,
+      "oi": 405839.841022189,
+      "chg24_pct": 3.39943
+    },
+    {
+      "ticker": "ZKC",
+      "instrument_type": "perpetual_future",
+      "fdv": 48042627.0,
+      "vol_24h": 29.95632,
+      "oi": 1925.1974879767467,
+      "chg24_pct": -2.14902
+    },
+    {
+      "ticker": "RARE",
+      "instrument_type": "perpetual_future",
+      "fdv": 12138109.0,
+      "vol_24h": 708.22856,
+      "oi": 18953.155085224003,
+      "chg24_pct": -2.70836
+    },
+    {
+      "ticker": "ANIME",
+      "instrument_type": "perpetual_future",
+      "fdv": 26427566.0,
+      "vol_24h": 0.0,
+      "oi": 9557.931515154543,
+      "chg24_pct": -0.23629
+    },
+    {
+      "ticker": "STX",
+      "instrument_type": "perpetual_future",
+      "fdv": 313018688.0,
+      "vol_24h": 55814.653979,
+      "oi": 76887.14097794116,
+      "chg24_pct": -3.7416
+    },
+    {
+      "ticker": "GIGA",
+      "instrument_type": "perpetual_future",
+      "fdv": 22991981.0,
+      "vol_24h": 2635.490526,
+      "oi": 2642.651349051374,
+      "chg24_pct": -2.44601
+    },
+    {
+      "ticker": "MERL",
+      "instrument_type": "perpetual_future",
+      "fdv": 41387816.0,
+      "vol_24h": 1931.10955,
+      "oi": 35404.47750215994,
+      "chg24_pct": -4.47548
+    },
+    {
+      "ticker": "IRYS",
+      "instrument_type": "perpetual_future",
+      "fdv": 156679574.0,
+      "vol_24h": 1488.66556,
+      "oi": 5598.181546866963,
+      "chg24_pct": 3.99177
+    },
+    {
+      "ticker": "NOK",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 75693501380.0,
+      "vol_24h": 634913.77867,
+      "oi": 243553.14249295805,
+      "chg24_pct": 2.29927
+    },
+    {
+      "ticker": "NIL",
+      "instrument_type": "perpetual_future",
+      "fdv": 35551867.0,
+      "vol_24h": 217.166089,
+      "oi": 28560.80875961985,
+      "chg24_pct": -3.49401
+    },
+    {
+      "ticker": "IMX",
+      "instrument_type": "perpetual_future",
+      "fdv": 267259311.0,
+      "vol_24h": 1982.64066,
+      "oi": 2977.52123733376,
+      "chg24_pct": -3.33563
+    },
+    {
+      "ticker": "DOOD",
+      "instrument_type": "perpetual_future",
+      "fdv": 14960759.0,
+      "vol_24h": 4022.251761,
+      "oi": 2106.0588202979466,
+      "chg24_pct": 3.32116
+    },
+    {
+      "ticker": "PROMPT",
+      "instrument_type": "perpetual_future",
+      "fdv": 22380301.0,
+      "vol_24h": 0.0,
+      "oi": 2009.7909776914357,
+      "chg24_pct": -4.39098
+    },
+    {
+      "ticker": "NBIS",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 61914912000.0,
+      "vol_24h": 506868.451373,
+      "oi": 511376.6507461483,
+      "chg24_pct": -6.27473
+    },
+    {
+      "ticker": "GAS",
+      "instrument_type": "perpetual_future",
+      "fdv": 67244265.0,
+      "vol_24h": 0.0,
+      "oi": 809.5049925837886,
+      "chg24_pct": -1.15048
+    },
+    {
+      "ticker": "SEI",
+      "instrument_type": "perpetual_future",
+      "fdv": 526519711.0,
+      "vol_24h": 19863.55387,
+      "oi": 227978.17726194471,
+      "chg24_pct": 0.44749
+    },
+    {
+      "ticker": "ALGO",
+      "instrument_type": "perpetual_future",
+      "fdv": 789676553.0,
+      "vol_24h": 92812.428153,
+      "oi": 43191.02197895493,
+      "chg24_pct": -5.66551
+    },
+    {
+      "ticker": "ME",
+      "instrument_type": "perpetual_future",
+      "fdv": 59933813.0,
+      "vol_24h": 0.0,
+      "oi": 11474.140201860786,
+      "chg24_pct": -0.82762
+    },
+    {
+      "ticker": "NEO",
+      "instrument_type": "perpetual_future",
+      "fdv": 202886808.0,
+      "vol_24h": 8047.801812,
+      "oi": 25515.80710857634,
+      "chg24_pct": -1.54878
+    },
+    {
+      "ticker": "FF0",
+      "instrument_type": "perpetual_future",
+      "fdv": 661938259.0,
+      "vol_24h": 2478.12988,
+      "oi": 17024.159191358245,
+      "chg24_pct": 0.17991
+    },
+    {
+      "ticker": "LTC",
+      "instrument_type": "perpetual_future",
+      "fdv": 3194287328.0,
+      "vol_24h": 199239.545278,
+      "oi": 787502.4256196409,
+      "chg24_pct": -2.31243
+    },
+    {
+      "ticker": "METIS",
+      "instrument_type": "perpetual_future",
+      "fdv": 29964460.0,
+      "vol_24h": 1450.995273,
+      "oi": 2529.1829182418837,
+      "chg24_pct": 0.72663
+    },
+    {
+      "ticker": "ORCA",
+      "instrument_type": "perpetual_future",
+      "fdv": 85102238.0,
+      "vol_24h": 3877.510307,
+      "oi": 24470.02813466043,
+      "chg24_pct": -2.27482
     },
     {
       "ticker": "DOGE",
       "instrument_type": "perpetual_future",
-      "fdv": 12293274225.0,
-      "vol_24h": 378813.464369,
-      "oi": 258265.13114287282,
-      "chg24_pct": -5.59114
+      "fdv": 11834942246.0,
+      "vol_24h": 124822.436429,
+      "oi": 268724.8862497939,
+      "chg24_pct": -2.77818
     },
     {
-      "ticker": "ZORA",
+      "ticker": "AVAX",
       "instrument_type": "perpetual_future",
-      "fdv": 71309799.0,
-      "vol_24h": 4968.687744,
-      "oi": 49690.99085282085,
-      "chg24_pct": -9.9076
+      "fdv": 2916807419.0,
+      "vol_24h": 372671.40001,
+      "oi": 1123044.3962024995,
+      "chg24_pct": -0.27732
+    },
+    {
+      "ticker": "GUA",
+      "instrument_type": "perpetual_future",
+      "fdv": 414986806.0,
+      "vol_24h": 0.0,
+      "oi": 14636.789844034818,
+      "chg24_pct": -24.14266
+    },
+    {
+      "ticker": "STEEM",
+      "instrument_type": "perpetual_future",
+      "fdv": 22007965.0,
+      "vol_24h": 0.0,
+      "oi": 3920.609857319077,
+      "chg24_pct": -0.09114
+    },
+    {
+      "ticker": "RKLB",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 51438121620.0,
+      "vol_24h": 87327.997612,
+      "oi": 257291.13222178107,
+      "chg24_pct": -6.58116
+    },
+    {
+      "ticker": "WCT",
+      "instrument_type": "perpetual_future",
+      "fdv": 44586261.0,
+      "vol_24h": 3194.65824,
+      "oi": 5547.216798094259,
+      "chg24_pct": -1.07925
+    },
+    {
+      "ticker": "IP",
+      "instrument_type": "perpetual_future",
+      "fdv": 318403687.0,
+      "vol_24h": 20939.75718,
+      "oi": 116669.08084000458,
+      "chg24_pct": 2.24274
+    },
+    {
+      "ticker": "HUMIDIFI",
+      "instrument_type": "perpetual_future",
+      "fdv": 56725826.0,
+      "vol_24h": 1225.33387,
+      "oi": 96.58693248500529,
+      "chg24_pct": -7.87043
+    },
+    {
+      "ticker": "OP",
+      "instrument_type": "perpetual_future",
+      "fdv": 427790183.0,
+      "vol_24h": 130162.163656,
+      "oi": 449271.3068613695,
+      "chg24_pct": -0.21094
+    },
+    {
+      "ticker": "ILV",
+      "instrument_type": "perpetual_future",
+      "fdv": 29784056.0,
+      "vol_24h": 0.0,
+      "oi": 26117.364922566758,
+      "chg24_pct": -2.29589
+    },
+    {
+      "ticker": "HAEDAL",
+      "instrument_type": "perpetual_future",
+      "fdv": 16338769.0,
+      "vol_24h": 29.99925,
+      "oi": 899.4744627616278,
+      "chg24_pct": -2.69888
+    },
+    {
+      "ticker": "IOTA",
+      "instrument_type": "perpetual_future",
+      "fdv": 202263918.0,
+      "vol_24h": 32.0711,
+      "oi": 500.15802274304946,
+      "chg24_pct": -0.8029
+    },
+    {
+      "ticker": "DEXE",
+      "instrument_type": "perpetual_future",
+      "fdv": 2198292873.0,
+      "vol_24h": 138842.615572,
+      "oi": 106965.83764139493,
+      "chg24_pct": 1.71675
+    },
+    {
+      "ticker": "MOODENG",
+      "instrument_type": "perpetual_future",
+      "fdv": 37261086.0,
+      "vol_24h": 238.92252,
+      "oi": 31920.687490323973,
+      "chg24_pct": -2.27954
+    },
+    {
+      "ticker": "BASED",
+      "instrument_type": "perpetual_future",
+      "fdv": 92512111.0,
+      "vol_24h": 165717.301973,
+      "oi": 145374.2421660332,
+      "chg24_pct": 1.8859
+    },
+    {
+      "ticker": "SANTOS",
+      "instrument_type": "perpetual_future",
+      "fdv": 17524159.0,
+      "vol_24h": 0.0,
+      "oi": 3602.7866483581993,
+      "chg24_pct": 6.6275
+    },
+    {
+      "ticker": "ARB",
+      "instrument_type": "perpetual_future",
+      "fdv": 766074346.0,
+      "vol_24h": 254276.60749,
+      "oi": 236127.64950134105,
+      "chg24_pct": -2.81575
+    },
+    {
+      "ticker": "PEOPLE",
+      "instrument_type": "perpetual_future",
+      "fdv": 26533485.0,
+      "vol_24h": 49.90359,
+      "oi": 110.80100281166808,
+      "chg24_pct": -4.21274
+    },
+    {
+      "ticker": "AIOT",
+      "instrument_type": "perpetual_future",
+      "fdv": 59461758.0,
+      "vol_24h": 0.0,
+      "oi": 28472.10321607296,
+      "chg24_pct": -0.90674
+    },
+    {
+      "ticker": "CETUS",
+      "instrument_type": "perpetual_future",
+      "fdv": 17031307.0,
+      "vol_24h": 1246.15694,
+      "oi": 111.45239690966204,
+      "chg24_pct": -2.75408
+    },
+    {
+      "ticker": "COOKIE",
+      "instrument_type": "perpetual_future",
+      "fdv": 8372832.0,
+      "vol_24h": 0.0,
+      "oi": 514.8828058750379,
+      "chg24_pct": -2.22734
+    },
+    {
+      "ticker": "RAY",
+      "instrument_type": "perpetual_future",
+      "fdv": 325417219.0,
+      "vol_24h": 289.48254,
+      "oi": 23250.739308918943,
+      "chg24_pct": -2.25341
+    },
+    {
+      "ticker": "GMX",
+      "instrument_type": "perpetual_future",
+      "fdv": 55853088.0,
+      "vol_24h": 49.974958,
+      "oi": 64903.4875272802,
+      "chg24_pct": -3.36127
+    },
+    {
+      "ticker": "POLYX",
+      "instrument_type": "perpetual_future",
+      "fdv": 45969859.0,
+      "vol_24h": 198.4837,
+      "oi": 57026.38653195963,
+      "chg24_pct": -0.72234
     },
     {
       "ticker": "XAU",
       "instrument_type": "perpetual_rwa_future",
       "fdv": null,
-      "vol_24h": 14610492.885928,
-      "oi": 33432694.233182877,
+      "vol_24h": 24748672.778299,
+      "oi": 31894052.505001694,
       "chg24_pct": 0.669
     },
     {
-      "ticker": "EDU",
+      "ticker": "WLD",
       "instrument_type": "perpetual_future",
-      "fdv": 28107754.0,
-      "vol_24h": 4926.64696,
-      "oi": 6571.509509369489,
-      "chg24_pct": -6.14708
-    },
-    {
-      "ticker": "CELO",
-      "instrument_type": "perpetual_future",
-      "fdv": 61154173.0,
-      "vol_24h": 0.0,
-      "oi": 4278.517377642113,
-      "chg24_pct": -5.05344
-    },
-    {
-      "ticker": "ANKR",
-      "instrument_type": "perpetual_future",
-      "fdv": 35354345.0,
-      "vol_24h": 347.975004,
-      "oi": 0.9541342152459648,
-      "chg24_pct": -4.8585
-    },
-    {
-      "ticker": "LAGRANGE",
-      "instrument_type": "perpetual_future",
-      "fdv": 69443446.0,
-      "vol_24h": 1950.720713,
-      "oi": 3403.615380849373,
-      "chg24_pct": -7.41103
-    },
-    {
-      "ticker": "CFX",
-      "instrument_type": "perpetual_future",
-      "fdv": 239974257.0,
-      "vol_24h": 65.548,
-      "oi": 69576.87682031869,
-      "chg24_pct": -5.27704
-    },
-    {
-      "ticker": "JTO",
-      "instrument_type": "perpetual_future",
-      "fdv": 618853843.0,
-      "vol_24h": 445740.624466,
-      "oi": 83110.90593542517,
-      "chg24_pct": -3.81895
-    },
-    {
-      "ticker": "YFI",
-      "instrument_type": "perpetual_future",
-      "fdv": 64139655.0,
-      "vol_24h": 11738.028721,
-      "oi": 72715.30679269227,
-      "chg24_pct": -5.01827
-    },
-    {
-      "ticker": "APT",
-      "instrument_type": "perpetual_future",
-      "fdv": 759798829.0,
-      "vol_24h": 211876.196781,
-      "oi": 320684.0384271449,
-      "chg24_pct": -7.31612
-    },
-    {
-      "ticker": "SOMI",
-      "instrument_type": "perpetual_future",
-      "fdv": 100522133.0,
-      "vol_24h": 4402.09364,
-      "oi": 5680.662489571417,
-      "chg24_pct": -8.54097
-    },
-    {
-      "ticker": "POWR",
-      "instrument_type": "perpetual_future",
-      "fdv": 43330164.0,
-      "vol_24h": 1000.16312,
-      "oi": 4.201357839047614,
-      "chg24_pct": -5.63875
-    },
-    {
-      "ticker": "UAI",
-      "instrument_type": "perpetual_future",
-      "fdv": 304472165.0,
-      "vol_24h": 2880.087423,
-      "oi": 10971.87510178797,
-      "chg24_pct": -9.21307
-    },
-    {
-      "ticker": "CYS",
-      "instrument_type": "perpetual_future",
-      "fdv": 378749436.0,
-      "vol_24h": 703.130362,
-      "oi": 1092.7370698053167,
-      "chg24_pct": -3.3966
-    },
-    {
-      "ticker": "ORCA",
-      "instrument_type": "perpetual_future",
-      "fdv": 87717611.0,
-      "vol_24h": 11362.478175,
-      "oi": 27718.854933032246,
-      "chg24_pct": -5.25798
-    },
-    {
-      "ticker": "PARTI",
-      "instrument_type": "perpetual_future",
-      "fdv": 57252591.0,
-      "vol_24h": 1453.99215,
-      "oi": 8059.507840796123,
-      "chg24_pct": -3.91694
-    },
-    {
-      "ticker": "MEGA",
-      "instrument_type": "perpetual_future",
-      "fdv": 541533011.0,
-      "vol_24h": 105775.536858,
-      "oi": 199548.9437700765,
-      "chg24_pct": -3.52456
-    },
-    {
-      "ticker": "ORDI",
-      "instrument_type": "perpetual_future",
-      "fdv": 65873771.0,
-      "vol_24h": 3847.286235,
-      "oi": 7015.40805711117,
-      "chg24_pct": -4.98513
-    },
-    {
-      "ticker": "PEAQ",
-      "instrument_type": "perpetual_future",
-      "fdv": 91971587.0,
-      "vol_24h": 10968.28263,
-      "oi": 16915.424607960194,
-      "chg24_pct": -6.18783
-    },
-    {
-      "ticker": "DOT",
-      "instrument_type": "perpetual_future",
-      "fdv": 1526349591.0,
-      "vol_24h": 515042.058901,
-      "oi": 898674.7399953037,
-      "chg24_pct": -6.82093
-    },
-    {
-      "ticker": "TRX",
-      "instrument_type": "perpetual_future",
-      "fdv": 31253599657.0,
-      "vol_24h": 409409.82748,
-      "oi": 589014.2609728682,
-      "chg24_pct": -0.49204
-    },
-    {
-      "ticker": "AERO",
-      "instrument_type": "perpetual_future",
-      "fdv": 1007204365.0,
-      "vol_24h": 592992.710136,
-      "oi": 355827.6788545794,
-      "chg24_pct": -1.8326
-    },
-    {
-      "ticker": "ROSE",
-      "instrument_type": "perpetual_future",
-      "fdv": 62549315.0,
-      "vol_24h": 897.889851,
-      "oi": 3582.6933671710676,
-      "chg24_pct": -7.00721
-    },
-    {
-      "ticker": "HEI",
-      "instrument_type": "perpetual_future",
-      "fdv": 8997628.0,
-      "vol_24h": 0.44245,
-      "oi": 4573.737188703656,
-      "chg24_pct": -2.68362
-    },
-    {
-      "ticker": "CGPT",
-      "instrument_type": "perpetual_future",
-      "fdv": 19239948.0,
-      "vol_24h": 1341.47744,
-      "oi": 189.53820483486624,
-      "chg24_pct": -6.97303
-    },
-    {
-      "ticker": "ALICE",
-      "instrument_type": "perpetual_future",
-      "fdv": 11992225.0,
-      "vol_24h": 1458.05315,
-      "oi": 6027.333479874708,
-      "chg24_pct": -8.65686
-    },
-    {
-      "ticker": "CRV",
-      "instrument_type": "perpetual_future",
-      "fdv": 490200255.0,
-      "vol_24h": 159712.628146,
-      "oi": 230791.57775102288,
-      "chg24_pct": -4.16113
-    },
-    {
-      "ticker": "WAL",
-      "instrument_type": "perpetual_future",
-      "fdv": 173954532.0,
-      "vol_24h": 5101.4711,
-      "oi": 15732.735135459181,
-      "chg24_pct": -8.95238
-    },
-    {
-      "ticker": "VELVET",
-      "instrument_type": "perpetual_future",
-      "fdv": 490649559.0,
-      "vol_24h": 66317.836684,
-      "oi": 36549.87566830361,
-      "chg24_pct": 9.30918
-    },
-    {
-      "ticker": "AGI",
-      "instrument_type": "perpetual_future",
-      "fdv": 14469409.0,
-      "vol_24h": 82.220939,
-      "oi": 2.3512017225272404,
-      "chg24_pct": -6.78222
-    },
-    {
-      "ticker": "AUCTION",
-      "instrument_type": "perpetual_future",
-      "fdv": 27110063.0,
-      "vol_24h": 0.0,
-      "oi": 700.2068231661929,
-      "chg24_pct": -5.19794
-    },
-    {
-      "ticker": "FIDA",
-      "instrument_type": "perpetual_future",
-      "fdv": 23348542.0,
-      "vol_24h": 5552.80477,
-      "oi": 11134.231685908548,
-      "chg24_pct": 8.10402
-    },
-    {
-      "ticker": "SOON",
-      "instrument_type": "perpetual_future",
-      "fdv": 160614266.0,
-      "vol_24h": 13865.4,
-      "oi": 24764.08889319631,
-      "chg24_pct": -3.86238
-    },
-    {
-      "ticker": "DOLO",
-      "instrument_type": "perpetual_future",
-      "fdv": 24036159.0,
-      "vol_24h": 1390.66032,
-      "oi": 3013.002762637944,
-      "chg24_pct": -2.46199
-    },
-    {
-      "ticker": "NOK",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 78015884940.0,
-      "vol_24h": 1118961.026903,
-      "oi": 84524.29354414393,
-      "chg24_pct": 7.07932
-    },
-    {
-      "ticker": "PIXEL",
-      "instrument_type": "perpetual_future",
-      "fdv": 25667769.0,
-      "vol_24h": 239.205555,
-      "oi": 9.395257055217783,
-      "chg24_pct": -6.50008
-    },
-    {
-      "ticker": "SUI",
-      "instrument_type": "perpetual_future",
-      "fdv": 7075522556.0,
-      "vol_24h": 892264.48356,
-      "oi": 763452.60333375,
-      "chg24_pct": -4.31207
-    },
-    {
-      "ticker": "C",
-      "instrument_type": "perpetual_future",
-      "fdv": 90624396.0,
-      "vol_24h": 80.73096,
-      "oi": 932.5033576292269,
-      "chg24_pct": -4.3392
-    },
-    {
-      "ticker": "ERA",
-      "instrument_type": "perpetual_future",
-      "fdv": 85766633.0,
-      "vol_24h": 0.0,
-      "oi": 10780.073263359827,
-      "chg24_pct": -8.15224
-    },
-    {
-      "ticker": "BBX",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 5151479768.0,
-      "vol_24h": 517541.039455,
-      "oi": 290674.27862259396,
-      "chg24_pct": 4.8926
-    },
-    {
-      "ticker": "FOGO",
-      "instrument_type": "perpetual_future",
-      "fdv": 123256443.0,
-      "vol_24h": 627.6644,
-      "oi": 37172.00464602765,
-      "chg24_pct": -4.08261
-    },
-    {
-      "ticker": "ZBCN",
-      "instrument_type": "perpetual_future",
-      "fdv": 234424959.0,
-      "vol_24h": 2396.20884,
-      "oi": 1086.0221633503354,
-      "chg24_pct": -4.38231
-    },
-    {
-      "ticker": "ZEREBRO",
-      "instrument_type": "perpetual_future",
-      "fdv": 39258339.0,
-      "vol_24h": 38808.769789,
-      "oi": 11134.588103171787,
-      "chg24_pct": 3.04404
-    },
-    {
-      "ticker": "PORTAL",
-      "instrument_type": "perpetual_future",
-      "fdv": 14709732.0,
-      "vol_24h": 25727.36766,
-      "oi": 11593.296591414337,
-      "chg24_pct": -5.35781
+      "fdv": 5246655501.0,
+      "vol_24h": 1367555.921511,
+      "oi": 1888783.686236809,
+      "chg24_pct": -6.2117
     },
     {
       "ticker": "VANRY",
       "instrument_type": "perpetual_future",
-      "fdv": 6893758.0,
-      "vol_24h": 327.175,
-      "oi": 4695.133452897772,
-      "chg24_pct": -7.35052
+      "fdv": 6868340.0,
+      "vol_24h": 0.0,
+      "oi": 4683.26707951078,
+      "chg24_pct": -0.14951
     },
     {
-      "ticker": "GRT",
+      "ticker": "XCN",
       "instrument_type": "perpetual_future",
-      "fdv": 205351648.0,
-      "vol_24h": 1963.8378,
-      "oi": 59021.32097057017,
-      "chg24_pct": -4.84883
+      "fdv": 200961022.0,
+      "vol_24h": 0.0,
+      "oi": 2971.1484326073605,
+      "chg24_pct": -0.92726
     },
     {
-      "ticker": "TIA",
+      "ticker": "GOAT",
       "instrument_type": "perpetual_future",
-      "fdv": 438123750.0,
-      "vol_24h": 115923.69353,
-      "oi": 197370.66750328473,
-      "chg24_pct": -5.03178
+      "fdv": 12446088.0,
+      "vol_24h": 0.0,
+      "oi": 12463.797290211103,
+      "chg24_pct": -2.15275
     },
     {
-      "ticker": "RENDER",
+      "ticker": "GRASS",
       "instrument_type": "perpetual_future",
-      "fdv": 838423535.0,
-      "vol_24h": 39075.47012,
-      "oi": 109433.28026837052,
-      "chg24_pct": -7.1328
+      "fdv": 466120061.0,
+      "vol_24h": 340094.755171,
+      "oi": 572595.8447879261,
+      "chg24_pct": 8.10747
     },
     {
-      "ticker": "FIL",
+      "ticker": "FLR",
       "instrument_type": "perpetual_future",
-      "fdv": 1482083405.0,
-      "vol_24h": 26433.39241,
-      "oi": 129355.59031528045,
-      "chg24_pct": -6.55194
+      "fdv": 726730859.0,
+      "vol_24h": 429.98757,
+      "oi": 44359.15075135962,
+      "chg24_pct": -2.3469
     },
     {
-      "ticker": "ICP",
+      "ticker": "LDO",
       "instrument_type": "perpetual_future",
-      "fdv": 1198479650.0,
-      "vol_24h": 14035.306859,
-      "oi": 139835.3446603154,
-      "chg24_pct": -5.91146
+      "fdv": 255119661.0,
+      "vol_24h": 5339.65194,
+      "oi": 74272.94778687258,
+      "chg24_pct": -0.58662
     },
     {
-      "ticker": "WCT",
+      "ticker": "USTC",
       "instrument_type": "perpetual_future",
-      "fdv": 44222225.0,
-      "vol_24h": 209.91151,
-      "oi": 5497.693711876344,
-      "chg24_pct": -6.34691
+      "fdv": 33213846.0,
+      "vol_24h": 278.470287,
+      "oi": 7039.19424681752,
+      "chg24_pct": -2.36309
     },
     {
-      "ticker": "THETA",
+      "ticker": "CRV",
       "instrument_type": "perpetual_future",
-      "fdv": 146523382.0,
-      "vol_24h": 762.47788,
-      "oi": 7025.880375279138,
-      "chg24_pct": -5.9381
+      "fdv": 472774982.0,
+      "vol_24h": 161683.752014,
+      "oi": 250140.00934892154,
+      "chg24_pct": -2.48426
+    },
+    {
+      "ticker": "ES",
+      "instrument_type": "perpetual_future",
+      "fdv": 13016593.0,
+      "vol_24h": 2465.95797,
+      "oi": 1144.774158622033,
+      "chg24_pct": -21.93218
+    },
+    {
+      "ticker": "FOGO",
+      "instrument_type": "perpetual_future",
+      "fdv": 113366295.0,
+      "vol_24h": 904.53315,
+      "oi": 33319.71845363244,
+      "chg24_pct": -8.22431
+    },
+    {
+      "ticker": "GLM",
+      "instrument_type": "perpetual_future",
+      "fdv": 99001302.0,
+      "vol_24h": 0.0,
+      "oi": 94929.73954264198,
+      "chg24_pct": -3.09543
     },
     {
       "ticker": "VELODROME",
       "instrument_type": "perpetual_future",
-      "fdv": 52455769.0,
-      "vol_24h": 24784.90429,
-      "oi": 92963.49621973211,
-      "chg24_pct": 5.18335
+      "fdv": 48630567.0,
+      "vol_24h": 13935.14029,
+      "oi": 74968.86702757234,
+      "chg24_pct": -3.87146
+    },
+    {
+      "ticker": "ETHFI",
+      "instrument_type": "perpetual_future",
+      "fdv": 336212604.0,
+      "vol_24h": 130792.24189,
+      "oi": 87322.32608359095,
+      "chg24_pct": 0.386
+    },
+    {
+      "ticker": "ANKR",
+      "instrument_type": "perpetual_future",
+      "fdv": 34980365.0,
+      "vol_24h": 3.990864,
+      "oi": 0.9403856430130295,
+      "chg24_pct": -1.00317
+    },
+    {
+      "ticker": "CHILLGUY",
+      "instrument_type": "perpetual_future",
+      "fdv": 8152016.0,
+      "vol_24h": 42.145,
+      "oi": 10853.636920249504,
+      "chg24_pct": -4.95357
+    },
+    {
+      "ticker": "LRC",
+      "instrument_type": "perpetual_future",
+      "fdv": 17849292.0,
+      "vol_24h": 1330.12289,
+      "oi": 5570.031932160391,
+      "chg24_pct": -0.72214
+    },
+    {
+      "ticker": "BNB",
+      "instrument_type": "perpetual_future",
+      "fdv": 76438445255.0,
+      "vol_24h": 1044946.256989,
+      "oi": 3197200.95453987,
+      "chg24_pct": -0.98355
+    },
+    {
+      "ticker": "BMT",
+      "instrument_type": "perpetual_future",
+      "fdv": 11982357.0,
+      "vol_24h": 0.0,
+      "oi": 278.63227075915046,
+      "chg24_pct": -1.75895
+    },
+    {
+      "ticker": "TOWNS",
+      "instrument_type": "perpetual_future",
+      "fdv": 21247036.0,
+      "vol_24h": 1298.824134,
+      "oi": 421.62316055474264,
+      "chg24_pct": 5.3066
+    },
+    {
+      "ticker": "POPCAT",
+      "instrument_type": "perpetual_future",
+      "fdv": 48930181.0,
+      "vol_24h": 91329.565094,
+      "oi": 46868.11930462404,
+      "chg24_pct": -4.1248
+    },
+    {
+      "ticker": "B2",
+      "instrument_type": "perpetual_future",
+      "fdv": 110477213.0,
+      "vol_24h": 20.40885,
+      "oi": 3505.153193465743,
+      "chg24_pct": 0.73345
+    },
+    {
+      "ticker": "MON",
+      "instrument_type": "perpetual_future",
+      "fdv": 1964787477.0,
+      "vol_24h": 9461.44371,
+      "oi": 461513.7784465408,
+      "chg24_pct": -3.18915
+    },
+    {
+      "ticker": "KSM",
+      "instrument_type": "perpetual_future",
+      "fdv": 60961590.0,
+      "vol_24h": 9929.306615,
+      "oi": 85257.70794108983,
+      "chg24_pct": 0.38207
+    },
+    {
+      "ticker": "UNI",
+      "instrument_type": "perpetual_future",
+      "fdv": 2561615794.0,
+      "vol_24h": 22105.422821,
+      "oi": 362446.66118649405,
+      "chg24_pct": -0.98497
+    },
+    {
+      "ticker": "POWER",
+      "instrument_type": "perpetual_future",
+      "fdv": 83557223.0,
+      "vol_24h": 9001.880042,
+      "oi": 40792.86369651962,
+      "chg24_pct": -1.91923
+    },
+    {
+      "ticker": "LLY",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 1042196512470.0,
+      "vol_24h": 75054.645629,
+      "oi": 68831.786796661,
+      "chg24_pct": -0.03703436
+    },
+    {
+      "ticker": "MMT",
+      "instrument_type": "perpetual_future",
+      "fdv": 187309977.0,
+      "vol_24h": 5296.19059,
+      "oi": 8279.089531904692,
+      "chg24_pct": -6.5874
+    },
+    {
+      "ticker": "COW",
+      "instrument_type": "perpetual_future",
+      "fdv": 151649159.0,
+      "vol_24h": 1475.01376,
+      "oi": 5013.138802519015,
+      "chg24_pct": -0.25646
+    },
+    {
+      "ticker": "TWT",
+      "instrument_type": "perpetual_future",
+      "fdv": 354994144.0,
+      "vol_24h": 29.997,
+      "oi": 22342.11199728322,
+      "chg24_pct": -2.25108
+    },
+    {
+      "ticker": "ZAMA",
+      "instrument_type": "perpetual_future",
+      "fdv": 359538930.0,
+      "vol_24h": 1245.9491,
+      "oi": 46641.72745296823,
+      "chg24_pct": -2.27174
+    },
+    {
+      "ticker": "CELO",
+      "instrument_type": "perpetual_future",
+      "fdv": 62423755.0,
+      "vol_24h": 21.92426,
+      "oi": 4385.319887932797,
+      "chg24_pct": 1.94372
+    },
+    {
+      "ticker": "BBIT",
+      "instrument_type": "perpetual_future",
+      "fdv": 42112432.0,
+      "vol_24h": 0.0,
+      "oi": 1183.929413644831,
+      "chg24_pct": -3.09058
+    },
+    {
+      "ticker": "ALT",
+      "instrument_type": "perpetual_future",
+      "fdv": 58525721.0,
+      "vol_24h": 463.85395,
+      "oi": 3763.542751839069,
+      "chg24_pct": -1.99716
+    },
+    {
+      "ticker": "XPIN",
+      "instrument_type": "perpetual_future",
+      "fdv": 133452207.0,
+      "vol_24h": 252.88018,
+      "oi": 3271.5059704250466,
+      "chg24_pct": -2.96721
     },
     {
       "ticker": "SPCX",
       "instrument_type": "perpetual_rwa_future",
-      "fdv": 2021528797333.0,
-      "vol_24h": 42255438.574291,
-      "oi": 9716435.904810175,
-      "chg24_pct": -16.43243
+      "fdv": 2069124947542.0,
+      "vol_24h": 10756293.036271,
+      "oi": 9758111.436228737,
+      "chg24_pct": 1.36442
     },
     {
-      "ticker": "STEEM",
+      "ticker": "AXS",
       "instrument_type": "perpetual_future",
-      "fdv": 21906183.0,
-      "vol_24h": 0.0,
-      "oi": 3911.087580118998,
-      "chg24_pct": -7.26925
+      "fdv": 276048110.0,
+      "vol_24h": 706.482866,
+      "oi": 24120.745917088254,
+      "chg24_pct": -1.31581
     },
     {
-      "ticker": "WOO",
+      "ticker": "1000FLOKI",
       "instrument_type": "perpetual_future",
-      "fdv": 22597347.0,
-      "vol_24h": 0.0,
-      "oi": 25492.667065658854,
-      "chg24_pct": -7.51748
+      "fdv": 231552804.0,
+      "vol_24h": 42.25882,
+      "oi": 12174.82237548505,
+      "chg24_pct": -2.94768
     },
     {
-      "ticker": "VELO",
+      "ticker": "ZORA",
       "instrument_type": "perpetual_future",
-      "fdv": 78934775.0,
-      "vol_24h": 0.0,
-      "oi": 4764.004814883275,
-      "chg24_pct": -2.24094
+      "fdv": 70396798.0,
+      "vol_24h": 293.541479,
+      "oi": 49029.161044162676,
+      "chg24_pct": -1.23687
     },
     {
-      "ticker": "ROAM",
+      "ticker": "MEGA",
       "instrument_type": "perpetual_future",
-      "fdv": 7004754.0,
-      "vol_24h": 30.02132,
-      "oi": 108.87603898666643,
-      "chg24_pct": -6.79689
+      "fdv": 517066533.0,
+      "vol_24h": 41498.022209,
+      "oi": 182147.47524783126,
+      "chg24_pct": -7.00498
     },
     {
-      "ticker": "STORJ",
+      "ticker": "1NEIRO",
       "instrument_type": "perpetual_future",
-      "fdv": 31380164.0,
-      "vol_24h": 2029.0332,
-      "oi": 605.8315140554826,
-      "chg24_pct": -4.41846
+      "fdv": 25703980.0,
+      "vol_24h": 2997.949367,
+      "oi": 21607.38812352363,
+      "chg24_pct": -4.00368
     },
     {
-      "ticker": "ZRO",
+      "ticker": "FET",
       "instrument_type": "perpetual_future",
-      "fdv": 966875814.0,
-      "vol_24h": 99533.044011,
-      "oi": 474006.61909966974,
-      "chg24_pct": 2.64
+      "fdv": 462403819.0,
+      "vol_24h": 17718.1197,
+      "oi": 174146.2340834471,
+      "chg24_pct": -2.00625
     },
     {
-      "ticker": "ARB",
+      "ticker": "ALPINE",
       "instrument_type": "perpetual_future",
-      "fdv": 788449501.0,
-      "vol_24h": 254903.965377,
-      "oi": 239320.5700685914,
-      "chg24_pct": -8.45433
+      "fdv": 12972656.0,
+      "vol_24h": 6305.96695,
+      "oi": 3056.4487582215074,
+      "chg24_pct": 1.98503
     },
     {
-      "ticker": "METIS",
-      "instrument_type": "perpetual_future",
-      "fdv": 29538151.0,
-      "vol_24h": 1565.677481,
-      "oi": 1079.4434958110814,
-      "chg24_pct": -6.54263
-    },
-    {
-      "ticker": "TNSR",
-      "instrument_type": "perpetual_future",
-      "fdv": 35226472.0,
-      "vol_24h": 64100.426796,
-      "oi": 12094.238082439511,
-      "chg24_pct": -13.24004
-    },
-    {
-      "ticker": "SOXL",
+      "ticker": "INTC",
       "instrument_type": "perpetual_rwa_future",
-      "fdv": 88483345537.0,
-      "vol_24h": 3482414.970793,
-      "oi": 328247.66253043246,
-      "chg24_pct": 7.69093
+      "fdv": 676399080000.0,
+      "vol_24h": 1819522.560079,
+      "oi": 1760609.9713380858,
+      "chg24_pct": 1.73874
     },
     {
-      "ticker": "RLC",
+      "ticker": "DOLO",
       "instrument_type": "perpetual_future",
-      "fdv": 26583617.0,
-      "vol_24h": 0.0,
-      "oi": 3863.6592113742745,
-      "chg24_pct": -7.05243
+      "fdv": 23564367.0,
+      "vol_24h": 1836.08166,
+      "oi": 4110.874753417201,
+      "chg24_pct": -2.6531
     },
     {
-      "ticker": "ARIA",
-      "instrument_type": "perpetual_future",
-      "fdv": 25883943.0,
-      "vol_24h": 0.0,
-      "oi": 114.92391685109234,
-      "chg24_pct": -5.6388
-    },
-    {
-      "ticker": "US500",
+      "ticker": "QQQ",
       "instrument_type": "perpetual_rwa_future",
-      "fdv": 768788407275.0,
-      "vol_24h": 5740053.304306,
-      "oi": 7034434.297189165,
-      "chg24_pct": -0.3147
+      "fdv": 479746446151.0,
+      "vol_24h": 8840833.768254,
+      "oi": 10366883.27992827,
+      "chg24_pct": 0.4512
     },
     {
-      "ticker": "BLAST",
+      "ticker": "KMNO",
       "instrument_type": "perpetual_future",
-      "fdv": 27425983.0,
-      "vol_24h": 1847.399313,
-      "oi": 17702.681986901203,
-      "chg24_pct": -7.03225
+      "fdv": 189015654.0,
+      "vol_24h": 6089.52491,
+      "oi": 50997.91746780066,
+      "chg24_pct": -6.60137
     },
     {
-      "ticker": "APRO",
+      "ticker": "ONT",
       "instrument_type": "perpetual_future",
-      "fdv": 139922460.0,
-      "vol_24h": 9831.26683,
-      "oi": 96.63156401276908,
-      "chg24_pct": -6.1339
+      "fdv": 44294333.0,
+      "vol_24h": 223.07577,
+      "oi": 147.0954079415892,
+      "chg24_pct": 1.40496
+    },
+    {
+      "ticker": "H",
+      "instrument_type": "perpetual_future",
+      "fdv": 681163689.0,
+      "vol_24h": 322933.166911,
+      "oi": 48581.1509255532,
+      "chg24_pct": -43.15841
+    },
+    {
+      "ticker": "AAOI",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 11731291928.0,
+      "vol_24h": 158875.912366,
+      "oi": 697967.2447308766,
+      "chg24_pct": -0.84272
+    },
+    {
+      "ticker": "PEAQ",
+      "instrument_type": "perpetual_future",
+      "fdv": 93804268.0,
+      "vol_24h": 29.99832,
+      "oi": 17201.549555776404,
+      "chg24_pct": 1.16019
+    },
+    {
+      "ticker": "IN",
+      "instrument_type": "perpetual_future",
+      "fdv": 84078726.0,
+      "vol_24h": 1093.82968,
+      "oi": 2811.6724611335567,
+      "chg24_pct": 2.4617
+    },
+    {
+      "ticker": "BOME",
+      "instrument_type": "perpetual_future",
+      "fdv": 28013334.0,
+      "vol_24h": 11571.16414,
+      "oi": 16414.89584831974,
+      "chg24_pct": -1.75634
+    },
+    {
+      "ticker": "HUMA",
+      "instrument_type": "perpetual_future",
+      "fdv": 218315726.0,
+      "vol_24h": 21.56364,
+      "oi": 1016.9311865439457,
+      "chg24_pct": -1.78609
+    },
+    {
+      "ticker": "LINK",
+      "instrument_type": "perpetual_future",
+      "fdv": 7459620333.0,
+      "vol_24h": 159446.545429,
+      "oi": 1698370.262229258,
+      "chg24_pct": -1.34996
+    },
+    {
+      "ticker": "TRUST",
+      "instrument_type": "perpetual_future",
+      "fdv": 48572424.0,
+      "vol_24h": 0.0,
+      "oi": 1374.9973081897963,
+      "chg24_pct": -1.03434
+    },
+    {
+      "ticker": "APT",
+      "instrument_type": "perpetual_future",
+      "fdv": 753459599.0,
+      "vol_24h": 191599.634409,
+      "oi": 326264.8074531681,
+      "chg24_pct": -1.28845
+    },
+    {
+      "ticker": "AVNT",
+      "instrument_type": "perpetual_future",
+      "fdv": 104531666.0,
+      "vol_24h": 39049.69925,
+      "oi": 33108.813715746845,
+      "chg24_pct": 4.00793
+    },
+    {
+      "ticker": "ONE",
+      "instrument_type": "perpetual_future",
+      "fdv": 18961775.0,
+      "vol_24h": 0.0,
+      "oi": 243.3063418648902,
+      "chg24_pct": -2.93178
+    },
+    {
+      "ticker": "FLUX",
+      "instrument_type": "perpetual_future",
+      "fdv": 19041137.0,
+      "vol_24h": 29.94308,
+      "oi": 3901.2377033215635,
+      "chg24_pct": -3.28366
+    },
+    {
+      "ticker": "EUL",
+      "instrument_type": "perpetual_future",
+      "fdv": 26796356.0,
+      "vol_24h": 0.0,
+      "oi": 989.6822745047119,
+      "chg24_pct": -3.4518
+    },
+    {
+      "ticker": "CKB",
+      "instrument_type": "perpetual_future",
+      "fdv": 48429510.0,
+      "vol_24h": 0.0,
+      "oi": 10631.38112536644,
+      "chg24_pct": -3.12115
+    },
+    {
+      "ticker": "PUMPFUN",
+      "instrument_type": "perpetual_future",
+      "fdv": 1136642147.0,
+      "vol_24h": 131731.3433,
+      "oi": 882747.3819004482,
+      "chg24_pct": -4.71451
+    },
+    {
+      "ticker": "OVERTAKE",
+      "instrument_type": "perpetual_future",
+      "fdv": 16316881.0,
+      "vol_24h": 0.0,
+      "oi": 3430.7484451744685,
+      "chg24_pct": 0.86484
+    },
+    {
+      "ticker": "SPK",
+      "instrument_type": "perpetual_future",
+      "fdv": 167871416.0,
+      "vol_24h": 1964.65592,
+      "oi": 6995.599691365731,
+      "chg24_pct": -3.44544
+    },
+    {
+      "ticker": "SSV",
+      "instrument_type": "perpetual_future",
+      "fdv": 31836138.0,
+      "vol_24h": 0.0,
+      "oi": 152.97658274944195,
+      "chg24_pct": -2.92387
+    },
+    {
+      "ticker": "AUCTION",
+      "instrument_type": "perpetual_future",
+      "fdv": 26442205.0,
+      "vol_24h": 29.990491,
+      "oi": 710.6791252365947,
+      "chg24_pct": -2.06688
+    },
+    {
+      "ticker": "FLUID",
+      "instrument_type": "perpetual_future",
+      "fdv": 91628724.0,
+      "vol_24h": 0.0,
+      "oi": 764.7723507643443,
+      "chg24_pct": 1.32895
+    },
+    {
+      "ticker": "BLESS",
+      "instrument_type": "perpetual_future",
+      "fdv": 79701461.0,
+      "vol_24h": 29078.909904,
+      "oi": 12723.619551831072,
+      "chg24_pct": -18.61853
+    },
+    {
+      "ticker": "AXL",
+      "instrument_type": "perpetual_future",
+      "fdv": 50894892.0,
+      "vol_24h": 0.0,
+      "oi": 1856.3908328630573,
+      "chg24_pct": -1.24738
+    },
+    {
+      "ticker": "HYPE",
+      "instrument_type": "perpetual_future",
+      "fdv": 57961441604.0,
+      "vol_24h": 46045177.845595,
+      "oi": 28690945.754908428,
+      "chg24_pct": -2.91552
+    },
+    {
+      "ticker": "BAND",
+      "instrument_type": "perpetual_future",
+      "fdv": 26873408.0,
+      "vol_24h": 0.0,
+      "oi": 5823.760753507095,
+      "chg24_pct": -0.87686
+    },
+    {
+      "ticker": "FIL",
+      "instrument_type": "perpetual_future",
+      "fdv": 1477746433.0,
+      "vol_24h": 21319.46579,
+      "oi": 128720.91623426249,
+      "chg24_pct": -1.53942
+    },
+    {
+      "ticker": "BAT",
+      "instrument_type": "perpetual_future",
+      "fdv": 128270762.0,
+      "vol_24h": 1029.6902,
+      "oi": 110342.5754331118,
+      "chg24_pct": -3.69713
+    },
+    {
+      "ticker": "CRCL",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 19496182998.0,
+      "vol_24h": 171665.441066,
+      "oi": 1277187.1725643757,
+      "chg24_pct": -3.6205
+    },
+    {
+      "ticker": "TSM",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 2279580360928.0,
+      "vol_24h": 157698.295712,
+      "oi": 259040.61708037087,
+      "chg24_pct": 0.71807
+    },
+    {
+      "ticker": "GRT",
+      "instrument_type": "perpetual_future",
+      "fdv": 198642999.0,
+      "vol_24h": 14146.768258,
+      "oi": 70755.22987260098,
+      "chg24_pct": -3.02549
+    },
+    {
+      "ticker": "FARTCOIN",
+      "instrument_type": "perpetual_future",
+      "fdv": 126202146.0,
+      "vol_24h": 315963.79971,
+      "oi": 241765.54809890274,
+      "chg24_pct": 0.57645
+    },
+    {
+      "ticker": "LUNA2",
+      "instrument_type": "perpetual_future",
+      "fdv": 57163510.0,
+      "vol_24h": 2.91578,
+      "oi": 384.58097154871496,
+      "chg24_pct": -2.84899
+    },
+    {
+      "ticker": "ACE",
+      "instrument_type": "perpetual_future",
+      "fdv": 11370368.0,
+      "vol_24h": 1177.25,
+      "oi": 10161.628301462773,
+      "chg24_pct": 2.77321
+    },
+    {
+      "ticker": "US",
+      "instrument_type": "perpetual_future",
+      "fdv": 148575114.0,
+      "vol_24h": 4337.882421,
+      "oi": 11575.869746350576,
+      "chg24_pct": -5.32099
+    },
+    {
+      "ticker": "GENIUS",
+      "instrument_type": "perpetual_future",
+      "fdv": 368717466.0,
+      "vol_24h": 5011.22176,
+      "oi": 43125.02760229129,
+      "chg24_pct": 2.87375
+    },
+    {
+      "ticker": "WAL",
+      "instrument_type": "perpetual_future",
+      "fdv": 163311596.0,
+      "vol_24h": 6.606,
+      "oi": 14837.184544314983,
+      "chg24_pct": -5.85086
+    },
+    {
+      "ticker": "SOON",
+      "instrument_type": "perpetual_future",
+      "fdv": 161639783.0,
+      "vol_24h": 240.9,
+      "oi": 24747.404742779803,
+      "chg24_pct": 0.70503
+    },
+    {
+      "ticker": "AVA",
+      "instrument_type": "perpetual_future",
+      "fdv": 13000347.0,
+      "vol_24h": 516.4711,
+      "oi": 3791.3979434370267,
+      "chg24_pct": -2.28438
+    },
+    {
+      "ticker": "SUI",
+      "instrument_type": "perpetual_future",
+      "fdv": 6815730057.0,
+      "vol_24h": 515908.290675,
+      "oi": 699554.1082979676,
+      "chg24_pct": -2.98282
+    },
+    {
+      "ticker": "MLN",
+      "instrument_type": "perpetual_future",
+      "fdv": 4303178.0,
+      "vol_24h": 5.98073,
+      "oi": 3062.1892657201215,
+      "chg24_pct": -4.25752
     },
     {
       "ticker": "KAIA",
       "instrument_type": "perpetual_future",
-      "fdv": 211603099.0,
-      "vol_24h": 242.25743,
-      "oi": 10239.890993200814,
-      "chg24_pct": -3.55022
+      "fdv": 204832184.0,
+      "vol_24h": 470.16718,
+      "oi": 9643.70405069992,
+      "chg24_pct": -6.43148
     },
     {
-      "ticker": "KGEN",
+      "ticker": "COTI",
       "instrument_type": "perpetual_future",
-      "fdv": 170314878.0,
-      "vol_24h": 21.984,
-      "oi": 258.2759290806361,
-      "chg24_pct": 0.2906
-    },
-    {
-      "ticker": "TAG",
-      "instrument_type": "perpetual_future",
-      "fdv": 378960693.0,
-      "vol_24h": 186.6688,
-      "oi": 311.14588283017997,
-      "chg24_pct": -3.57217
-    },
-    {
-      "ticker": "TSLA",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 1521254386000.0,
-      "vol_24h": 1166838.594294,
-      "oi": 720148.3859349489,
-      "chg24_pct": 1.13861
+      "fdv": 25429628.0,
+      "vol_24h": 0.0,
+      "oi": 4378.184109829851,
+      "chg24_pct": -1.74187
     },
     {
       "ticker": "ARK",
       "instrument_type": "perpetual_future",
-      "fdv": 21523196.0,
-      "vol_24h": 11164.13792,
-      "oi": 35325.93392649284,
-      "chg24_pct": -5.61714
+      "fdv": 21025657.0,
+      "vol_24h": 0.0,
+      "oi": 34629.42663443818,
+      "chg24_pct": -1.71856
+    },
+    {
+      "ticker": "ACX",
+      "instrument_type": "perpetual_future",
+      "fdv": 39715287.0,
+      "vol_24h": 0.0,
+      "oi": 18723.459900018475,
+      "chg24_pct": 0.40181
+    },
+    {
+      "ticker": "FLOW",
+      "instrument_type": "perpetual_future",
+      "fdv": 46575514.0,
+      "vol_24h": 0.0,
+      "oi": 10553.276719087884,
+      "chg24_pct": 1.20254
+    },
+    {
+      "ticker": "RLC",
+      "instrument_type": "perpetual_future",
+      "fdv": 25902033.0,
+      "vol_24h": 0.0,
+      "oi": 3746.865724116922,
+      "chg24_pct": -2.5131
+    },
+    {
+      "ticker": "AERO",
+      "instrument_type": "perpetual_future",
+      "fdv": 953583109.0,
+      "vol_24h": 251024.164457,
+      "oi": 304473.9285246985,
+      "chg24_pct": -2.23217
+    },
+    {
+      "ticker": "TAG",
+      "instrument_type": "perpetual_future",
+      "fdv": 371640965.0,
+      "vol_24h": 10220.320338,
+      "oi": 399.667646698662,
+      "chg24_pct": -3.50884
+    },
+    {
+      "ticker": "SYRUP",
+      "instrument_type": "perpetual_future",
+      "fdv": 156299920.0,
+      "vol_24h": 0.0,
+      "oi": 132770.64026628446,
+      "chg24_pct": -5.88494
+    },
+    {
+      "ticker": "ID",
+      "instrument_type": "perpetual_future",
+      "fdv": 75188478.0,
+      "vol_24h": 33584.852919,
+      "oi": 20763.83056078547,
+      "chg24_pct": 13.74509
+    },
+    {
+      "ticker": "VELVET",
+      "instrument_type": "perpetual_future",
+      "fdv": 472487894.0,
+      "vol_24h": 62976.169431,
+      "oi": 42091.95293696966,
+      "chg24_pct": -0.15479
+    },
+    {
+      "ticker": "BLUR",
+      "instrument_type": "perpetual_future",
+      "fdv": 45470445.0,
+      "vol_24h": 18403.4573,
+      "oi": 36473.50144378912,
+      "chg24_pct": 2.12564
+    },
+    {
+      "ticker": "DBR",
+      "instrument_type": "perpetual_future",
+      "fdv": 149456765.0,
+      "vol_24h": 3291.55152,
+      "oi": 25843.003205201847,
+      "chg24_pct": 0.30929
+    },
+    {
+      "ticker": "AZTEC",
+      "instrument_type": "perpetual_future",
+      "fdv": 145928264.0,
+      "vol_24h": 456.436364,
+      "oi": 31616.242490648587,
+      "chg24_pct": -2.32778
+    },
+    {
+      "ticker": "STRK",
+      "instrument_type": "perpetual_future",
+      "fdv": 313079706.0,
+      "vol_24h": 9068.654122,
+      "oi": 25000.730606231617,
+      "chg24_pct": -2.40904
+    },
+    {
+      "ticker": "ARKM",
+      "instrument_type": "perpetual_future",
+      "fdv": 117962683.0,
+      "vol_24h": 2737.60763,
+      "oi": 4232.042155046271,
+      "chg24_pct": -3.63719
+    },
+    {
+      "ticker": "PROVE",
+      "instrument_type": "perpetual_future",
+      "fdv": 194407273.0,
+      "vol_24h": 2123.00117,
+      "oi": 9964.542137566985,
+      "chg24_pct": 1.12077
+    },
+    {
+      "ticker": "C98",
+      "instrument_type": "perpetual_future",
+      "fdv": 13027714.0,
+      "vol_24h": 12794.44403,
+      "oi": 3581.72953849688,
+      "chg24_pct": -2.17911
+    },
+    {
+      "ticker": "QTUM",
+      "instrument_type": "perpetual_future",
+      "fdv": 72657293.0,
+      "vol_24h": 0.0,
+      "oi": 1279.5834376264131,
+      "chg24_pct": -1.70504
+    },
+    {
+      "ticker": "ACH",
+      "instrument_type": "perpetual_future",
+      "fdv": 72274581.0,
+      "vol_24h": 9562.706301,
+      "oi": 6983.1341430405,
+      "chg24_pct": -1.12469
+    },
+    {
+      "ticker": "PENGU",
+      "instrument_type": "perpetual_future",
+      "fdv": 479556566.0,
+      "vol_24h": 89475.625149,
+      "oi": 192496.68613093477,
+      "chg24_pct": -4.07447
+    },
+    {
+      "ticker": "MRVL",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 237721038840.0,
+      "vol_24h": 713915.76819,
+      "oi": 1236729.4771018366,
+      "chg24_pct": -2.61493
+    },
+    {
+      "ticker": "AGLD",
+      "instrument_type": "perpetual_future",
+      "fdv": 13704852.0,
+      "vol_24h": 30.04988,
+      "oi": 12659.157109824859,
+      "chg24_pct": -0.20317
+    },
+    {
+      "ticker": "CL",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": null,
+      "vol_24h": 4469632.596191,
+      "oi": 7448062.8633067645,
+      "chg24_pct": -3.326
+    },
+    {
+      "ticker": "2Z",
+      "instrument_type": "perpetual_future",
+      "fdv": 662404383.0,
+      "vol_24h": 18159.52116,
+      "oi": 30420.504712915186,
+      "chg24_pct": -4.39328
+    },
+    {
+      "ticker": "CLANKER",
+      "instrument_type": "perpetual_future",
+      "fdv": 15915081.0,
+      "vol_24h": 2906.270553,
+      "oi": 34136.97693033755,
+      "chg24_pct": -5.42341
+    },
+    {
+      "ticker": "MANTA",
+      "instrument_type": "perpetual_future",
+      "fdv": 81094869.0,
+      "vol_24h": 11233.46379,
+      "oi": 19603.940320719958,
+      "chg24_pct": 3.73013
+    },
+    {
+      "ticker": "SKL",
+      "instrument_type": "perpetual_future",
+      "fdv": 23196816.0,
+      "vol_24h": 0.0,
+      "oi": 255.36547491222896,
+      "chg24_pct": -2.92091
+    },
+    {
+      "ticker": "AKE",
+      "instrument_type": "perpetual_future",
+      "fdv": 36584464.0,
+      "vol_24h": 494.7224,
+      "oi": 13497.278165374031,
+      "chg24_pct": 3.18873
+    },
+    {
+      "ticker": "LINEA",
+      "instrument_type": "perpetual_future",
+      "fdv": 168996498.0,
+      "vol_24h": 14960.951521,
+      "oi": 101151.18817800903,
+      "chg24_pct": -1.14073
+    },
+    {
+      "ticker": "MASK",
+      "instrument_type": "perpetual_future",
+      "fdv": 40052644.0,
+      "vol_24h": 28248.940485,
+      "oi": 48946.206735019005,
+      "chg24_pct": 3.84904
+    },
+    {
+      "ticker": "JASMY",
+      "instrument_type": "perpetual_future",
+      "fdv": 222392139.0,
+      "vol_24h": 104.180968,
+      "oi": 234.15149447904233,
+      "chg24_pct": -0.77429
+    },
+    {
+      "ticker": "TIA",
+      "instrument_type": "perpetual_future",
+      "fdv": 426055724.0,
+      "vol_24h": 79611.71453,
+      "oi": 188142.41681607295,
+      "chg24_pct": -5.57747
+    },
+    {
+      "ticker": "PARTI",
+      "instrument_type": "perpetual_future",
+      "fdv": 56498851.0,
+      "vol_24h": 1446.84176,
+      "oi": 9344.472340276778,
+      "chg24_pct": -0.60132
+    },
+    {
+      "ticker": "ATOM",
+      "instrument_type": "perpetual_future",
+      "fdv": 852503561.0,
+      "vol_24h": 139599.572098,
+      "oi": 759867.6330807994,
+      "chg24_pct": -4.79926
+    },
+    {
+      "ticker": "AIXBT",
+      "instrument_type": "perpetual_future",
+      "fdv": 21191711.0,
+      "vol_24h": 0.0,
+      "oi": 55954.519506384924,
+      "chg24_pct": -2.18741
+    },
+    {
+      "ticker": "SFP",
+      "instrument_type": "perpetual_future",
+      "fdv": 108952057.0,
+      "vol_24h": 76.45662,
+      "oi": 2074.2940914566243,
+      "chg24_pct": -2.18462
+    },
+    {
+      "ticker": "ICX",
+      "instrument_type": "perpetual_future",
+      "fdv": 28427266.0,
+      "vol_24h": 0.0,
+      "oi": 271.8151989891978,
+      "chg24_pct": -2.41384
+    },
+    {
+      "ticker": "RED",
+      "instrument_type": "perpetual_future",
+      "fdv": 94545112.0,
+      "vol_24h": 6574.65321,
+      "oi": 3302.770385093665,
+      "chg24_pct": -5.38855
+    },
+    {
+      "ticker": "GIGGLE",
+      "instrument_type": "perpetual_future",
+      "fdv": 25798021.0,
+      "vol_24h": 47.305384,
+      "oi": 7165.670299694861,
+      "chg24_pct": 2.30001
+    },
+    {
+      "ticker": "ROSE",
+      "instrument_type": "perpetual_future",
+      "fdv": 62346189.0,
+      "vol_24h": 29.9919,
+      "oi": 3581.952366445762,
+      "chg24_pct": -1.45261
+    },
+    {
+      "ticker": "SAHARA",
+      "instrument_type": "perpetual_future",
+      "fdv": 133399078.0,
+      "vol_24h": 190116.064478,
+      "oi": 25228.04827079911,
+      "chg24_pct": 17.73741
+    },
+    {
+      "ticker": "EDU",
+      "instrument_type": "perpetual_future",
+      "fdv": 30088660.0,
+      "vol_24h": 1379.35195,
+      "oi": 7252.406997707717,
+      "chg24_pct": 3.61836
+    },
+    {
+      "ticker": "AEVO",
+      "instrument_type": "perpetual_future",
+      "fdv": 18037517.0,
+      "vol_24h": 2389.23659,
+      "oi": 16986.66829806679,
+      "chg24_pct": -2.56509
+    },
+    {
+      "ticker": "SAPIEN",
+      "instrument_type": "perpetual_future",
+      "fdv": 80072094.0,
+      "vol_24h": 171.49654,
+      "oi": 18559.95230651677,
+      "chg24_pct": -6.70169
+    },
+    {
+      "ticker": "CHZ",
+      "instrument_type": "perpetual_future",
+      "fdv": 204530695.0,
+      "vol_24h": 296.84091,
+      "oi": 7831.726204447728,
+      "chg24_pct": 2.79359
+    },
+    {
+      "ticker": "AIOZ",
+      "instrument_type": "perpetual_future",
+      "fdv": 67363276.0,
+      "vol_24h": 500.1004,
+      "oi": 0.4820987130250653,
+      "chg24_pct": -3.38833
+    },
+    {
+      "ticker": "COPPER",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": null,
+      "vol_24h": 685042.538638,
+      "oi": 621443.8278108767,
+      "chg24_pct": -0.218
+    },
+    {
+      "ticker": "AKT",
+      "instrument_type": "perpetual_future",
+      "fdv": 198738499.0,
+      "vol_24h": 7231.190879,
+      "oi": 148802.6001388354,
+      "chg24_pct": -7.57946
+    },
+    {
+      "ticker": "SOMI",
+      "instrument_type": "perpetual_future",
+      "fdv": 100610108.0,
+      "vol_24h": 0.0,
+      "oi": 5679.354189285696,
+      "chg24_pct": -0.34866
+    },
+    {
+      "ticker": "XLM",
+      "instrument_type": "perpetual_future",
+      "fdv": 9329115665.0,
+      "vol_24h": 85123.78286,
+      "oi": 596786.3084764555,
+      "chg24_pct": -2.91182
+    },
+    {
+      "ticker": "MOVR",
+      "instrument_type": "perpetual_future",
+      "fdv": 14119713.0,
+      "vol_24h": 0.0,
+      "oi": 369.78720815833253,
+      "chg24_pct": -4.72409
+    },
+    {
+      "ticker": "ZETA",
+      "instrument_type": "perpetual_future",
+      "fdv": 72476727.0,
+      "vol_24h": 662.93812,
+      "oi": 22433.860275573446,
+      "chg24_pct": -13.05744
+    },
+    {
+      "ticker": "VVV",
+      "instrument_type": "perpetual_future",
+      "fdv": 1046649728.0,
+      "vol_24h": 488298.263094,
+      "oi": 897520.0055154643,
+      "chg24_pct": -3.73668
+    },
+    {
+      "ticker": "ASTR",
+      "instrument_type": "perpetual_future",
+      "fdv": 45058235.0,
+      "vol_24h": 699.73295,
+      "oi": 7370.489378086961,
+      "chg24_pct": -0.441
+    },
+    {
+      "ticker": "WIF",
+      "instrument_type": "perpetual_future",
+      "fdv": 150199581.0,
+      "vol_24h": 25232.831512,
+      "oi": 95756.05138311101,
+      "chg24_pct": -3.75168
+    },
+    {
+      "ticker": "BANANAS31",
+      "instrument_type": "perpetual_future",
+      "fdv": 89789424.0,
+      "vol_24h": 679.990709,
+      "oi": 23025.406860869873,
+      "chg24_pct": 1.13178
+    },
+    {
+      "ticker": "ARIA",
+      "instrument_type": "perpetual_future",
+      "fdv": 26673705.0,
+      "vol_24h": 0.0,
+      "oi": 117.9958676967793,
+      "chg24_pct": 3.00983
+    },
+    {
+      "ticker": "RAVE",
+      "instrument_type": "perpetual_future",
+      "fdv": 269270848.0,
+      "vol_24h": 17133.421715,
+      "oi": 18249.68718572492,
+      "chg24_pct": 5.93059
+    },
+    {
+      "ticker": "B3",
+      "instrument_type": "perpetual_future",
+      "fdv": 51008936.0,
+      "vol_24h": 2894.957722,
+      "oi": 5161.283529018116,
+      "chg24_pct": -3.27703
+    },
+    {
+      "ticker": "MOVE",
+      "instrument_type": "perpetual_future",
+      "fdv": 110925581.0,
+      "vol_24h": 60.02378,
+      "oi": 3175.109439314413,
+      "chg24_pct": 0.63861
+    },
+    {
+      "ticker": "NMR",
+      "instrument_type": "perpetual_future",
+      "fdv": 90461885.0,
+      "vol_24h": 6126.836743,
+      "oi": 9526.105396105613,
+      "chg24_pct": -10.54046
+    },
+    {
+      "ticker": "GPS",
+      "instrument_type": "perpetual_future",
+      "fdv": 88047515.0,
+      "vol_24h": 1736.72,
+      "oi": 30641.286221827137,
+      "chg24_pct": -0.4714
+    },
+    {
+      "ticker": "BLAST",
+      "instrument_type": "perpetual_future",
+      "fdv": 27229387.0,
+      "vol_24h": 909.360945,
+      "oi": 17473.64354040462,
+      "chg24_pct": -2.30239
+    },
+    {
+      "ticker": "4",
+      "instrument_type": "perpetual_future",
+      "fdv": 8816443.0,
+      "vol_24h": 0.0,
+      "oi": 15506.48565050415,
+      "chg24_pct": 2.23613
+    },
+    {
+      "ticker": "VELO",
+      "instrument_type": "perpetual_future",
+      "fdv": 78020143.0,
+      "vol_24h": 29.99867,
+      "oi": 4695.7295604708415,
+      "chg24_pct": -0.99586
     },
     {
       "ticker": "XPT",
       "instrument_type": "perpetual_rwa_future",
       "fdv": null,
-      "vol_24h": 218315.356521,
-      "oi": 252374.973086636,
+      "vol_24h": 91214.666729,
+      "oi": 223370.84748834628,
       "chg24_pct": -0.189
     },
     {
-      "ticker": "POLYX",
+      "ticker": "BABYL",
       "instrument_type": "perpetual_future",
-      "fdv": 46627303.0,
-      "vol_24h": 0.0,
-      "oi": 57862.409569817806,
-      "chg24_pct": -7.5157
+      "fdv": 136897267.0,
+      "vol_24h": 351.41553,
+      "oi": 2543.349111303107,
+      "chg24_pct": -3.50313
     },
     {
-      "ticker": "DRAM",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 3000020874.0,
-      "vol_24h": 3030997.612065,
-      "oi": 1676733.614324811,
-      "chg24_pct": 5.22748
-    },
-    {
-      "ticker": "GIGGLE",
-      "instrument_type": "perpetual_future",
-      "fdv": 25230955.0,
-      "vol_24h": 0.0,
-      "oi": 6992.813274650174,
-      "chg24_pct": -5.40937
-    },
-    {
-      "ticker": "BROCCOLI",
-      "instrument_type": "perpetual_future",
-      "fdv": 11488854.0,
-      "vol_24h": 3986.064651,
-      "oi": 2813.675971044756,
-      "chg24_pct": -9.05587
-    },
-    {
-      "ticker": "UNI",
-      "instrument_type": "perpetual_future",
-      "fdv": 2578516718.0,
-      "vol_24h": 119811.39938,
-      "oi": 351294.91880442225,
-      "chg24_pct": -5.31503
-    },
-    {
-      "ticker": "TWT",
-      "instrument_type": "perpetual_future",
-      "fdv": 365086852.0,
-      "vol_24h": 3536.87864,
-      "oi": 20276.539358848186,
-      "chg24_pct": -4.95222
-    },
-    {
-      "ticker": "LINEA",
-      "instrument_type": "perpetual_future",
-      "fdv": 171199763.0,
-      "vol_24h": 4056.097056,
-      "oi": 87333.60068641309,
-      "chg24_pct": -4.86276
-    },
-    {
-      "ticker": "SOLV",
-      "instrument_type": "perpetual_future",
-      "fdv": 25704570.0,
-      "vol_24h": 917.041914,
-      "oi": 7782.7286320196245,
-      "chg24_pct": -6.17758
-    },
-    {
-      "ticker": "AVAX",
-      "instrument_type": "perpetual_future",
-      "fdv": 2891242295.0,
-      "vol_24h": 234581.390706,
-      "oi": 1167340.3958235704,
-      "chg24_pct": -1.76522
-    },
-    {
-      "ticker": "XRP",
-      "instrument_type": "perpetual_future",
-      "fdv": 110763469139.0,
-      "vol_24h": 4067485.9105,
-      "oi": 2041047.0106009361,
-      "chg24_pct": -3.3959
-    },
-    {
-      "ticker": "CETUS",
-      "instrument_type": "perpetual_future",
-      "fdv": 17680809.0,
-      "vol_24h": 1853.601053,
-      "oi": 104.75345879273226,
-      "chg24_pct": -6.09224
-    },
-    {
-      "ticker": "MITO",
-      "instrument_type": "perpetual_future",
-      "fdv": 25544215.0,
-      "vol_24h": 101.69582,
-      "oi": 778.7312048198789,
-      "chg24_pct": 3.54099
-    },
-    {
-      "ticker": "AGLD",
-      "instrument_type": "perpetual_future",
-      "fdv": 13633132.0,
-      "vol_24h": 0.0,
-      "oi": 12532.032422278953,
-      "chg24_pct": -6.95349
-    },
-    {
-      "ticker": "KERNEL",
-      "instrument_type": "perpetual_future",
-      "fdv": 42083512.0,
-      "vol_24h": 100.8,
-      "oi": 475.81516803133326,
-      "chg24_pct": -10.93088
-    },
-    {
-      "ticker": "MRVL",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 269315928000.0,
-      "vol_24h": 2056581.551492,
-      "oi": 1154069.1514131615,
-      "chg24_pct": -0.87578
-    },
-    {
-      "ticker": "GWEI",
-      "instrument_type": "perpetual_future",
-      "fdv": 1195244823.0,
-      "vol_24h": 10617.68276,
-      "oi": 91116.87676636473,
-      "chg24_pct": 14.74545
-    },
-    {
-      "ticker": "CHZ",
-      "instrument_type": "perpetual_future",
-      "fdv": 199449278.0,
-      "vol_24h": 13271.936992,
-      "oi": 7461.933786612446,
-      "chg24_pct": -8.56039
-    },
-    {
-      "ticker": "HIGH",
-      "instrument_type": "perpetual_future",
-      "fdv": 3730541.0,
-      "vol_24h": 2392.46746,
-      "oi": 4208.92994090053,
-      "chg24_pct": -4.90688
-    },
-    {
-      "ticker": "KAVA",
-      "instrument_type": "perpetual_future",
-      "fdv": 50951053.0,
-      "vol_24h": 16300.0,
-      "oi": 37969.24178827102,
-      "chg24_pct": -2.90062
-    },
-    {
-      "ticker": "MOODENG",
-      "instrument_type": "perpetual_future",
-      "fdv": 37917049.0,
-      "vol_24h": 38.856561,
-      "oi": 32358.594048088882,
-      "chg24_pct": -7.16887
-    },
-    {
-      "ticker": "RAY",
-      "instrument_type": "perpetual_future",
-      "fdv": 333512341.0,
-      "vol_24h": 3618.711831,
-      "oi": 23680.400151870163,
-      "chg24_pct": -6.2416
-    },
-    {
-      "ticker": "LRC",
-      "instrument_type": "perpetual_future",
-      "fdv": 17792615.0,
-      "vol_24h": 0.0,
-      "oi": 5325.157210584948,
-      "chg24_pct": -4.21016
-    },
-    {
-      "ticker": "ONDO",
-      "instrument_type": "perpetual_future",
-      "fdv": 3133421127.0,
-      "vol_24h": 236373.396467,
-      "oi": 151747.37066608047,
-      "chg24_pct": -7.54783
-    },
-    {
-      "ticker": "ARM",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 433814080000.0,
-      "vol_24h": 460709.841741,
-      "oi": 35981.42450407214,
-      "chg24_pct": -7.2225
-    },
-    {
-      "ticker": "LDO",
-      "instrument_type": "perpetual_future",
-      "fdv": 255767997.0,
-      "vol_24h": 30639.342152,
-      "oi": 72550.69362694895,
-      "chg24_pct": -8.13373
-    },
-    {
-      "ticker": "FF0",
-      "instrument_type": "perpetual_future",
-      "fdv": 659871076.0,
-      "vol_24h": 1444.80535,
-      "oi": 18216.345934226243,
-      "chg24_pct": -7.27706
-    },
-    {
-      "ticker": "GPS",
-      "instrument_type": "perpetual_future",
-      "fdv": 90052322.0,
-      "vol_24h": 1916.816264,
-      "oi": 31397.968071299056,
-      "chg24_pct": -0.26544
-    },
-    {
-      "ticker": "1000PEPE",
-      "instrument_type": "perpetual_future",
-      "fdv": 1145679264.0,
-      "vol_24h": 66119.503352,
-      "oi": 219808.88322464292,
-      "chg24_pct": -5.15502
-    },
-    {
-      "ticker": "BOME",
-      "instrument_type": "perpetual_future",
-      "fdv": 28459920.0,
-      "vol_24h": 50.024584,
-      "oi": 6163.837026042734,
-      "chg24_pct": -8.53287
-    },
-    {
-      "ticker": "STBL",
-      "instrument_type": "perpetual_future",
-      "fdv": 241755441.0,
-      "vol_24h": 1162.18924,
-      "oi": 367.1122989843683,
-      "chg24_pct": -2.84281
-    },
-    {
-      "ticker": "MAV",
-      "instrument_type": "perpetual_future",
-      "fdv": 19500646.0,
-      "vol_24h": 6447.1,
-      "oi": 31177.08964435408,
-      "chg24_pct": -7.58467
-    },
-    {
-      "ticker": "POWER",
-      "instrument_type": "perpetual_future",
-      "fdv": 88186589.0,
-      "vol_24h": 25897.664473,
-      "oi": 45468.79690864313,
-      "chg24_pct": 1.73703
-    },
-    {
-      "ticker": "TRB",
-      "instrument_type": "perpetual_future",
-      "fdv": 37769698.0,
-      "vol_24h": 249.976579,
-      "oi": 2813.744033851057,
-      "chg24_pct": -5.17677
-    },
-    {
-      "ticker": "UMA",
-      "instrument_type": "perpetual_future",
-      "fdv": 51317740.0,
-      "vol_24h": 0.0,
-      "oi": 2132.7856582621853,
-      "chg24_pct": -4.66669
-    },
-    {
-      "ticker": "Q",
-      "instrument_type": "perpetual_future",
-      "fdv": 168925969.0,
-      "vol_24h": 4527.463248,
-      "oi": 438.335367260992,
-      "chg24_pct": -7.12736
-    },
-    {
-      "ticker": "CVX",
-      "instrument_type": "perpetual_future",
-      "fdv": 116049725.0,
-      "vol_24h": 14040.49,
-      "oi": 90116.61725424758,
-      "chg24_pct": -7.02285
-    },
-    {
-      "ticker": "INJ",
-      "instrument_type": "perpetual_future",
-      "fdv": 459787254.0,
-      "vol_24h": 107877.775992,
-      "oi": 71473.08720643849,
-      "chg24_pct": -6.87359
-    },
-    {
-      "ticker": "COTI",
-      "instrument_type": "perpetual_future",
-      "fdv": 26043898.0,
-      "vol_24h": 0.0,
-      "oi": 4493.87015701575,
-      "chg24_pct": -6.90757
-    },
-    {
-      "ticker": "HMSTR",
-      "instrument_type": "perpetual_future",
-      "fdv": 17170983.0,
-      "vol_24h": 7502.914684,
-      "oi": 2788.409649749464,
-      "chg24_pct": -8.28934
-    },
-    {
-      "ticker": "BNB",
-      "instrument_type": "perpetual_future",
-      "fdv": 77265916268.0,
-      "vol_24h": 2167350.063184,
-      "oi": 3241480.2422012156,
-      "chg24_pct": -3.89971
-    },
-    {
-      "ticker": "APE",
-      "instrument_type": "perpetual_future",
-      "fdv": 132567435.0,
-      "vol_24h": 50610.999181,
-      "oi": 23617.878314041496,
-      "chg24_pct": -5.45813
-    },
-    {
-      "ticker": "AXS",
-      "instrument_type": "perpetual_future",
-      "fdv": 277741493.0,
-      "vol_24h": 8524.122745,
-      "oi": 23569.132424776824,
-      "chg24_pct": -2.13543
-    },
-    {
-      "ticker": "LUMIA",
-      "instrument_type": "perpetual_future",
-      "fdv": 28722723.0,
-      "vol_24h": 42794.41971,
-      "oi": 16185.238445129413,
-      "chg24_pct": -1.42074
-    },
-    {
-      "ticker": "MAGIC",
-      "instrument_type": "perpetual_future",
-      "fdv": 15164147.0,
-      "vol_24h": 0.0,
-      "oi": 19334.338110915167,
-      "chg24_pct": -6.21346
-    },
-    {
-      "ticker": "LUNA2",
-      "instrument_type": "perpetual_future",
-      "fdv": 59045967.0,
-      "vol_24h": 0.0,
-      "oi": 393.8232611117491,
-      "chg24_pct": -4.75373
-    },
-    {
-      "ticker": "ENJ",
-      "instrument_type": "perpetual_future",
-      "fdv": 62438495.0,
-      "vol_24h": 48.9041,
-      "oi": 256.678519865515,
-      "chg24_pct": -5.6546
-    },
-    {
-      "ticker": "AAOI",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 13739968993.0,
-      "vol_24h": 1163648.276666,
-      "oi": 658331.6590062213,
-      "chg24_pct": 5.79549
-    },
-    {
-      "ticker": "SKL",
-      "instrument_type": "perpetual_future",
-      "fdv": 23829796.0,
-      "vol_24h": 3792.817295,
-      "oi": 262.9608724540518,
-      "chg24_pct": -6.51589
-    },
-    {
-      "ticker": "IP",
-      "instrument_type": "perpetual_future",
-      "fdv": 312493005.0,
-      "vol_24h": 32198.329922,
-      "oi": 134974.33860269468,
-      "chg24_pct": -4.51026
-    },
-    {
-      "ticker": "LLY",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 1039380706880.0,
-      "vol_24h": 0.0,
-      "oi": 0.0,
-      "chg24_pct": 0.46515
-    },
-    {
-      "ticker": "DEXE",
-      "instrument_type": "perpetual_future",
-      "fdv": 2199439140.0,
-      "vol_24h": 190525.292898,
-      "oi": 71033.22368375037,
-      "chg24_pct": 33.72015
-    },
-    {
-      "ticker": "COW",
-      "instrument_type": "perpetual_future",
-      "fdv": 151788872.0,
-      "vol_24h": 668.37008,
-      "oi": 4517.516363509198,
-      "chg24_pct": -7.00255
-    },
-    {
-      "ticker": "HYPER",
-      "instrument_type": "perpetual_future",
-      "fdv": 64597910.0,
-      "vol_24h": 976.44854,
-      "oi": 13126.542418232411,
-      "chg24_pct": -4.22532
-    },
-    {
-      "ticker": "INTC",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 708364440000.0,
-      "vol_24h": 3113837.736669,
-      "oi": 1058214.362737724,
-      "chg24_pct": 5.18695
-    },
-    {
-      "ticker": "SHELL",
-      "instrument_type": "perpetual_future",
-      "fdv": 22817633.0,
-      "vol_24h": 0.0,
-      "oi": 392.04539119053214,
-      "chg24_pct": -7.23271
-    },
-    {
-      "ticker": "ZRX",
-      "instrument_type": "perpetual_future",
-      "fdv": 80944272.0,
-      "vol_24h": 0.0,
-      "oi": 4117.348836744586,
-      "chg24_pct": -4.78754
-    },
-    {
-      "ticker": "REZ",
-      "instrument_type": "perpetual_future",
-      "fdv": 31336408.0,
-      "vol_24h": 388.617328,
-      "oi": 23603.99573464688,
-      "chg24_pct": -4.09799
-    },
-    {
-      "ticker": "ENA",
-      "instrument_type": "perpetual_future",
-      "fdv": 1288394869.0,
-      "vol_24h": 937079.733749,
-      "oi": 778672.1790918761,
-      "chg24_pct": -10.85091
-    },
-    {
-      "ticker": "SXT",
-      "instrument_type": "perpetual_future",
-      "fdv": 36575590.0,
-      "vol_24h": 1.008618,
-      "oi": 108.93168740726684,
-      "chg24_pct": -8.8209
-    },
-    {
-      "ticker": "POL",
-      "instrument_type": "perpetual_future",
-      "fdv": 824033501.0,
-      "vol_24h": 69603.871604,
-      "oi": 119360.4230782681,
-      "chg24_pct": -3.47307
-    },
-    {
-      "ticker": "DRIFT",
+      "ticker": "ASR",
       "instrument_type": "perpetual_future",
-      "fdv": 17234444.0,
-      "vol_24h": 9152.24749,
-      "oi": 15754.032740007287,
-      "chg24_pct": -7.56419
-    },
-    {
-      "ticker": "QNTX",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": null,
-      "vol_24h": 174642.773369,
-      "oi": 28194.89956529319,
-      "chg24_pct": -1.08
-    },
-    {
-      "ticker": "AIXBT",
-      "instrument_type": "perpetual_future",
-      "fdv": 21594497.0,
-      "vol_24h": 26765.04212,
-      "oi": 56910.504098995356,
-      "chg24_pct": -8.24675
-    },
-    {
-      "ticker": "CVC",
-      "instrument_type": "perpetual_future",
-      "fdv": 20841120.0,
-      "vol_24h": 14933.450565,
-      "oi": 31670.86427104825,
-      "chg24_pct": -4.39252
-    },
-    {
-      "ticker": "AVA",
-      "instrument_type": "perpetual_future",
-      "fdv": 13346945.0,
-      "vol_24h": 423.58032,
-      "oi": 3375.579079886697,
-      "chg24_pct": -6.07436
-    },
-    {
-      "ticker": "MNT",
-      "instrument_type": "perpetual_future",
-      "fdv": 3218451696.0,
-      "vol_24h": 19329.31779,
-      "oi": 38778.563287389276,
-      "chg24_pct": -3.92691
-    },
-    {
-      "ticker": "KAITO",
-      "instrument_type": "perpetual_future",
-      "fdv": 446731677.0,
-      "vol_24h": 10920.5205,
-      "oi": 80919.36547451929,
-      "chg24_pct": -6.54745
-    },
-    {
-      "ticker": "BEAM",
-      "instrument_type": "perpetual_future",
-      "fdv": 79304446.0,
-      "vol_24h": 376.062483,
-      "oi": 1797.7920152269814,
-      "chg24_pct": -7.14079
-    },
-    {
-      "ticker": "MAGMA",
-      "instrument_type": "perpetual_future",
-      "fdv": 418379370.0,
-      "vol_24h": 17358.80619,
-      "oi": 12835.756176469116,
-      "chg24_pct": -12.99602
-    },
-    {
-      "ticker": "MSTR",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 32517576428.0,
-      "vol_24h": 1864927.929492,
-      "oi": 1116086.7821477612,
-      "chg24_pct": -2.72816
+      "fdv": 8904144.0,
+      "vol_24h": 1451.98515,
+      "oi": 2720.9997752663094,
+      "chg24_pct": 1.86657
     },
     {
-      "ticker": "VET",
+      "ticker": "KGEN",
       "instrument_type": "perpetual_future",
-      "fdv": 405423199.0,
-      "vol_24h": 41377.588946,
-      "oi": 10834.880202426935,
-      "chg24_pct": -4.17175
+      "fdv": 168633016.0,
+      "vol_24h": 6627.66101,
+      "oi": 252.72453642433712,
+      "chg24_pct": -3.74401
     },
     {
-      "ticker": "HYPE",
+      "ticker": "OPN_OPINION",
       "instrument_type": "perpetual_future",
-      "fdv": 60333580071.0,
-      "vol_24h": 69941382.715203,
-      "oi": 28395854.73927192,
-      "chg24_pct": -7.27743
+      "fdv": 73491066.0,
+      "vol_24h": 18070.000858,
+      "oi": 30806.909702003137,
+      "chg24_pct": -0.7869
     },
     {
-      "ticker": "NAORIS",
+      "ticker": "NEAR",
       "instrument_type": "perpetual_future",
-      "fdv": 131785410.0,
-      "vol_24h": 2934.9359,
-      "oi": 2136.9731329713095,
-      "chg24_pct": -8.22575
+      "fdv": 2496245298.0,
+      "vol_24h": 1083934.687346,
+      "oi": 1025807.7455015808,
+      "chg24_pct": -2.8525
     },
     {
-      "ticker": "IO",
+      "ticker": "XNY",
       "instrument_type": "perpetual_future",
-      "fdv": 143301716.0,
-      "vol_24h": 19391.663869,
-      "oi": 16061.825101538183,
-      "chg24_pct": -9.68417
+      "fdv": 53010113.0,
+      "vol_24h": 50.26,
+      "oi": 8040.671660082807,
+      "chg24_pct": 7.91043
     },
     {
-      "ticker": "HOLO",
+      "ticker": "TREE",
       "instrument_type": "perpetual_future",
-      "fdv": 130117370.0,
-      "vol_24h": 5595.202572,
-      "oi": 7545.920737769204,
-      "chg24_pct": -5.43361
+      "fdv": 42447990.0,
+      "vol_24h": 1288.29675,
+      "oi": 466.28508217761964,
+      "chg24_pct": -1.28343
     },
     {
-      "ticker": "RAVE",
+      "ticker": "CHIP",
       "instrument_type": "perpetual_future",
-      "fdv": 254802657.0,
-      "vol_24h": 3400.78709,
-      "oi": 16148.998050346952,
-      "chg24_pct": -6.69666
+      "fdv": 307972239.0,
+      "vol_24h": 75510.044993,
+      "oi": 255346.91437646386,
+      "chg24_pct": -5.96024
     },
     {
-      "ticker": "XAN",
+      "ticker": "AAVE",
       "instrument_type": "perpetual_future",
-      "fdv": 109509465.0,
-      "vol_24h": 18459.126594,
-      "oi": 827.1237292115245,
-      "chg24_pct": 12.49097
+      "fdv": 1215840280.0,
+      "vol_24h": 498575.690616,
+      "oi": 1519733.7928105202,
+      "chg24_pct": 4.55023
     },
     {
       "ticker": "BZ",
       "instrument_type": "perpetual_rwa_future",
       "fdv": null,
-      "vol_24h": 1546176.008129,
-      "oi": 2713229.9547486883,
+      "vol_24h": 1257363.239862,
+      "oi": 2475988.515878685,
       "chg24_pct": -3.391
     },
     {
-      "ticker": "SANTOS",
+      "ticker": "TNSR",
       "instrument_type": "perpetual_future",
-      "fdv": 16594519.0,
-      "vol_24h": 3627.1,
-      "oi": 3402.0377654900035,
-      "chg24_pct": -8.33087
+      "fdv": 34878942.0,
+      "vol_24h": 14025.377695,
+      "oi": 10450.264436642577,
+      "chg24_pct": 0.13421
     },
     {
-      "ticker": "PIEVERSE",
+      "ticker": "LPT",
       "instrument_type": "perpetual_future",
-      "fdv": 675358823.0,
-      "vol_24h": 14244.1,
-      "oi": 16553.650668478447,
-      "chg24_pct": -5.14703
-    },
-    {
-      "ticker": "PROMPT",
-      "instrument_type": "perpetual_future",
-      "fdv": 22420039.0,
-      "vol_24h": 0.0,
-      "oi": 2013.1438120407047,
-      "chg24_pct": -6.24314
+      "fdv": 80871829.0,
+      "vol_24h": 81.449914,
+      "oi": 2667.675304763854,
+      "chg24_pct": -0.28086
     },
     {
       "ticker": "SNT",
       "instrument_type": "perpetual_future",
-      "fdv": 48626158.0,
-      "vol_24h": 297.383185,
-      "oi": 11.529544239675076,
-      "chg24_pct": -2.94402
-    },
-    {
-      "ticker": "HAEDAL",
-      "instrument_type": "perpetual_future",
-      "fdv": 16634522.0,
-      "vol_24h": 2211.42948,
-      "oi": 889.2668568374042,
-      "chg24_pct": -7.37617
-    },
-    {
-      "ticker": "PHA",
-      "instrument_type": "perpetual_future",
-      "fdv": 36509937.0,
-      "vol_24h": 1675.5106,
-      "oi": 80625.88536801033,
-      "chg24_pct": -6.70587
-    },
-    {
-      "ticker": "SNDK",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 336716107268.0,
-      "vol_24h": 7540545.799696,
-      "oi": 563166.3202626004,
-      "chg24_pct": 4.07278
-    },
-    {
-      "ticker": "MOVR",
-      "instrument_type": "perpetual_future",
-      "fdv": 15466905.0,
-      "vol_24h": 425.808761,
-      "oi": 404.20077233964963,
-      "chg24_pct": -0.26465
-    },
-    {
-      "ticker": "ATH",
-      "instrument_type": "perpetual_future",
-      "fdv": 190532364.0,
-      "vol_24h": 517.051191,
-      "oi": 327.9971024773819,
-      "chg24_pct": -6.97689
-    },
-    {
-      "ticker": "BANANAS31",
-      "instrument_type": "perpetual_future",
-      "fdv": 93843820.0,
-      "vol_24h": 7460.482486,
-      "oi": 24301.905570737017,
-      "chg24_pct": -1.48513
-    },
-    {
-      "ticker": "1000BONK",
-      "instrument_type": "perpetual_future",
-      "fdv": 387595120.0,
-      "vol_24h": 48416.426515,
-      "oi": 32825.84422598678,
-      "chg24_pct": -5.77875
-    },
-    {
-      "ticker": "PEOPLE",
-      "instrument_type": "perpetual_future",
-      "fdv": 27834412.0,
-      "vol_24h": 4224.630813,
-      "oi": 167.5629376882764,
-      "chg24_pct": -5.4158
-    },
-    {
-      "ticker": "APEX",
-      "instrument_type": "perpetual_future",
-      "fdv": 147975573.0,
-      "vol_24h": 1309.34449,
-      "oi": 48285.354437955546,
-      "chg24_pct": 3.4604
-    },
-    {
-      "ticker": "AEVO",
-      "instrument_type": "perpetual_future",
-      "fdv": 18192486.0,
-      "vol_24h": 200.03704,
-      "oi": 14845.650239045613,
-      "chg24_pct": -7.57968
-    },
-    {
-      "ticker": "STRK",
-      "instrument_type": "perpetual_future",
-      "fdv": 320171824.0,
-      "vol_24h": 29526.948801,
-      "oi": 31553.476857287016,
-      "chg24_pct": -8.39982
-    },
-    {
-      "ticker": "ZKC",
-      "instrument_type": "perpetual_future",
-      "fdv": 49631839.0,
-      "vol_24h": 925.8,
-      "oi": 1958.3392249626577,
-      "chg24_pct": -5.142
-    },
-    {
-      "ticker": "MYX",
-      "instrument_type": "perpetual_future",
-      "fdv": 107002826.0,
-      "vol_24h": 5060.64937,
-      "oi": 3481.196182763737,
-      "chg24_pct": 3.75776
-    },
-    {
-      "ticker": "DUSK",
-      "instrument_type": "perpetual_future",
-      "fdv": 47407951.0,
-      "vol_24h": 2948.6939,
-      "oi": 18968.4314311264,
-      "chg24_pct": -6.61508
-    },
-    {
-      "ticker": "4",
-      "instrument_type": "perpetual_future",
-      "fdv": 8694347.0,
+      "fdv": 50428516.0,
       "vol_24h": 0.0,
-      "oi": 15478.092238136383,
-      "chg24_pct": -2.38401
-    },
-    {
-      "ticker": "TRUST",
-      "instrument_type": "perpetual_future",
-      "fdv": 48656524.0,
-      "vol_24h": 206.66061,
-      "oi": 1377.71385465427,
-      "chg24_pct": -7.10626
-    },
-    {
-      "ticker": "SAFE",
-      "instrument_type": "perpetual_future",
-      "fdv": 80663376.0,
-      "vol_24h": 0.0,
-      "oi": 7746.355729850972,
-      "chg24_pct": -8.72494
-    },
-    {
-      "ticker": "HUMA",
-      "instrument_type": "perpetual_future",
-      "fdv": 223415271.0,
-      "vol_24h": 2068.758,
-      "oi": 1041.334858695815,
-      "chg24_pct": -6.55924
-    },
-    {
-      "ticker": "SOSO",
-      "instrument_type": "perpetual_future",
-      "fdv": 286863378.0,
-      "vol_24h": 5869.40907,
-      "oi": 15321.255046934872,
-      "chg24_pct": -5.20191
-    },
-    {
-      "ticker": "USELESS",
-      "instrument_type": "perpetual_future",
-      "fdv": 67211705.0,
-      "vol_24h": 65078.975556,
-      "oi": 295526.48300203314,
-      "chg24_pct": -8.62537
-    },
-    {
-      "ticker": "MANTA",
-      "instrument_type": "perpetual_future",
-      "fdv": 78376520.0,
-      "vol_24h": 10.07232,
-      "oi": 19276.812365427566,
-      "chg24_pct": -1.64503
-    },
-    {
-      "ticker": "ANIME",
-      "instrument_type": "perpetual_future",
-      "fdv": 26242327.0,
-      "vol_24h": 5336.483004,
-      "oi": 9467.205235523626,
-      "chg24_pct": -7.49799
-    },
-    {
-      "ticker": "GENIUS",
-      "instrument_type": "perpetual_future",
-      "fdv": 357732619.0,
-      "vol_24h": 31025.433052,
-      "oi": 45464.595850547776,
-      "chg24_pct": -10.7932
-    },
-    {
-      "ticker": "TUTORIAL",
-      "instrument_type": "perpetual_future",
-      "fdv": 8650112.0,
-      "vol_24h": 1031.4,
-      "oi": 9042.834152799354,
-      "chg24_pct": 0.21602
-    },
-    {
-      "ticker": "PENGU",
-      "instrument_type": "perpetual_future",
-      "fdv": 503772369.0,
-      "vol_24h": 99705.26553,
-      "oi": 208015.8824465082,
-      "chg24_pct": -6.87465
-    },
-    {
-      "ticker": "BABYL",
-      "instrument_type": "perpetual_future",
-      "fdv": 142660792.0,
-      "vol_24h": 685.7,
-      "oi": 2827.935829865465,
-      "chg24_pct": -5.54916
-    },
-    {
-      "ticker": "COMP",
-      "instrument_type": "perpetual_future",
-      "fdv": 171167739.0,
-      "vol_24h": 8416.3983,
-      "oi": 46866.25220636356,
-      "chg24_pct": -6.75504
-    },
-    {
-      "ticker": "USAR",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 2331127039.0,
-      "vol_24h": 145834.770477,
-      "oi": 20846.025460545734,
-      "chg24_pct": -2.11039
-    },
-    {
-      "ticker": "ON",
-      "instrument_type": "perpetual_future",
-      "fdv": 58523536.0,
-      "vol_24h": 3340.98,
-      "oi": 3444.7122505457837,
-      "chg24_pct": 0.03381
-    },
-    {
-      "ticker": "GMX",
-      "instrument_type": "perpetual_future",
-      "fdv": 57736568.0,
-      "vol_24h": 0.0,
-      "oi": 67202.11127486004,
-      "chg24_pct": -6.66742
-    },
-    {
-      "ticker": "MMT",
-      "instrument_type": "perpetual_future",
-      "fdv": 203406182.0,
-      "vol_24h": 27121.3769,
-      "oi": 12375.670152020022,
-      "chg24_pct": 15.83815
-    },
-    {
-      "ticker": "INIT",
-      "instrument_type": "perpetual_future",
-      "fdv": 58026250.0,
-      "vol_24h": 10735.58986,
-      "oi": 13514.045491105106,
-      "chg24_pct": -4.91013
-    },
-    {
-      "ticker": "CAKE",
-      "instrument_type": "perpetual_future",
-      "fdv": 442238558.0,
-      "vol_24h": 67603.19975,
-      "oi": 20794.47568329078,
-      "chg24_pct": -4.81395
-    },
-    {
-      "ticker": "VINE",
-      "instrument_type": "perpetual_future",
-      "fdv": 11561733.0,
-      "vol_24h": 42.50612,
-      "oi": 215.65408975326088,
-      "chg24_pct": -5.96188
-    },
-    {
-      "ticker": "LSK",
-      "instrument_type": "perpetual_future",
-      "fdv": 34034110.0,
-      "vol_24h": 227.66952,
-      "oi": 38437.85477816466,
-      "chg24_pct": -3.54243
-    },
-    {
-      "ticker": "WIF",
-      "instrument_type": "perpetual_future",
-      "fdv": 156835239.0,
-      "vol_24h": 36326.38648,
-      "oi": 96607.97132451754,
-      "chg24_pct": -6.74237
-    },
-    {
-      "ticker": "FLOW",
-      "instrument_type": "perpetual_future",
-      "fdv": 46048293.0,
-      "vol_24h": 0.0,
-      "oi": 10450.886276233821,
-      "chg24_pct": -3.84432
-    },
-    {
-      "ticker": "SPX",
-      "instrument_type": "perpetual_future",
-      "fdv": 319581985.0,
-      "vol_24h": 138668.455024,
-      "oi": 432955.23495411413,
-      "chg24_pct": -8.56666
-    },
-    {
-      "ticker": "ONG",
-      "instrument_type": "perpetual_future",
-      "fdv": 35507253.0,
-      "vol_24h": 0.0,
-      "oi": 338.4740247088739,
-      "chg24_pct": -6.41763
-    },
-    {
-      "ticker": "HFT",
-      "instrument_type": "perpetual_future",
-      "fdv": 9638245.0,
-      "vol_24h": 11.162632,
-      "oi": 2728.449060053656,
-      "chg24_pct": -6.79345
-    },
-    {
-      "ticker": "ONE",
-      "instrument_type": "perpetual_future",
-      "fdv": 19585914.0,
-      "vol_24h": 0.0,
-      "oi": 252.70137782196218,
-      "chg24_pct": -7.91274
-    },
-    {
-      "ticker": "PENDLE",
-      "instrument_type": "perpetual_future",
-      "fdv": 368660645.0,
-      "vol_24h": 62215.487727,
-      "oi": 593657.3178252594,
-      "chg24_pct": -9.77737
-    },
-    {
-      "ticker": "ZBT",
-      "instrument_type": "perpetual_future",
-      "fdv": 109426898.0,
-      "vol_24h": 3278.292617,
-      "oi": 538.6057241058896,
-      "chg24_pct": -8.18609
-    },
-    {
-      "ticker": "LITE",
-      "instrument_type": "perpetual_rwa_future",
-      "fdv": 69547754000.0,
-      "vol_24h": 216428.211348,
-      "oi": 71905.77184297715,
-      "chg24_pct": 5.16824
-    },
-    {
-      "ticker": "BAND",
-      "instrument_type": "perpetual_future",
-      "fdv": 27264174.0,
-      "vol_24h": 2948.1,
-      "oi": 5898.9357099679755,
-      "chg24_pct": -7.0081
-    },
-    {
-      "ticker": "ALGO",
-      "instrument_type": "perpetual_future",
-      "fdv": 814964937.0,
-      "vol_24h": 83429.196386,
-      "oi": 30426.59832942835,
-      "chg24_pct": 0.09963
-    },
-    {
-      "ticker": "GAS",
-      "instrument_type": "perpetual_future",
-      "fdv": 68368532.0,
-      "vol_24h": 0.0,
-      "oi": 823.8603354132215,
-      "chg24_pct": -4.11903
-    },
-    {
-      "ticker": "SAHARA",
-      "instrument_type": "perpetual_future",
-      "fdv": 115045507.0,
-      "vol_24h": 95076.835663,
-      "oi": 7193.868937058812,
-      "chg24_pct": -8.86723
-    },
-    {
-      "ticker": "LIGHTER",
-      "instrument_type": "perpetual_future",
-      "fdv": 1564922171.0,
-      "vol_24h": 1479444.003791,
-      "oi": 3233977.81009237,
-      "chg24_pct": -8.02073
-    },
-    {
-      "ticker": "PUMPFUN",
-      "instrument_type": "perpetual_future",
-      "fdv": 1191925054.0,
-      "vol_24h": 255813.526926,
-      "oi": 936819.2568838646,
-      "chg24_pct": -8.33517
-    },
-    {
-      "ticker": "KSM",
-      "instrument_type": "perpetual_future",
-      "fdv": 60175054.0,
-      "vol_24h": 0.0,
-      "oi": 84208.52439464258,
-      "chg24_pct": -7.12632
-    },
-    {
-      "ticker": "SAGA",
-      "instrument_type": "perpetual_future",
-      "fdv": 16289173.0,
-      "vol_24h": 3405.92157,
-      "oi": 9349.180960278964,
-      "chg24_pct": -7.03933
+      "oi": 11.996182523709402,
+      "chg24_pct": 4.00876
     },
     {
       "ticker": "SIGN",
       "instrument_type": "perpetual_future",
-      "fdv": 87604235.0,
-      "vol_24h": 4998.816822,
-      "oi": 761.8467350415393,
-      "chg24_pct": -4.88634
+      "fdv": 84633827.0,
+      "vol_24h": 674.028563,
+      "oi": 1147.248579433372,
+      "chg24_pct": -2.60827
+    },
+    {
+      "ticker": "HOLO",
+      "instrument_type": "perpetual_future",
+      "fdv": 132821328.0,
+      "vol_24h": 4.94676,
+      "oi": 7737.387365971329,
+      "chg24_pct": 1.95213
+    },
+    {
+      "ticker": "DYM",
+      "instrument_type": "perpetual_future",
+      "fdv": 18638936.0,
+      "vol_24h": 9900.39439,
+      "oi": 5657.788960082301,
+      "chg24_pct": -3.94733
+    },
+    {
+      "ticker": "PENDLE",
+      "instrument_type": "perpetual_future",
+      "fdv": 349843263.0,
+      "vol_24h": 242741.266064,
+      "oi": 355567.3760993223,
+      "chg24_pct": -4.93905
+    },
+    {
+      "ticker": "VANATOKEN",
+      "instrument_type": "perpetual_future",
+      "fdv": 127556909.0,
+      "vol_24h": 0.0,
+      "oi": 304.69590934742337,
+      "chg24_pct": -1.52527
+    },
+    {
+      "ticker": "ESPRESSO",
+      "instrument_type": "perpetual_future",
+      "fdv": 207804829.0,
+      "vol_24h": 0.0,
+      "oi": 314.85326687874874,
+      "chg24_pct": -1.13183
+    },
+    {
+      "ticker": "1000PEPE",
+      "instrument_type": "perpetual_future",
+      "fdv": 1080097349.0,
+      "vol_24h": 7324.147082,
+      "oi": 203186.83597936446,
+      "chg24_pct": -5.2819
+    },
+    {
+      "ticker": "BIO",
+      "instrument_type": "perpetual_future",
+      "fdv": 98608486.0,
+      "vol_24h": 7535.051492,
+      "oi": 81847.91599954055,
+      "chg24_pct": 3.60085
+    },
+    {
+      "ticker": "CGPT",
+      "instrument_type": "perpetual_future",
+      "fdv": 18617068.0,
+      "vol_24h": 0.0,
+      "oi": 183.93562028995638,
+      "chg24_pct": -2.79049
+    },
+    {
+      "ticker": "STBL",
+      "instrument_type": "perpetual_future",
+      "fdv": 249757147.0,
+      "vol_24h": 0.0,
+      "oi": 378.8199403706607,
+      "chg24_pct": 3.13741
+    },
+    {
+      "ticker": "QNT",
+      "instrument_type": "perpetual_future",
+      "fdv": 993695207.0,
+      "vol_24h": 10206.289877,
+      "oi": 55269.997133396915,
+      "chg24_pct": -4.70996
+    },
+    {
+      "ticker": "PNUT",
+      "instrument_type": "perpetual_future",
+      "fdv": 41767298.0,
+      "vol_24h": 836.66934,
+      "oi": 7698.538431958131,
+      "chg24_pct": -3.43787
+    },
+    {
+      "ticker": "MU",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 1173707552100.0,
+      "vol_24h": 13598336.021885,
+      "oi": 3950091.4645061293,
+      "chg24_pct": -1.04586
+    },
+    {
+      "ticker": "ORDER",
+      "instrument_type": "perpetual_future",
+      "fdv": 35098538.0,
+      "vol_24h": 1195.50248,
+      "oi": 18112.18497080959,
+      "chg24_pct": -1.72966
+    },
+    {
+      "ticker": "ANTHROPIC",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": null,
+      "vol_24h": 83931.026116,
+      "oi": 869399.2090620557,
+      "chg24_pct": 0.332
+    },
+    {
+      "ticker": "F",
+      "instrument_type": "perpetual_future",
+      "fdv": 34102669.0,
+      "vol_24h": 1971.952774,
+      "oi": 2917.6413899529057,
+      "chg24_pct": -3.35867
+    },
+    {
+      "ticker": "XAG",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": null,
+      "vol_24h": 4193793.072439,
+      "oi": 3361733.1541291326,
+      "chg24_pct": 1.979
+    },
+    {
+      "ticker": "PUNDIX",
+      "instrument_type": "perpetual_future",
+      "fdv": 23478599.0,
+      "vol_24h": 0.0,
+      "oi": 228.62991355244034,
+      "chg24_pct": -0.41667
+    },
+    {
+      "ticker": "ENA",
+      "instrument_type": "perpetual_future",
+      "fdv": 1241328705.0,
+      "vol_24h": 267537.497798,
+      "oi": 932039.6445252377,
+      "chg24_pct": -2.93849
+    },
+    {
+      "ticker": "ADA",
+      "instrument_type": "perpetual_future",
+      "fdv": 6518171663.0,
+      "vol_24h": 926169.931887,
+      "oi": 2124407.783276817,
+      "chg24_pct": -3.80444
+    },
+    {
+      "ticker": "ZEREBRO",
+      "instrument_type": "perpetual_future",
+      "fdv": 39154249.0,
+      "vol_24h": 10130.95859,
+      "oi": 11247.100303140778,
+      "chg24_pct": 0.69299
+    },
+    {
+      "ticker": "PIXEL",
+      "instrument_type": "perpetual_future",
+      "fdv": 25342180.0,
+      "vol_24h": 0.0,
+      "oi": 9.247524683250356,
+      "chg24_pct": -1.564
+    },
+    {
+      "ticker": "KOMA",
+      "instrument_type": "perpetual_future",
+      "fdv": 4376686.0,
+      "vol_24h": 65.706459,
+      "oi": 15219.37254548361,
+      "chg24_pct": -3.78723
+    },
+    {
+      "ticker": "NAORIS",
+      "instrument_type": "perpetual_future",
+      "fdv": 143089129.0,
+      "vol_24h": 173.39168,
+      "oi": 2276.738486893031,
+      "chg24_pct": 9.34462
+    },
+    {
+      "ticker": "UAI",
+      "instrument_type": "perpetual_future",
+      "fdv": 293558209.0,
+      "vol_24h": 5564.06369,
+      "oi": 10311.244830875414,
+      "chg24_pct": -1.82439
+    },
+    {
+      "ticker": "YFI",
+      "instrument_type": "perpetual_future",
+      "fdv": 62981563.0,
+      "vol_24h": 0.0,
+      "oi": 71172.2940515489,
+      "chg24_pct": -1.1505
+    },
+    {
+      "ticker": "SPELL",
+      "instrument_type": "perpetual_future",
+      "fdv": 21128065.0,
+      "vol_24h": 0.0,
+      "oi": 27036.06969591036,
+      "chg24_pct": -3.07238
+    },
+    {
+      "ticker": "TSLA",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 1438842258021.0,
+      "vol_24h": 941842.475006,
+      "oi": 592896.6948621444,
+      "chg24_pct": 0.39226
+    },
+    {
+      "ticker": "SNDK",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 284121351342.0,
+      "vol_24h": 2508823.671905,
+      "oi": 686417.1885995087,
+      "chg24_pct": -2.29296
+    },
+    {
+      "ticker": "ASPECTA",
+      "instrument_type": "perpetual_future",
+      "fdv": 24760394.0,
+      "vol_24h": 287.9596,
+      "oi": 97.18965026443665,
+      "chg24_pct": -1.71348
+    },
+    {
+      "ticker": "INIT",
+      "instrument_type": "perpetual_future",
+      "fdv": 56055898.0,
+      "vol_24h": 4464.38123,
+      "oi": 15139.894734739328,
+      "chg24_pct": -4.55287
+    },
+    {
+      "ticker": "ZEN",
+      "instrument_type": "perpetual_future",
+      "fdv": 88862571.0,
+      "vol_24h": 29.958893,
+      "oi": 3778.199423682937,
+      "chg24_pct": -2.08844
+    },
+    {
+      "ticker": "ZIL",
+      "instrument_type": "perpetual_future",
+      "fdv": 60940627.0,
+      "vol_24h": 515.23938,
+      "oi": 6878.855664038114,
+      "chg24_pct": -1.48191
+    },
+    {
+      "ticker": "BICO",
+      "instrument_type": "perpetual_future",
+      "fdv": 23676259.0,
+      "vol_24h": 9235.62038,
+      "oi": 23768.23912663494,
+      "chg24_pct": -9.9092
+    },
+    {
+      "ticker": "ESPORTS",
+      "instrument_type": "perpetual_future",
+      "fdv": 27157682.0,
+      "vol_24h": 192835.209176,
+      "oi": 101731.96257934347,
+      "chg24_pct": -16.86732
+    },
+    {
+      "ticker": "JTO",
+      "instrument_type": "perpetual_future",
+      "fdv": 660357776.0,
+      "vol_24h": 278398.215243,
+      "oi": 54998.30672652906,
+      "chg24_pct": 4.14463
+    },
+    {
+      "ticker": "SPX",
+      "instrument_type": "perpetual_future",
+      "fdv": 312258498.0,
+      "vol_24h": 15298.151056,
+      "oi": 415278.2544285022,
+      "chg24_pct": -2.93761
+    },
+    {
+      "ticker": "APRO",
+      "instrument_type": "perpetual_future",
+      "fdv": 146178956.0,
+      "vol_24h": 551.57663,
+      "oi": 450.84183542502143,
+      "chg24_pct": 4.25202
+    },
+    {
+      "ticker": "MINA",
+      "instrument_type": "perpetual_future",
+      "fdv": 51500253.0,
+      "vol_24h": 998.5692,
+      "oi": 4501.916109410349,
+      "chg24_pct": -0.33856
+    },
+    {
+      "ticker": "DRAM",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 2599931370.0,
+      "vol_24h": 2577730.240921,
+      "oi": 2206938.9962572497,
+      "chg24_pct": 1.06183
+    },
+    {
+      "ticker": "ASTER",
+      "instrument_type": "perpetual_future",
+      "fdv": 4839777082.0,
+      "vol_24h": 88600.765317,
+      "oi": 1510871.5179791949,
+      "chg24_pct": 0.54912
+    },
+    {
+      "ticker": "GOOGL",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 4243624333307.001,
+      "vol_24h": 153251.705817,
+      "oi": 44224.09804984608,
+      "chg24_pct": 1.36697
+    },
+    {
+      "ticker": "SUN",
+      "instrument_type": "perpetual_future",
+      "fdv": 339540291.0,
+      "vol_24h": 2443.32404,
+      "oi": 709.353783766237,
+      "chg24_pct": -0.72006
+    },
+    {
+      "ticker": "XAN",
+      "instrument_type": "perpetual_future",
+      "fdv": 100908935.0,
+      "vol_24h": 6062.00211,
+      "oi": 752.12569904663,
+      "chg24_pct": -6.76689
+    },
+    {
+      "ticker": "MYX",
+      "instrument_type": "perpetual_future",
+      "fdv": 99279172.0,
+      "vol_24h": 1573.810358,
+      "oi": 1720.4198899304329,
+      "chg24_pct": -5.46812
+    },
+    {
+      "ticker": "BRETT",
+      "instrument_type": "perpetual_future",
+      "fdv": 51390595.0,
+      "vol_24h": 39.403737,
+      "oi": 6511.720778877028,
+      "chg24_pct": -2.13681
+    },
+    {
+      "ticker": "CVC",
+      "instrument_type": "perpetual_future",
+      "fdv": 20262557.0,
+      "vol_24h": 0.0,
+      "oi": 30796.545773258695,
+      "chg24_pct": -2.91277
+    },
+    {
+      "ticker": "IOTX",
+      "instrument_type": "perpetual_future",
+      "fdv": 27484884.0,
+      "vol_24h": 153.473635,
+      "oi": 205.1098248575438,
+      "chg24_pct": -1.71182
+    },
+    {
+      "ticker": "MUBARAK",
+      "instrument_type": "perpetual_future",
+      "fdv": 10058239.0,
+      "vol_24h": 4.53258,
+      "oi": 962.6988338818496,
+      "chg24_pct": -1.04078
+    },
+    {
+      "ticker": "USELESS",
+      "instrument_type": "perpetual_future",
+      "fdv": 71056555.0,
+      "vol_24h": 57869.085459,
+      "oi": 292627.63792406,
+      "chg24_pct": 6.949
+    },
+    {
+      "ticker": "HBAR",
+      "instrument_type": "perpetual_future",
+      "fdv": 3746133756.0,
+      "vol_24h": 31513.477363,
+      "oi": 247977.34934103081,
+      "chg24_pct": -3.39217
+    },
+    {
+      "ticker": "QCOM",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 208006900000.0,
+      "vol_24h": 266452.790698,
+      "oi": 96138.33562753243,
+      "chg24_pct": -3.32141
+    },
+    {
+      "ticker": "ATH",
+      "instrument_type": "perpetual_future",
+      "fdv": 177544681.0,
+      "vol_24h": 109.81281,
+      "oi": 396.61342509126683,
+      "chg24_pct": -5.71314
+    },
+    {
+      "ticker": "BROCCOLI",
+      "instrument_type": "perpetual_future",
+      "fdv": 11568045.0,
+      "vol_24h": 2876.42835,
+      "oi": 5628.1267607884665,
+      "chg24_pct": -0.59817
+    },
+    {
+      "ticker": "TRB",
+      "instrument_type": "perpetual_future",
+      "fdv": 37909412.0,
+      "vol_24h": 2718.337714,
+      "oi": 2868.26296738365,
+      "chg24_pct": -0.05509
+    },
+    {
+      "ticker": "TRX",
+      "instrument_type": "perpetual_future",
+      "fdv": 31181571965.0,
+      "vol_24h": 154084.09158,
+      "oi": 581995.3345435658,
+      "chg24_pct": -0.31181
+    },
+    {
+      "ticker": "US500",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 767557715086.0,
+      "vol_24h": 3922755.555896,
+      "oi": 7532166.653707603,
+      "chg24_pct": 0.68159
+    },
+    {
+      "ticker": "ONG",
+      "instrument_type": "perpetual_future",
+      "fdv": 39602877.0,
+      "vol_24h": 635.63168,
+      "oi": 111.09603120302445,
+      "chg24_pct": 12.50603
+    },
+    {
+      "ticker": "RSR",
+      "instrument_type": "perpetual_future",
+      "fdv": 127186081.0,
+      "vol_24h": 18.7,
+      "oi": 607.3212710937538,
+      "chg24_pct": 2.22159
+    },
+    {
+      "ticker": "1INCH",
+      "instrument_type": "perpetual_future",
+      "fdv": 103818004.0,
+      "vol_24h": 32.41752,
+      "oi": 38098.70771735494,
+      "chg24_pct": -1.03478
+    },
+    {
+      "ticker": "LQTY",
+      "instrument_type": "perpetual_future",
+      "fdv": 18405383.0,
+      "vol_24h": 0.0,
+      "oi": 12660.635666734921,
+      "chg24_pct": -0.87373
+    },
+    {
+      "ticker": "URNM",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 1256862788.0,
+      "vol_24h": 73206.685355,
+      "oi": 68551.16470404188,
+      "chg24_pct": -2.67552
+    },
+    {
+      "ticker": "MAV",
+      "instrument_type": "perpetual_future",
+      "fdv": 19107356.0,
+      "vol_24h": 5014.180137,
+      "oi": 35309.62409544689,
+      "chg24_pct": -2.60028
+    },
+    {
+      "ticker": "PIEVERSE",
+      "instrument_type": "perpetual_future",
+      "fdv": 658254626.0,
+      "vol_24h": 1547.00285,
+      "oi": 16023.937496266928,
+      "chg24_pct": -5.08492
+    },
+    {
+      "ticker": "WLFI",
+      "instrument_type": "perpetual_future",
+      "fdv": 5736266345.0,
+      "vol_24h": 15974.02007,
+      "oi": 450148.1525232597,
+      "chg24_pct": -0.05161
+    },
+    {
+      "ticker": "A",
+      "instrument_type": "perpetual_future",
+      "fdv": 130711720.0,
+      "vol_24h": 719.5924,
+      "oi": 175.17971204123103,
+      "chg24_pct": -2.77047
+    },
+    {
+      "ticker": "STG",
+      "instrument_type": "perpetual_future",
+      "fdv": 23990260.0,
+      "vol_24h": 4920.59526,
+      "oi": 39471.425942258415,
+      "chg24_pct": -7.85349
+    },
+    {
+      "ticker": "1000BONK",
+      "instrument_type": "perpetual_future",
+      "fdv": 375287712.0,
+      "vol_24h": 13781.679338,
+      "oi": 30846.411162272707,
+      "chg24_pct": -2.19224
+    },
+    {
+      "ticker": "BOBA",
+      "instrument_type": "perpetual_future",
+      "fdv": 10401780.0,
+      "vol_24h": 0.78264,
+      "oi": 10757.276627196776,
+      "chg24_pct": -4.26814
+    },
+    {
+      "ticker": "OG",
+      "instrument_type": "perpetual_future",
+      "fdv": 13446732.0,
+      "vol_24h": 296.938088,
+      "oi": 954.5505768664132,
+      "chg24_pct": 6.77894
+    },
+    {
+      "ticker": "YB",
+      "instrument_type": "perpetual_future",
+      "fdv": 53887267.0,
+      "vol_24h": 4.99491,
+      "oi": 622.9417540214849,
+      "chg24_pct": 0.54199
+    },
+    {
+      "ticker": "COMP",
+      "instrument_type": "perpetual_future",
+      "fdv": 165302997.0,
+      "vol_24h": 3554.416227,
+      "oi": 44386.08066840793,
+      "chg24_pct": -2.93959
+    },
+    {
+      "ticker": "C",
+      "instrument_type": "perpetual_future",
+      "fdv": 85055181.0,
+      "vol_24h": 0.0,
+      "oi": 861.7511758566104,
+      "chg24_pct": -5.90322
+    },
+    {
+      "ticker": "FLOCK",
+      "instrument_type": "perpetual_future",
+      "fdv": 33689168.0,
+      "vol_24h": 2086.75519,
+      "oi": 2121.9964681852007,
+      "chg24_pct": -1.49049
+    },
+    {
+      "ticker": "IOST",
+      "instrument_type": "perpetual_future",
+      "fdv": 24939963.0,
+      "vol_24h": 0.0,
+      "oi": 421.669101015297,
+      "chg24_pct": -1.91477
+    },
+    {
+      "ticker": "BITLIGHT",
+      "instrument_type": "perpetual_future",
+      "fdv": 56351757.0,
+      "vol_24h": 5423.78466,
+      "oi": 4897.847295954296,
+      "chg24_pct": -1.78926
+    },
+    {
+      "ticker": "HMSTR",
+      "instrument_type": "perpetual_future",
+      "fdv": 15349065.0,
+      "vol_24h": 291.949827,
+      "oi": 2760.4701765407995,
+      "chg24_pct": -8.77851
+    },
+    {
+      "ticker": "BCHSV",
+      "instrument_type": "perpetual_future",
+      "fdv": 223688361.0,
+      "vol_24h": 0.0,
+      "oi": 732.8943601831828,
+      "chg24_pct": -1.53931
+    },
+    {
+      "ticker": "METEORA",
+      "instrument_type": "perpetual_future",
+      "fdv": 148643194.0,
+      "vol_24h": 95740.987093,
+      "oi": 194356.42278499977,
+      "chg24_pct": -3.1736
+    },
+    {
+      "ticker": "CTC",
+      "instrument_type": "perpetual_future",
+      "fdv": 49583604.0,
+      "vol_24h": 0.0,
+      "oi": 825.1204482688014,
+      "chg24_pct": -3.47159
+    },
+    {
+      "ticker": "BR",
+      "instrument_type": "perpetual_future",
+      "fdv": 141141444.0,
+      "vol_24h": 49214.08347,
+      "oi": 1362.975793684484,
+      "chg24_pct": -15.61713
+    },
+    {
+      "ticker": "STO",
+      "instrument_type": "perpetual_future",
+      "fdv": 46367381.0,
+      "vol_24h": 112.757987,
+      "oi": 559.4625632625334,
+      "chg24_pct": -3.90593
+    },
+    {
+      "ticker": "PLUME",
+      "instrument_type": "perpetual_future",
+      "fdv": 100394492.0,
+      "vol_24h": 10282.283312,
+      "oi": 7785.817118714323,
+      "chg24_pct": -3.98693
+    },
+    {
+      "ticker": "RE_ETH",
+      "instrument_type": "perpetual_future",
+      "fdv": 679261496.0,
+      "vol_24h": 274377.999398,
+      "oi": 167589.0620175092,
+      "chg24_pct": -17.11593
+    },
+    {
+      "ticker": "1000000MOG",
+      "instrument_type": "perpetual_future",
+      "fdv": 41012651.0,
+      "vol_24h": 0.0,
+      "oi": 5972.749403956311,
+      "chg24_pct": -2.2921
+    },
+    {
+      "ticker": "LIGHTER",
+      "instrument_type": "perpetual_future",
+      "fdv": 1516951509.0,
+      "vol_24h": 1135422.002429,
+      "oi": 3370990.569405255,
+      "chg24_pct": -1.82895
+    },
+    {
+      "ticker": "SUPER",
+      "instrument_type": "perpetual_future",
+      "fdv": 88457507.0,
+      "vol_24h": 50.0061,
+      "oi": 18837.65378027039,
+      "chg24_pct": -1.91089
+    },
+    {
+      "ticker": "BTR0",
+      "instrument_type": "perpetual_future",
+      "fdv": 19400507.0,
+      "vol_24h": 313.0904,
+      "oi": 708.2832143909466,
+      "chg24_pct": 3.33698
+    },
+    {
+      "ticker": "SNX",
+      "instrument_type": "perpetual_future",
+      "fdv": 78042672.0,
+      "vol_24h": 21521.64823,
+      "oi": 41581.207888651945,
+      "chg24_pct": -0.5585
+    },
+    {
+      "ticker": "UMA",
+      "instrument_type": "perpetual_future",
+      "fdv": 50414380.0,
+      "vol_24h": 29.9896,
+      "oi": 2123.22980268382,
+      "chg24_pct": -1.70682
+    },
+    {
+      "ticker": "HEMI",
+      "instrument_type": "perpetual_future",
+      "fdv": 49128214.0,
+      "vol_24h": 46.14808,
+      "oi": 4412.110626907118,
+      "chg24_pct": -4.83686
+    },
+    {
+      "ticker": "BEL",
+      "instrument_type": "perpetual_future",
+      "fdv": 14416321.0,
+      "vol_24h": 20029.21886,
+      "oi": 13733.148457078361,
+      "chg24_pct": -15.69585
+    },
+    {
+      "ticker": "ENS",
+      "instrument_type": "perpetual_future",
+      "fdv": 431388398.0,
+      "vol_24h": 357621.373288,
+      "oi": 70193.92555821352,
+      "chg24_pct": -1.69103
+    },
+    {
+      "ticker": "AMD",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 842367960000.0,
+      "vol_24h": 222784.787167,
+      "oi": 227254.32414610827,
+      "chg24_pct": -0.62518
+    },
+    {
+      "ticker": "DUSK",
+      "instrument_type": "perpetual_future",
+      "fdv": 47348244.0,
+      "vol_24h": 99.98759,
+      "oi": 18993.780769787798,
+      "chg24_pct": -0.19207
+    },
+    {
+      "ticker": "CBRS",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 42147621827.0,
+      "vol_24h": 1808401.97393,
+      "oi": 56756.55938085349,
+      "chg24_pct": -15.34933
+    },
+    {
+      "ticker": "HNT",
+      "instrument_type": "perpetual_future",
+      "fdv": 46715261.0,
+      "vol_24h": 10.98954,
+      "oi": 3947.476250642988,
+      "chg24_pct": -1.46796
+    },
+    {
+      "ticker": "DRIFT",
+      "instrument_type": "perpetual_future",
+      "fdv": 16777889.0,
+      "vol_24h": 7480.00151,
+      "oi": 8533.310862627788,
+      "chg24_pct": -2.51475
+    },
+    {
+      "ticker": "WHITEWHALE",
+      "instrument_type": "perpetual_future",
+      "fdv": 2870179.0,
+      "vol_24h": 3312.658763,
+      "oi": 7440.6413400120855,
+      "chg24_pct": -7.03525
+    },
+    {
+      "ticker": "APEX",
+      "instrument_type": "perpetual_future",
+      "fdv": 138140266.0,
+      "vol_24h": 363.52356,
+      "oi": 45294.99682276502,
+      "chg24_pct": -5.42827
+    },
+    {
+      "ticker": "RENDER",
+      "instrument_type": "perpetual_future",
+      "fdv": 832823482.0,
+      "vol_24h": 60407.924963,
+      "oi": 130024.05193046242,
+      "chg24_pct": -0.12209
+    },
+    {
+      "ticker": "ICNT",
+      "instrument_type": "perpetual_future",
+      "fdv": 124975835.0,
+      "vol_24h": 11509.21568,
+      "oi": 4573.433171691547,
+      "chg24_pct": -8.19969
+    },
+    {
+      "ticker": "CAKE",
+      "instrument_type": "perpetual_future",
+      "fdv": 442220303.0,
+      "vol_24h": 10292.100178,
+      "oi": 22099.755964182456,
+      "chg24_pct": -0.15597
+    },
+    {
+      "ticker": "ELSA",
+      "instrument_type": "perpetual_future",
+      "fdv": 39868133.0,
+      "vol_24h": 0.0,
+      "oi": 1697.2537343248255,
+      "chg24_pct": 1.15514
+    },
+    {
+      "ticker": "W",
+      "instrument_type": "perpetual_future",
+      "fdv": 99404778.0,
+      "vol_24h": 95147.127978,
+      "oi": 23948.97135214771,
+      "chg24_pct": -5.23704
+    },
+    {
+      "ticker": "RECALL",
+      "instrument_type": "perpetual_future",
+      "fdv": 35705014.0,
+      "vol_24h": 2108.69811,
+      "oi": 2467.39745401699,
+      "chg24_pct": 12.10679
+    },
+    {
+      "ticker": "ZBCN",
+      "instrument_type": "perpetual_future",
+      "fdv": 235756926.0,
+      "vol_24h": 10.99825,
+      "oi": 1097.2868892362553,
+      "chg24_pct": -0.18876
+    },
+    {
+      "ticker": "AERGO",
+      "instrument_type": "perpetual_future",
+      "fdv": 12641052.0,
+      "vol_24h": 2547.95755,
+      "oi": 867.8703336546191,
+      "chg24_pct": -10.40695
+    },
+    {
+      "ticker": "SUSHI",
+      "instrument_type": "perpetual_future",
+      "fdv": 44198833.0,
+      "vol_24h": 2966.80788,
+      "oi": 4708.951465313603,
+      "chg24_pct": -8.81797
+    },
+    {
+      "ticker": "KAITO",
+      "instrument_type": "perpetual_future",
+      "fdv": 436584747.0,
+      "vol_24h": 1195.55744,
+      "oi": 82753.3069722379,
+      "chg24_pct": 0.01093
+    },
+    {
+      "ticker": "COIN",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 40518752726.0,
+      "vol_24h": 186106.701163,
+      "oi": 130883.49720399227,
+      "chg24_pct": -2.77216
+    },
+    {
+      "ticker": "WOO",
+      "instrument_type": "perpetual_future",
+      "fdv": 22386862.0,
+      "vol_24h": 22.27198,
+      "oi": 25209.623131589055,
+      "chg24_pct": -1.30026
+    },
+    {
+      "ticker": "DIA",
+      "instrument_type": "perpetual_future",
+      "fdv": 18195302.0,
+      "vol_24h": 29.99796,
+      "oi": 13592.239446256184,
+      "chg24_pct": -2.81635
+    },
+    {
+      "ticker": "VET",
+      "instrument_type": "perpetual_future",
+      "fdv": 392846509.0,
+      "vol_24h": 2101.245738,
+      "oi": 8723.023142576045,
+      "chg24_pct": -2.76377
+    },
+    {
+      "ticker": "CHR",
+      "instrument_type": "perpetual_future",
+      "fdv": 13986953.0,
+      "vol_24h": 29.98992,
+      "oi": 6333.71990191623,
+      "chg24_pct": -0.00041
+    },
+    {
+      "ticker": "BAN",
+      "instrument_type": "perpetual_future",
+      "fdv": 72696877.0,
+      "vol_24h": 0.0,
+      "oi": 16.701578629324256,
+      "chg24_pct": 6.64534
+    },
+    {
+      "ticker": "TUTORIAL",
+      "instrument_type": "perpetual_future",
+      "fdv": 8585145.0,
+      "vol_24h": 494.50785,
+      "oi": 8971.106107262889,
+      "chg24_pct": -2.55636
+    },
+    {
+      "ticker": "OPENAI",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": null,
+      "vol_24h": 77379.84805,
+      "oi": 557036.7446493176,
+      "chg24_pct": 0.073
+    },
+    {
+      "ticker": "ZBT",
+      "instrument_type": "perpetual_future",
+      "fdv": 108052500.0,
+      "vol_24h": 2057.5917,
+      "oi": 2561.7301248021104,
+      "chg24_pct": -0.95836
+    },
+    {
+      "ticker": "MAGMA",
+      "instrument_type": "perpetual_future",
+      "fdv": 424945763.0,
+      "vol_24h": 224.82374,
+      "oi": 13122.82308664233,
+      "chg24_pct": 2.35005
+    },
+    {
+      "ticker": "CVX",
+      "instrument_type": "perpetual_future",
+      "fdv": 115705756.0,
+      "vol_24h": 9573.286409,
+      "oi": 93673.40995520305,
+      "chg24_pct": -2.21079
+    },
+    {
+      "ticker": "PHA",
+      "instrument_type": "perpetual_future",
+      "fdv": 36761574.0,
+      "vol_24h": 442.96643,
+      "oi": 81258.38880926104,
+      "chg24_pct": 1.16271
+    },
+    {
+      "ticker": "SWARMS",
+      "instrument_type": "perpetual_future",
+      "fdv": 6752391.0,
+      "vol_24h": 813.587576,
+      "oi": 2815.9751834076606,
+      "chg24_pct": -3.24374
+    },
+    {
+      "ticker": "ROAM",
+      "instrument_type": "perpetual_future",
+      "fdv": 7758541.0,
+      "vol_24h": 409.180774,
+      "oi": 158.43305682765921,
+      "chg24_pct": 1.65935
+    },
+    {
+      "ticker": "KERNEL",
+      "instrument_type": "perpetual_future",
+      "fdv": 40981391.0,
+      "vol_24h": 0.0,
+      "oi": 463.1202025599664,
+      "chg24_pct": -2.62152
+    },
+    {
+      "ticker": "APE",
+      "instrument_type": "perpetual_future",
+      "fdv": 131792181.0,
+      "vol_24h": 51834.611266,
+      "oi": 52797.17861334319,
+      "chg24_pct": -1.29884
+    },
+    {
+      "ticker": "KAVA",
+      "instrument_type": "perpetual_future",
+      "fdv": 50474803.0,
+      "vol_24h": 37.0538,
+      "oi": 37582.867302246865,
+      "chg24_pct": -1.68861
+    },
+    {
+      "ticker": "SENTIENT",
+      "instrument_type": "perpetual_future",
+      "fdv": 478550397.0,
+      "vol_24h": 12556.36791,
+      "oi": 15297.922425925273,
+      "chg24_pct": -2.20593
+    },
+    {
+      "ticker": "TLM",
+      "instrument_type": "perpetual_future",
+      "fdv": 6767554.0,
+      "vol_24h": 0.0,
+      "oi": 562.8104693937684,
+      "chg24_pct": 0.66291
+    },
+    {
+      "ticker": "SONIC",
+      "instrument_type": "perpetual_future",
+      "fdv": 59886154.0,
+      "vol_24h": 499.98848,
+      "oi": 57962.76979778963,
+      "chg24_pct": 1.14959
+    },
+    {
+      "ticker": "XRP",
+      "instrument_type": "perpetual_future",
+      "fdv": 107043461395.0,
+      "vol_24h": 2000033.518857,
+      "oi": 1929220.3264151972,
+      "chg24_pct": -2.31792
+    },
+    {
+      "ticker": "BEAM",
+      "instrument_type": "perpetual_future",
+      "fdv": 77756944.0,
+      "vol_24h": 0.0,
+      "oi": 1762.4115271403389,
+      "chg24_pct": -1.58634
+    },
+    {
+      "ticker": "IO",
+      "instrument_type": "perpetual_future",
+      "fdv": 138760020.0,
+      "vol_24h": 2587.919548,
+      "oi": 15438.541429406152,
+      "chg24_pct": -1.18125
+    },
+    {
+      "ticker": "USUAL",
+      "instrument_type": "perpetual_future",
+      "fdv": 17307369.0,
+      "vol_24h": 29.998976,
+      "oi": 1359.2446700659725,
+      "chg24_pct": -1.88264
+    },
+    {
+      "ticker": "CROSS",
+      "instrument_type": "perpetual_future",
+      "fdv": 83801028.0,
+      "vol_24h": 21.6752,
+      "oi": 95.74292463430831,
+      "chg24_pct": -3.19921
+    },
+    {
+      "ticker": "SCRT",
+      "instrument_type": "perpetual_future",
+      "fdv": 18784761.0,
+      "vol_24h": 0.0,
+      "oi": 36033.69008225252,
+      "chg24_pct": -2.87702
+    },
+    {
+      "ticker": "ON",
+      "instrument_type": "perpetual_future",
+      "fdv": 62331727.0,
+      "vol_24h": 2276.91911,
+      "oi": 3654.1815753831693,
+      "chg24_pct": -5.73245
+    },
+    {
+      "ticker": "WAVES",
+      "instrument_type": "perpetual_future",
+      "fdv": 26945727.0,
+      "vol_24h": 29.98384,
+      "oi": 1227.778252770467,
+      "chg24_pct": -2.41253
+    },
+    {
+      "ticker": "FIDA",
+      "instrument_type": "perpetual_future",
+      "fdv": 21695538.0,
+      "vol_24h": 6595.18239,
+      "oi": 10043.838691150988,
+      "chg24_pct": -3.67456
+    },
+    {
+      "ticker": "AGI",
+      "instrument_type": "perpetual_future",
+      "fdv": 13711753.0,
+      "vol_24h": 1.927336,
+      "oi": 0.339849278604853,
+      "chg24_pct": -5.59063
+    },
+    {
+      "ticker": "T",
+      "instrument_type": "perpetual_future",
+      "fdv": 38560378.0,
+      "vol_24h": 1056.75579,
+      "oi": 198.1001752922787,
+      "chg24_pct": -1.05038
     },
     {
       "ticker": "TURTLE",
       "instrument_type": "perpetual_future",
-      "fdv": 33693998.0,
-      "vol_24h": 834.682527,
-      "oi": 6403.368699761704,
-      "chg24_pct": -5.38628
+      "fdv": 34050288.0,
+      "vol_24h": 2298.54144,
+      "oi": 8682.708238737096,
+      "chg24_pct": 0.70783
+    },
+    {
+      "ticker": "BIGTIME",
+      "instrument_type": "perpetual_future",
+      "fdv": 39284233.0,
+      "vol_24h": 0.0,
+      "oi": 314.7704370321171,
+      "chg24_pct": -1.17881
+    },
+    {
+      "ticker": "XPD",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": null,
+      "vol_24h": 82427.700633,
+      "oi": 190563.68273793053,
+      "chg24_pct": 1.721
+    },
+    {
+      "ticker": "MITO",
+      "instrument_type": "perpetual_future",
+      "fdv": 27974894.0,
+      "vol_24h": 1069.1414,
+      "oi": 857.3554338109343,
+      "chg24_pct": 12.36922
+    },
+    {
+      "ticker": "HFT",
+      "instrument_type": "perpetual_future",
+      "fdv": 9015734.0,
+      "vol_24h": 2143.970964,
+      "oi": 2579.362744148184,
+      "chg24_pct": -5.97007
+    },
+    {
+      "ticker": "EWJ",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 22259970877.0,
+      "vol_24h": 157764.93048,
+      "oi": 51905.1104565996,
+      "chg24_pct": 0.0
+    },
+    {
+      "ticker": "KAS",
+      "instrument_type": "perpetual_future",
+      "fdv": 775098872.0,
+      "vol_24h": 45963.85617,
+      "oi": 31869.06833402419,
+      "chg24_pct": -2.45914
+    },
+    {
+      "ticker": "SXT",
+      "instrument_type": "perpetual_future",
+      "fdv": 36795880.0,
+      "vol_24h": 0.0,
+      "oi": 109.46085688459176,
+      "chg24_pct": -1.10207
+    },
+    {
+      "ticker": "CARV",
+      "instrument_type": "perpetual_future",
+      "fdv": 33534759.0,
+      "vol_24h": 29.9736,
+      "oi": 289.5257859436568,
+      "chg24_pct": 0.935
+    },
+    {
+      "ticker": "HEI",
+      "instrument_type": "perpetual_future",
+      "fdv": 12245076.0,
+      "vol_24h": 425678.158976,
+      "oi": 75576.14456868611,
+      "chg24_pct": 36.56438
+    },
+    {
+      "ticker": "TA",
+      "instrument_type": "perpetual_future",
+      "fdv": 70515255.0,
+      "vol_24h": 3.18915,
+      "oi": 22043.298301512725,
+      "chg24_pct": -0.3067
+    },
+    {
+      "ticker": "AR",
+      "instrument_type": "perpetual_future",
+      "fdv": 128278670.0,
+      "vol_24h": 18329.209465,
+      "oi": 68662.39161094106,
+      "chg24_pct": -2.29469
+    },
+    {
+      "ticker": "OPG",
+      "instrument_type": "perpetual_future",
+      "fdv": 169208262.0,
+      "vol_24h": 15212.45958,
+      "oi": 20221.173229722775,
+      "chg24_pct": -3.53455
+    },
+    {
+      "ticker": "LSK",
+      "instrument_type": "perpetual_future",
+      "fdv": 33594143.0,
+      "vol_24h": 0.0,
+      "oi": 38033.55091316788,
+      "chg24_pct": -1.13744
+    },
+    {
+      "ticker": "KNC",
+      "instrument_type": "perpetual_future",
+      "fdv": 26529468.0,
+      "vol_24h": 22740.81669,
+      "oi": 1918.4146786058518,
+      "chg24_pct": -0.76944
+    },
+    {
+      "ticker": "VIRTUAL",
+      "instrument_type": "perpetual_future",
+      "fdv": 550361897.0,
+      "vol_24h": 63802.68612,
+      "oi": 211110.25651403074,
+      "chg24_pct": -2.49395
+    },
+    {
+      "ticker": "DASH",
+      "instrument_type": "perpetual_future",
+      "fdv": 445935355.0,
+      "vol_24h": 27784.558277,
+      "oi": 40342.14948286281,
+      "chg24_pct": 0.80933
+    },
+    {
+      "ticker": "SOPHON",
+      "instrument_type": "perpetual_future",
+      "fdv": 52357248.0,
+      "vol_24h": 6924.594274,
+      "oi": 46814.1637149977,
+      "chg24_pct": 2.81034
+    },
+    {
+      "ticker": "SHELL",
+      "instrument_type": "perpetual_future",
+      "fdv": 22306311.0,
+      "vol_24h": 0.0,
+      "oi": 383.17645589975876,
+      "chg24_pct": -1.50363
+    },
+    {
+      "ticker": "SKRS",
+      "instrument_type": "perpetual_future",
+      "fdv": 81090370.0,
+      "vol_24h": 1907.089288,
+      "oi": 6078.731199528562,
+      "chg24_pct": 1.626
+    },
+    {
+      "ticker": "LUMIA",
+      "instrument_type": "perpetual_future",
+      "fdv": 28965984.0,
+      "vol_24h": 2301.25808,
+      "oi": 13248.246427982842,
+      "chg24_pct": 3.03742
+    },
+    {
+      "ticker": "EWY",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 14895467015.0,
+      "vol_24h": 950000.09001,
+      "oi": 763748.5954115946,
+      "chg24_pct": 2.51301
+    },
+    {
+      "ticker": "S",
+      "instrument_type": "perpetual_future",
+      "fdv": 87487735.0,
+      "vol_24h": 39985.59096,
+      "oi": 91960.480390737,
+      "chg24_pct": -8.41516
+    },
+    {
+      "ticker": "BSB",
+      "instrument_type": "perpetual_future",
+      "fdv": 292316741.0,
+      "vol_24h": 4063.89729,
+      "oi": 2290.884480890146,
+      "chg24_pct": -9.40435
+    },
+    {
+      "ticker": "JUP",
+      "instrument_type": "perpetual_future",
+      "fdv": 1483287199.0,
+      "vol_24h": 313086.13222,
+      "oi": 450906.0109250538,
+      "chg24_pct": 6.28808
+    },
+    {
+      "ticker": "THETA",
+      "instrument_type": "perpetual_future",
+      "fdv": 142967330.0,
+      "vol_24h": 49.99995,
+      "oi": 6722.609845333282,
+      "chg24_pct": -2.03968
+    },
+    {
+      "ticker": "SOXL",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 67601781996.0,
+      "vol_24h": 11600889.169625,
+      "oi": 458445.990633162,
+      "chg24_pct": -0.70435
+    },
+    {
+      "ticker": "TAO",
+      "instrument_type": "perpetual_future",
+      "fdv": 4557519682.0,
+      "vol_24h": 730941.239953,
+      "oi": 1153456.6535016007,
+      "chg24_pct": 0.45729
+    },
+    {
+      "ticker": "MAGIC",
+      "instrument_type": "perpetual_future",
+      "fdv": 15133305.0,
+      "vol_24h": 29.9676,
+      "oi": 19273.456454101888,
+      "chg24_pct": -0.5454
+    },
+    {
+      "ticker": "ORDI",
+      "instrument_type": "perpetual_future",
+      "fdv": 65147099.0,
+      "vol_24h": 1030.012868,
+      "oi": 6131.38722813466,
+      "chg24_pct": -0.689
+    },
+    {
+      "ticker": "SOSO",
+      "instrument_type": "perpetual_future",
+      "fdv": 291502176.0,
+      "vol_24h": 13593.94264,
+      "oi": 27549.719402508028,
+      "chg24_pct": 0.048
+    },
+    {
+      "ticker": "USAR",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 2111805870.0,
+      "vol_24h": 41065.298302,
+      "oi": 8919.040926115204,
+      "chg24_pct": -4.54041
+    },
+    {
+      "ticker": "0G",
+      "instrument_type": "perpetual_future",
+      "fdv": 235120825.0,
+      "vol_24h": 2686.544831,
+      "oi": 1269.1199039138623,
+      "chg24_pct": -3.50583
+    },
+    {
+      "ticker": "DOT",
+      "instrument_type": "perpetual_future",
+      "fdv": 1498002002.0,
+      "vol_24h": 41340.51897,
+      "oi": 903121.5282739957,
+      "chg24_pct": -1.24927
+    },
+    {
+      "ticker": "PORTAL",
+      "instrument_type": "perpetual_future",
+      "fdv": 13501356.0,
+      "vol_24h": 357.304,
+      "oi": 5114.464070076958,
+      "chg24_pct": -5.85931
+    },
+    {
+      "ticker": "SQD",
+      "instrument_type": "perpetual_future",
+      "fdv": 50257741.0,
+      "vol_24h": 77284.379882,
+      "oi": 17261.79409399861,
+      "chg24_pct": -2.54528
+    },
+    {
+      "ticker": "HYPER",
+      "instrument_type": "perpetual_future",
+      "fdv": 59438611.0,
+      "vol_24h": 549.90504,
+      "oi": 12461.574194579427,
+      "chg24_pct": -4.93307
+    },
+    {
+      "ticker": "GMT",
+      "instrument_type": "perpetual_future",
+      "fdv": 39384754.0,
+      "vol_24h": 87.454499,
+      "oi": 532.2366995110796,
+      "chg24_pct": -2.35533
+    },
+    {
+      "ticker": "SLP",
+      "instrument_type": "perpetual_future",
+      "fdv": 17078811.0,
+      "vol_24h": 9.991145,
+      "oi": 2427.9771755469797,
+      "chg24_pct": -1.20981
+    },
+    {
+      "ticker": "ZRX",
+      "instrument_type": "perpetual_future",
+      "fdv": 80174331.0,
+      "vol_24h": 29.992,
+      "oi": 4111.527439983618,
+      "chg24_pct": -0.62044
+    },
+    {
+      "ticker": "XVG",
+      "instrument_type": "perpetual_future",
+      "fdv": 39133201.0,
+      "vol_24h": 421.416181,
+      "oi": 446.97991380214455,
+      "chg24_pct": -2.3376
+    },
+    {
+      "ticker": "QNTX",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": null,
+      "vol_24h": 162091.388976,
+      "oi": 8202.037599833953,
+      "chg24_pct": -1.08
+    },
+    {
+      "ticker": "LITE",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 65935500000.0,
+      "vol_24h": 56607.555818,
+      "oi": 58488.323318278024,
+      "chg24_pct": 2.36496
+    },
+    {
+      "ticker": "MEW",
+      "instrument_type": "perpetual_future",
+      "fdv": 30331294.0,
+      "vol_24h": 0.0,
+      "oi": 47849.3473573815,
+      "chg24_pct": -2.43414
+    },
+    {
+      "ticker": "MSFT",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 2783135583800.0,
+      "vol_24h": 163014.599459,
+      "oi": 81073.5602971358,
+      "chg24_pct": 0.19254
+    },
+    {
+      "ticker": "CFX",
+      "instrument_type": "perpetual_future",
+      "fdv": 232964699.0,
+      "vol_24h": 3427.93739,
+      "oi": 65707.35977866227,
+      "chg24_pct": -2.57575
+    },
+    {
+      "ticker": "PYTH",
+      "instrument_type": "perpetual_future",
+      "fdv": 342183593.0,
+      "vol_24h": 15118.087944,
+      "oi": 225290.35246133333,
+      "chg24_pct": -2.31218
+    },
+    {
+      "ticker": "CYS",
+      "instrument_type": "perpetual_future",
+      "fdv": 334703419.0,
+      "vol_24h": 0.106714,
+      "oi": 369.3823619011472,
+      "chg24_pct": -9.58998
+    },
+    {
+      "ticker": "PTB",
+      "instrument_type": "perpetual_future",
+      "fdv": 2675874.0,
+      "vol_24h": 73.720449,
+      "oi": 6211.654781583828,
+      "chg24_pct": -2.37044
+    },
+    {
+      "ticker": "MANA",
+      "instrument_type": "perpetual_future",
+      "fdv": 149030808.0,
+      "vol_24h": 330.01674,
+      "oi": 124.82522810469587,
+      "chg24_pct": -4.37689
+    },
+    {
+      "ticker": "ALCH",
+      "instrument_type": "perpetual_future",
+      "fdv": 67734056.0,
+      "vol_24h": 0.0,
+      "oi": 2816.9408540879053,
+      "chg24_pct": 2.32214
+    },
+    {
+      "ticker": "ZRO",
+      "instrument_type": "perpetual_future",
+      "fdv": 918526149.0,
+      "vol_24h": 173348.65064,
+      "oi": 561424.3245653901,
+      "chg24_pct": -3.02573
+    },
+    {
+      "ticker": "API3",
+      "instrument_type": "perpetual_future",
+      "fdv": 41129689.0,
+      "vol_24h": 6572.7398,
+      "oi": 38291.23363813881,
+      "chg24_pct": -3.77371
+    },
+    {
+      "ticker": "CYBER",
+      "instrument_type": "perpetual_future",
+      "fdv": 34254422.0,
+      "vol_24h": 0.0,
+      "oi": 453.2927081408531,
+      "chg24_pct": -1.59929
+    },
+    {
+      "ticker": "MBOX",
+      "instrument_type": "perpetual_future",
+      "fdv": 926172.0,
+      "vol_24h": 588.7,
+      "oi": 3629.0186748702795,
+      "chg24_pct": -8.90111
+    },
+    {
+      "ticker": "NATGAS",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": null,
+      "vol_24h": 148560.99185,
+      "oi": 484748.8168017849,
+      "chg24_pct": 2.276
+    },
+    {
+      "ticker": "RUNE",
+      "instrument_type": "perpetual_future",
+      "fdv": 143612256.0,
+      "vol_24h": 25617.71306,
+      "oi": 13428.104546112856,
+      "chg24_pct": -2.75357
+    },
+    {
+      "ticker": "EIGEN",
+      "instrument_type": "perpetual_future",
+      "fdv": 428721947.0,
+      "vol_24h": 256394.156513,
+      "oi": 160513.5365731608,
+      "chg24_pct": -7.2317
+    },
+    {
+      "ticker": "TAIKO",
+      "instrument_type": "perpetual_future",
+      "fdv": 66668959.0,
+      "vol_24h": 23772.50685,
+      "oi": 34567.31884017438,
+      "chg24_pct": -0.32397
+    },
+    {
+      "ticker": "MSTR",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 29240864770.0,
+      "vol_24h": 770838.372581,
+      "oi": 1268843.9067143165,
+      "chg24_pct": -5.20994
+    },
+    {
+      "ticker": "ARPA",
+      "instrument_type": "perpetual_future",
+      "fdv": 16550732.0,
+      "vol_24h": 0.0,
+      "oi": 0.470262738654694,
+      "chg24_pct": -1.42262
+    },
+    {
+      "ticker": "NVDA",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 4867452160000.0,
+      "vol_24h": 807402.03678,
+      "oi": 909680.7279372144,
+      "chg24_pct": 0.45991
+    },
+    {
+      "ticker": "TAC",
+      "instrument_type": "perpetual_future",
+      "fdv": 201895924.0,
+      "vol_24h": 0.0,
+      "oi": 3171.392073393029,
+      "chg24_pct": 3.02604
+    },
+    {
+      "ticker": "MELANIA",
+      "instrument_type": "perpetual_future",
+      "fdv": 75423097.0,
+      "vol_24h": 843.17198,
+      "oi": 49889.06819718636,
+      "chg24_pct": -5.57311
+    },
+    {
+      "ticker": "ALLORA",
+      "instrument_type": "perpetual_future",
+      "fdv": 316755787.0,
+      "vol_24h": 31429.47865,
+      "oi": 42600.953619960346,
+      "chg24_pct": 1.47069
+    },
+    {
+      "ticker": "LAGRANGE",
+      "instrument_type": "perpetual_future",
+      "fdv": 67889812.0,
+      "vol_24h": 0.0,
+      "oi": 3327.186819618752,
+      "chg24_pct": -4.0506
+    },
+    {
+      "ticker": "GALA",
+      "instrument_type": "perpetual_future",
+      "fdv": 115220264.0,
+      "vol_24h": 80.03888,
+      "oi": 289.6716391076575,
+      "chg24_pct": -2.91
+    },
+    {
+      "ticker": "ICP",
+      "instrument_type": "perpetual_future",
+      "fdv": 1203992729.0,
+      "vol_24h": 44356.625931,
+      "oi": 142608.9271013849,
+      "chg24_pct": 1.07473
+    },
+    {
+      "ticker": "XTZ",
+      "instrument_type": "perpetual_future",
+      "fdv": 240101173.0,
+      "vol_24h": 329.82756,
+      "oi": 911.616794098993,
+      "chg24_pct": -2.38005
+    },
+    {
+      "ticker": "MNT",
+      "instrument_type": "perpetual_future",
+      "fdv": 3147556308.0,
+      "vol_24h": 7248.47378,
+      "oi": 37308.535437906095,
+      "chg24_pct": -1.68875
+    },
+    {
+      "ticker": "RVN",
+      "instrument_type": "perpetual_future",
+      "fdv": 63373477.0,
+      "vol_24h": 29.999325,
+      "oi": 300.71191637909084,
+      "chg24_pct": -1.99194
+    },
+    {
+      "ticker": "VINE",
+      "instrument_type": "perpetual_future",
+      "fdv": 11137120.0,
+      "vol_24h": 0.0,
+      "oi": 206.48958184551307,
+      "chg24_pct": -1.28672
+    },
+    {
+      "ticker": "NXPC",
+      "instrument_type": "perpetual_future",
+      "fdv": 283779213.0,
+      "vol_24h": 2394.76912,
+      "oi": 67609.5486848085,
+      "chg24_pct": -6.32953
+    },
+    {
+      "ticker": "ARM",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 378720160000.0,
+      "vol_24h": 131586.935758,
+      "oi": 67213.15488402962,
+      "chg24_pct": -2.85215
+    },
+    {
+      "ticker": "STORJ",
+      "instrument_type": "perpetual_future",
+      "fdv": 31117143.0,
+      "vol_24h": 0.0,
+      "oi": 599.075595419428,
+      "chg24_pct": 0.22502
+    },
+    {
+      "ticker": "PUFFER",
+      "instrument_type": "perpetual_future",
+      "fdv": 15181373.0,
+      "vol_24h": 0.0,
+      "oi": 18379.728172116043,
+      "chg24_pct": -1.36244
+    },
+    {
+      "ticker": "HIGH",
+      "instrument_type": "perpetual_future",
+      "fdv": 3814455.0,
+      "vol_24h": 328.70291,
+      "oi": 4385.193725435359,
+      "chg24_pct": 2.92989
+    },
+    {
+      "ticker": "INJ",
+      "instrument_type": "perpetual_future",
+      "fdv": 431184323.0,
+      "vol_24h": 47776.637947,
+      "oi": 73912.41055149648,
+      "chg24_pct": -5.13205
+    },
+    {
+      "ticker": "REZ",
+      "instrument_type": "perpetual_future",
+      "fdv": 29857466.0,
+      "vol_24h": 0.0,
+      "oi": 22378.10649380484,
+      "chg24_pct": -3.99003
+    },
+    {
+      "ticker": "RPL",
+      "instrument_type": "perpetual_future",
+      "fdv": 28633448.0,
+      "vol_24h": 0.0,
+      "oi": 31566.92951252766,
+      "chg24_pct": -1.28014
+    },
+    {
+      "ticker": "NVO",
+      "instrument_type": "perpetual_rwa_future",
+      "fdv": 210368623468.0,
+      "vol_24h": 39752.401615,
+      "oi": 31779.853155230878,
+      "chg24_pct": -0.1687
+    },
+    {
+      "ticker": "IDOL",
+      "instrument_type": "perpetual_future",
+      "fdv": 86639604.0,
+      "vol_24h": 1734.70529,
+      "oi": 11465.251515993546,
+      "chg24_pct": -0.27612
+    },
+    {
+      "ticker": "NOT",
+      "instrument_type": "perpetual_future",
+      "fdv": 39256068.0,
+      "vol_24h": 2244.30387,
+      "oi": 6046.57028740942,
+      "chg24_pct": -3.05394
+    },
+    {
+      "ticker": "SOL",
+      "instrument_type": "perpetual_future",
+      "fdv": 43081017444.0,
+      "vol_24h": 27181189.286729,
+      "oi": 19676508.01091306,
+      "chg24_pct": -0.42368
+    },
+    {
+      "ticker": "SCR",
+      "instrument_type": "perpetual_future",
+      "fdv": 31342473.0,
+      "vol_24h": 0.0,
+      "oi": 405.23040197366123,
+      "chg24_pct": -1.732
+    },
+    {
+      "ticker": "ALICE",
+      "instrument_type": "perpetual_future",
+      "fdv": 12532405.0,
+      "vol_24h": 27993.0088,
+      "oi": 8038.835858507666,
+      "chg24_pct": 6.27725
+    },
+    {
+      "ticker": "ENSO",
+      "instrument_type": "perpetual_future",
+      "fdv": 60610011.0,
+      "vol_24h": 5751.54851,
+      "oi": 5572.364098543231,
+      "chg24_pct": -6.18093
+    },
+    {
+      "ticker": "SAND",
+      "instrument_type": "perpetual_future",
+      "fdv": 153300341.0,
+      "vol_24h": 9.9764,
+      "oi": 1965.5431553608994,
+      "chg24_pct": -3.45441
+    },
+    {
+      "ticker": "HOME",
+      "instrument_type": "perpetual_future",
+      "fdv": 205583738.0,
+      "vol_24h": 46437.39119,
+      "oi": 30322.533088290376,
+      "chg24_pct": 0.90744
+    },
+    {
+      "ticker": "SOLV",
+      "instrument_type": "perpetual_future",
+      "fdv": 25190018.0,
+      "vol_24h": 730.207327,
+      "oi": 8792.55725365442,
+      "chg24_pct": -2.03341
+    },
+    {
+      "ticker": "Q",
+      "instrument_type": "perpetual_future",
+      "fdv": 170046165.0,
+      "vol_24h": 1999.9846,
+      "oi": 2489.2548579932777,
+      "chg24_pct": 1.72997
+    },
+    {
+      "ticker": "POL",
+      "instrument_type": "perpetual_future",
+      "fdv": 801265788.0,
+      "vol_24h": 73120.17191,
+      "oi": 59746.12192152297,
+      "chg24_pct": -3.60091
+    },
+    {
+      "ticker": "ERA",
+      "instrument_type": "perpetual_future",
+      "fdv": 83553566.0,
+      "vol_24h": 0.0,
+      "oi": 10447.380022673127,
+      "chg24_pct": -2.88849
     }
   ]
 }

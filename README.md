@@ -17,19 +17,20 @@ Dashboard for Vari 4-bucket long/short selection — mirrors the backtest logic 
 Copy `env.example` → `.env` if you need `HTTPS_PROXY` locally (usually not required from home).
 
 ```bash
-pip install -r requirements.txt
-python scripts/build_screener_data.py
+pip3 install -r requirements.txt
+python3 scripts/build_screener_data.py
 
 cd longshort-screener
 npm install
 npm run dev
 ```
 
-Run the full stack (static build + API) locally:
+Run the full stack (static build + API) locally — matches Render:
 
 ```bash
+pip3 install -r requirements.txt
 ./scripts/render_build.sh
-uvicorn server:app --reload --port 8000
+python3 -m uvicorn server:app --reload --port 8000
 ```
 
 Open http://localhost:8000

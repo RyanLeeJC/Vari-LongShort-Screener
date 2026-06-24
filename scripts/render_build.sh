@@ -8,8 +8,8 @@ else
   echo "WARNING: HTTPS_PROXY not set — Cloudflare may block Render (403). Use same proxy as GridBot / HighOI."
 fi
 
-pip install -r requirements.txt
-python scripts/build_screener_data.py
+python3 -m pip install -r requirements.txt
+python3 scripts/build_screener_data.py
 
 cd longshort-screener
 npm ci

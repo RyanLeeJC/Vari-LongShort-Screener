@@ -20,6 +20,7 @@ BLACKLIST_PATH = HERE / "vari_blacklist.json"
 VARI_BASE_URL = os.getenv("VARI_BASE_URL", "https://omni.variational.io").rstrip("/")
 EXCLUDE = {"BTC", "ETH"}
 UNIVERSE_TOP_N = 200
+MAJOR_TICKERS = ("BTC", "ETH", "SOL", "HYPE")
 
 # Same proxy + curl_cffi pattern as Varibot/variationalbot/vari/client.py (GridBot, HighOI).
 CHROME_IMPERSONATE = "chrome136"
@@ -127,6 +128,17 @@ def parse_asset_row(row: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def build_majors(bulk: dict[str, list[dict[str, Any]]]) -> list[dict[str, Any]]:
+    majors: list[dict[str, Any]] = []
+    bulk_by_sym = {str(k).upper(): v for k, v in bulk.items()}
+    for sym in MAJOR_TICKERS:
+        asset_rows = bulk_by_sym.get(sym)
+        row = pick_crypto_perp_row(asset_rows if isinstance(asset_rows, list) else []) if asset_rows else None
+        chg = parse_asset_row(row)["chg24_pct"] if row else None
+        majors.append({"ticker": sym, "chg24_pct": chg})
+    return majors
+
+
 def main() -> None:
     blacklist = set(load_json(BLACKLIST_PATH)["blacklist"]) | EXCLUDE
     bulk = fetch_supported_assets()
@@ -151,11 +163,13 @@ def main() -> None:
             rwa_count += 1
         rows.append({"ticker": sym, **parsed})
 
+    majors = build_majors(bulk)
     now = datetime.now(ZoneInfo("Asia/Singapore"))
     payload = {
         "fetched_at": now.strftime("%Y-%m-%d %H:%M:%S SGT"),
         "universe_top_n": UNIVERSE_TOP_N,
         "blacklist": sorted(blacklist),
+        "majors": majors,
         "meta": {
             "data_source": "vari_supported_assets",
             "vari_base_url": VARI_BASE_URL,

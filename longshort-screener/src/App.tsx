@@ -1,18 +1,22 @@
 import { useEffect, useMemo, useState } from 'react'
 import {
+  applyTrim,
   bucketPicks,
   copyText,
   formatChg,
   formatMetric,
   formatUpdatedAt,
+  getMajorsChg,
   loadScreenerData,
   rankModeLabel,
+  trimRankOffset,
   type UniverseScope,
   filterUniverse,
   type BucketId,
   type PickRow,
   type RankMode,
   type ScreenerData,
+  type TrimMode,
 } from './lib/screener'
 
 const BUCKETS: BucketId[] = ['B1', 'B2', 'B3', 'B4']
@@ -24,6 +28,10 @@ const RANK_MODES: { id: RankMode; label: string }[] = [
 const UNIVERSE_SCOPES: { id: UniverseScope; label: string }[] = [
   { id: 'crypto', label: 'Crypto' },
   { id: 'all', label: 'All' },
+]
+const TRIM_MODES: { id: TrimMode; label: string }[] = [
+  { id: '10', label: '10' },
+  { id: 'm3', label: 'M3' },
 ]
 
 function CopyIcon() {
@@ -65,11 +73,14 @@ function PickPanel(props: {
   subtitle: string
   rows: PickRow[]
   rankMode: RankMode
+  rankOffset: number
+  descendingRank?: boolean
   copyKey: string
   copiedKey: string | null
   onCopy: (key: string, text: string) => void
 }) {
   const metricLabel = rankModeLabel(props.rankMode)
+  const displayRows = props.descendingRank ? [...props.rows].reverse() : props.rows
   return (
     <section className="panel">
       <div className="panel-header">
@@ -82,7 +93,7 @@ function PickPanel(props: {
           className={`copy-btn${props.copiedKey === props.copyKey ? ' copied' : ''}`}
           title="Copy list"
           aria-label={`Copy ${props.title}`}
-          onClick={() => props.onCopy(props.copyKey, copyText(props.rows))}
+          onClick={() => props.onCopy(props.copyKey, copyText(displayRows))}
         >
           <CopyIcon />
         </button>
@@ -93,16 +104,28 @@ function PickPanel(props: {
             <tr>
               <th>#</th>
               <th>Ticker</th>
-              <th>24h chg%</th>
+              <th className="chg">24h chg%</th>
               <th className="metric">{metricLabel}</th>
               <th>Rank</th>
             </tr>
           </thead>
           <tbody>
-            {props.rows.map((row, idx) => (
+            {displayRows.map((row, idx) => (
               <tr key={row.ticker}>
-                <td>{idx + 1}</td>
-                <td className="ticker">{row.ticker}</td>
+                <td>
+                  {props.descendingRank
+                    ? props.rankOffset + props.rows.length - 1 - idx
+                    : idx + props.rankOffset}
+                </td>
+                <td className="ticker">
+                  <a
+                    href={`https://omni.variational.io/perpetual/${row.ticker}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {row.ticker}
+                  </a>
+                </td>
                 <td className={`chg ${row.chg24_pct >= 0 ? 'pos' : 'neg'}`}>{formatChg(row.chg24_pct)}</td>
                 <td className="metric">{formatMetric(row.rank_metric)}</td>
                 <td>{row.universe_rank}</td>
@@ -116,12 +139,31 @@ function PickPanel(props: {
   )
 }
 
+function MajorsRibbon(props: { data: ScreenerData }) {
+  const majors = getMajorsChg(props.data)
+  return (
+    <div className="majors-ribbon" aria-label="Major 24h change">
+      {majors.map(({ ticker, chg24_pct }) => (
+        <span key={ticker} className="major-item">
+          <span className="major-ticker">{ticker}</span>{' '}
+          {chg24_pct == null || !Number.isFinite(chg24_pct) ? (
+            <span className="major-chg na">—</span>
+          ) : (
+            <span className={`major-chg ${chg24_pct >= 0 ? 'pos' : 'neg'}`}>{formatChg(chg24_pct)}</span>
+          )}
+        </span>
+      ))}
+    </div>
+  )
+}
+
 export default function App() {
   const [data, setData] = useState<ScreenerData | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [bucket, setBucket] = useState<BucketId>('B1')
   const [rankMode, setRankMode] = useState<RankMode>('volume')
   const [universeScope, setUniverseScope] = useState<UniverseScope>('crypto')
+  const [trim, setTrim] = useState<TrimMode>('10')
   const [copiedKey, setCopiedKey] = useState<string | null>(null)
   const [refreshing, setRefreshing] = useState(false)
 
@@ -145,8 +187,14 @@ export default function App() {
 
   const picks = useMemo(() => {
     if (!data) return { top10: [], bottom10: [] }
-    return bucketPicks(data, rankMode, bucket, universeScope)
-  }, [data, rankMode, bucket, universeScope])
+    const { top13, bottom13 } = bucketPicks(data, rankMode, bucket, universeScope)
+    return {
+      top10: applyTrim(top13, trim),
+      bottom10: applyTrim(bottom13, trim),
+    }
+  }, [data, rankMode, bucket, universeScope, trim])
+
+  const rankOffset = trimRankOffset(trim)
 
   const bucketRange =
     bucket === 'B1' ? '1–50' : bucket === 'B2' ? '51–100' : bucket === 'B3' ? '101–150' : '151–200'
@@ -176,12 +224,12 @@ export default function App() {
           <h1>Vari Long/Short Screener</h1>
           {data ? (
             <div className="meta">
-              {formatUpdatedAt(data.fetched_at)} · {universeCount} listings ·{' '}
-              {withChg} with 24H Chg% · Blacklisted {data.blacklist.length}
+              {formatUpdatedAt(data.fetched_at)} · Total {universeCount} listings · Blacklisted {data.blacklist.length}
             </div>
           ) : null}
         </div>
         <div className="controls">
+          <ToggleGroup label="Trim" value={trim} options={TRIM_MODES} onChange={setTrim} />
           <ToggleGroup label="Bucket" value={bucket} options={BUCKETS.map((b) => ({ id: b, label: b }))} onChange={setBucket} />
           <ToggleGroup label="Universe" value={universeScope} options={UNIVERSE_SCOPES} onChange={setUniverseScope} />
           <ToggleGroup label="Universe rank" value={rankMode} options={RANK_MODES} onChange={setRankMode} />
@@ -207,22 +255,27 @@ export default function App() {
       {error ? <div className="error">{error}</div> : null}
       {!data && !error ? <div className="loading">{refreshing ? 'Refreshing screener data…' : 'Loading screener data…'}</div> : null}
 
+      {data ? <MajorsRibbon data={data} /> : null}
+
       {data ? (
         <main>
           <PickPanel
-            title="Top 10"
-            subtitle={`${bucket} (${bucketRange}) · ${rankLabel} · long candidates`}
+            title="Top 10 24hChg%"
+            subtitle={`${bucket} (${bucketRange}) · ${rankLabel} · LONG candidates`}
             rows={picks.top10}
             rankMode={rankMode}
+            rankOffset={rankOffset}
             copyKey="top10"
             copiedKey={copiedKey}
             onCopy={handleCopy}
           />
           <PickPanel
-            title="Bottom 10"
-            subtitle={`${bucket} (${bucketRange}) · ${rankLabel} · short candidates`}
+            title="Bottom 10 24hChg%"
+            subtitle={`${bucket} (${bucketRange}) · ${rankLabel} · SHORT candidates`}
             rows={picks.bottom10}
             rankMode={rankMode}
+            rankOffset={rankOffset}
+            descendingRank
             copyKey="bottom10"
             copiedKey={copiedKey}
             onCopy={handleCopy}

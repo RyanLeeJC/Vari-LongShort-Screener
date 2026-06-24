@@ -4,4 +4,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/',
   plugins: [react()],
+  server: {
+    proxy: {
+      '/api': 'http://localhost:8000',
+      '/screener.data.json': 'http://localhost:8000',
+    },
+  },
 })
